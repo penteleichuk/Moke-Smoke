@@ -1,0 +1,23 @@
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 21
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "25.1.8937393"
+        kotlinVersion = "1.8.0"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        // classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+
+        classpath('com.google.gms:google-services:4.3.14')
+        classpath('com.google.firebase:firebase-crashlytics-gradle:2.9.2')
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21")
+    }
+}

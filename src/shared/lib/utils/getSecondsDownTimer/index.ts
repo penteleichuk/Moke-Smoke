@@ -1,0 +1,1 @@
+export { getSecondsDownTimer } from './getSecondsDownTimer';

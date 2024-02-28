@@ -1,0 +1,995 @@
+{
+  "translation": {
+    "system": {
+      "more": "toate",
+      "accept": "Aplica"
+    },
+    "validation": {
+      "email": "Formatul de e-mail incorect",
+      "required": "Este obligator",
+      "min": "Trebuie să conțină {{min}} caractere.",
+      "max": "Trebuie să aibă maximum {{max}} caractere."
+    },
+    "term": {
+      "link1": "Termenii și condițiile",
+      "link2": "Politica de confidențialitate",
+      "text": "Continuând, sunteți de acord cu Termenii și condițiile de utilizare a Moke smoke și confirmați că ați citit Politica de confidențialitate a Moke smoke."
+    },
+    "tracker": {
+      "description": "În fiecare zi trebuie să mergi pe jos cel puțin 50 de minute fără pauze, la o viteză medie. Acest lucru va crește nivelul hormonilor de fericire, care vor înlocui țigările. Acest lucru va face procesul de renunțare mult mai ușor.",
+      "error": "A apărut o eroare la încărcarea datelor, probabil nu ați permis accesul la datele dumneavoastră. Trebuie să accesați setările dispozitivului și să acordați permisiunea de acces.",
+      "nav": {
+        "1": "ieri",
+        "2": "astăzi"
+      },
+      "need": "{{min}} minute.",
+      "header": {
+        "1": "Pași",
+        "2": "KM",
+        "3": "Minute"
+      }
+    },
+    "audio": {
+      "title": "Auto-hipnoză",
+      "header": "Datele audio sunt destinate utilizării ca sunet de fundal în timpul sarcinilor obișnuite, înainte de somn, dimineața sau în situațiile în care apare dorința de a fuma.",
+      "footer": "Drepturile de autor ale pieselor audio folosite în această aplicație aparțin creatorilor aplicației. Orice utilizare neautorizată, reproducere sau distribuire a acestor piese este o încălcare a drepturilor de autor și poate avea consecințe legale. Toate drepturile rezervate.",
+      "removeLink": "Eliminați piesele salvate",
+      "dialog": {
+        "title": "Pistele audio",
+        "description": "Sunteți sigur că doriți să ștergeți toate pistele de meditație?",
+        "btn1": "Nu",
+        "btn2": "Da"
+      },
+      "liste": [
+        {
+          "piesa muzicală": "Triggers",
+          "Album": "Nu fuma",
+          "tag-uri": ["Depășire", "Declanșatori", "Obiceiuri"],
+          "titlu": "Depășirea declanșatorilor",
+          "descriere": "Eliminați declanșatorii pentru a vă opri din fumat."
+        },
+        {
+          "piesa muzicală": "Cravings",
+          "Album": "Nu fuma",
+          "tag-uri": ["Control", "Setări", "Voință", "Eliberare de stres"],
+          "titlu": "Controlul setărilor",
+          "descriere": "Controlați dorințele pentru a vă opri din fumat."
+        },
+        {
+          "piesa muzicală": "Pace",
+          "Album": "Nu fuma",
+          "tag-uri": ["Liniște", "Relaxare", "Conștientizare plenă"],
+          "titlu": "Liniște interioară",
+          "descriere": "Găsiți liniștea interioară pentru a renunța la fumat."
+        },
+        {
+          "piesa muzicală": "Meditation",
+          "Album": "Nu fuma",
+          "tag-uri": ["Meditație", "Conștientizare plenă", "Relaxare"],
+          "titlu": "Meditație pentru renunțarea la fumat",
+          "descriere": "Meditați pentru a vă opri din fumat și pentru a găsi liniștea interioară."
+        },
+        {
+          "piesa muzicală": "Passion",
+          "Album": "Nu fuma",
+          "tag-uri": ["Meditație", "Dorințe", "Pace", "Setări"],
+          "titlu": "Descoperirea pasiunilor",
+          "descriere": "Descoperiți pasiunea pentru un stil de viață sănătos."
+        }
+      ]
+    },
+    "feed": {
+      "title": "Feed-ul meu",
+      "empty": "Fără înregistrări",
+      "comment": "Comentarii",
+      "info": [
+        "1. Fluxul de activitate al utilizatorilor - este locul unde oamenii care doresc să renunțe la fumat pot împărtăși gândurile lor și pot inspira alți utilizatori după absolvirea \"Antrenorului\". Aici puteți posta mesajele dvs. în una dintre cele trei categorii: \"am fumat\", \"mi-a fost poftă de fumat\" și \"nu am fumat\".",
+        "2. În plus, alți utilizatori pot lăsa comentarii și pot pune emoticoane la postările dvs., ceea ce creează o comunitate de oameni care vă susțin în renunțarea la fumat. Puteți împărtăși gândurile și sentimentele dvs., precum și puteți primi motivație și susținere din partea altor utilizatori.",
+        "3. Aceasta este o sistem incredibil de util care vă poate ajuta să renunțați la fumat. Cu cât împărtășiți mai des sentimentele dvs., cu atât mai multe șanse aveți de succes. Dar asta nu e tot. În timp, când veți împărtăși în mod constant gândurile dvs., veți putea avea acces la un chatbot cu o rețea neuronală. Această rețea neuronală poate analiza postările dvs. și vă poate oferi recomandări individuale, bazate pe realizările altor utilizatori.",
+        "În final, acest sistem nu numai că creează o comunitate care vă susține în renunțarea la fumat, dar adună și date pentru crearea unor recomandări individuale privind renunțarea la fumat."
+      ],
+      "script": {
+        "danger": [
+          "Nu știu ce mi-a venit astăzi când am fumat. Dar nu mă voi da bătut și voi continua să lupt împotriva obiceiului!",
+          "Azi a fost o zi grea și din nou am fumat. Dar nu pierd speranța și voi merge înainte!",
+          "Știu că fumând îmi distrug sănătatea. Așa că mi-am promis mie însumi că aceasta a fost ultima țigară!",
+          "Nu mai vreau să fumez. De fiecare dată când mă gândesc la asta, îmi amintesc că fumatul îmi face rău. Încă o zi de luptă!",
+          "Fumatul este un obicei greșit și știu asta. Dar uneori mă simt atât de tentat să fumez. Trebuie să îmi aduc aminte că nu se merită să-mi distrug sănătatea pentru asta!"
+        ],
+        "wrong": [
+          "Aproape că mi-am stricat realizarea astăzi când m-am gândit la o țigară. Dar în loc să fac asta, am luat o adâncă respirație de aer proaspăt și m-am simțit mult mai bine!",
+          "Uneori pare că dacă nu fumez imediat, voi exploda. Dar de fapt, creierul nostru se obișnuiește cu obiceiul. Așa că mi-am luat o pauză, am învins dorința și am câștigat bătălia cu obiceiul!",
+          "Data viitoare când îmi va fi dor de fumat, îmi voi aminti că trebuie doar să trec prin câteva minute de poftă, pentru a putea continua să trăiesc sănătos și fericit!",
+          "Mi-a fost dor de fumat azi, dar nu am cedat. Sunt mândru de mine că am reușit să înving această dorință puternică!",
+          "Gândul la o țigară îmi bântuie mintea, dar știu că trebuie să lupt împotriva acestui obicei. Am să-i arăt acestui obicei cine comandă aici!"
+        ],
+        "success": [
+          "Nu am fumat astăzi și mă simt minunat. Încă o zi de fericire și sănătate pentru mine!",
+          "Nu am fumat de mult timp și mă simt mai puternic și mai sănătos ca niciodată. Obiceiul de a fuma este o amintire îndepărtată pentru mine!",
+          "Sunt mândru că am reușit să renunț la fumat. Fără el, mă simt mai liber și mai fericit. Voi continua să lupt împotriva acestui obicei pentru totdeauna!",
+          "Nu fumând de ceva timp, îmi dau seama că pot realiza orice îmi propun. Mulțumesc mie însumi pentru că am avut puterea să încep această luptă!",
+          "Mă simt mai puternic și mai încrezător când nu fumez. Așa că continui să lupt împotriva obiceiului, zi de zi!"
+        ]
+      },
+      "screen": {
+        "title": "Știri și activitate",
+        "description": "Scrieți postarea dvs. sau selectați una din lista de mai jos pentru a vă împărtăși experiența în Știri și activitate. Cu cât împărtășiți mai des experiențele și gândurile dvs., cu atât mai mari sunt șansele de succes. În plus, puteți avea acces la un chatbot cu o rețea neuronală care vă poate ajuta pe baza analizei posturilor și realizărilor dvs.",
+        "description2": "Puteți scrie postările dvs. și să vă împărtășiți experiența în Fluxul de activitate. Cu cât vă împărtășiți mai des experiența și gândurile, cu atât mai multe șanse de succes aveți."
+      },
+      "tooltip": {
+        "remove": "Ștergeți înregistrarea",
+        "report": "Raportați înregistrarea"
+      },
+      "message": {
+        "title": "Plângere",
+        "success": "După verificarea plângerii dvs., moderatorii vor trimite un răspuns la adresa dvs. de e-mail, în care vor comunica rezultatele moderării.",
+        "isset": "Ați trimis deja o plângere. Plângerea dvs. este în curs de examinare."
+      }
+    },
+    "author": {
+      "title": "Vasile Penteleiciuc",
+      "text": "Mă ocup cu dezvoltarea aplicațiilor mobile și Front-end (utilizez puțin și dezvoltare backend cu Express.js și NestJS), am avut oportunitatea să lucrez pe platforme freelancing, în outsourcing și companii producătoare, de asemenea am participat la mai multe start-up-uri."
+    },
+    "verify": {
+      "title": "Confirmare email",
+      "info": "Vă rugăm să introduceți codul de 5 cifre trimis la adresa {{email}}",
+      "re": "Retrimite codul"
+    },
+    "forgot": {
+      "send": "Introduceți adresa dvs. de email mai jos pentru a primi instrucțiuni de resetare a parolei.",
+      "change": "Parola ta nouă trebuie să fie diferită de parolele utilizate anterior."
+    },
+    "review": {
+      "description": "Apreciam opinia ta! Te rugăm să ne lași un feedback despre aplicația noastră și să ne ajuți să o îmbunătățim. Mulțumim pentru susținerea acordată!"
+    },
+    "notifications": {
+      "description": "Vă recomandăm să activați notificările pentru a primi recomandări de la antrenorul nostru și a fi mereu la curent cu ultimele exerciții.",
+      "btn": "Activare notificare"
+    },
+    "calendar": {
+      "1": "lu",
+      "2": "ma",
+      "3": "mi",
+      "4": "jo",
+      "5": "vi",
+      "6": "sâ",
+      "7": "du",
+      "title": "Nu am fumat {{value}}"
+    },
+    "times": {
+      "d": "z",
+      "h": "o",
+      "m": "m",
+      "s": "s"
+    },
+    "chat": {
+      "title": "Club închis",
+      "people": "Participanții"
+    },
+    "global": {
+      "title": "LEADERBOARD"
+    },
+    "friends": {
+      "qr": "Scanați codul QR pentru a adăuga un prieten în lista ta de prieteni.",
+      "add": "Cu ajutorul codului QR, prietenul tău poate să te adauge în lista lui de prieteni."
+    },
+    "breathe": {
+      "1": {
+        "title": "Regula №1",
+        "description": "Regula primei țigări",
+        "info": "Când te trezești dimineața, încearcă să amâni fumatul primei țigări cât mai mult posibil - cel puțin jumătate de oră, o oră, până la prânz sau seara. Astfel, vei învăța să te abții. Dacă nu ai fumat prima, atunci nu vei fuma nici a doua. Dar nu trebuie să te abați - dacă ai fumat prima, începi cu a doua. Dacă te-ai apucat de fumat, aplică aceeași regulă următoarei. Astfel, vei reduce semnificativ numărul de țigări fumate în timpul zilei. Monstrul tău nicotinic din lumea interioară va începe să se înfometeze și să sufere, iar apoi vei putea aplica a doua regulă."
+      },
+      "2": {
+        "title": "Regula №2",
+        "description": "Pahar cu apa",
+        "info": "Înainte de a fuma o ţigară, este necesar să bei un pahar de apă. Doar bea un pahar de apă necarbonatată. Fă asta înainte de fiecare dorinţă de a fuma. Da, vei avea nevoie să mergi mai des la baie, dar crede-mă, nu este la fel de dăunător pentru sănătate ca ţigara în sine."
+      },
+      "3": {
+        "title": "Regula №3",
+        "description": "Antrenăm creierul să lupte împotriva dorinței de a fuma.",
+        "round": {
+          "start": "Începe",
+          "inhale": "Inspirație",
+          "exhale": "Întârziere",
+          "hold": "Expirație"
+        },
+        "hold": "Ține"
+      },
+      "4": {
+        "title": "Regula №4",
+        "description": "Hormonii fericirii",
+        "info": "Vă garantăm 100% rezultat dacă urmați aceste trei reguli, plus una în plus. Fiecare zi trebuie să mergeți pe jos cel puțin 50 de minute sau să înotați 30 de minute fără pauze la un ritm mediu. Acest lucru va crește nivelul de hormoni de fericire care vă vor înlocui țigările. Acest lucru va simplifica semnificativ procesul de întrerupere."
+      },
+      "5": {
+        "title": "Regula №5",
+        "description": "Conștiință",
+        "info": "Atunci când începi să ai gânduri de a fuma, spune-ți imediat \"STOP! Nu vreau să fumez. STOP! Nu voi mai gândi la asta.\""
+      }
+    },
+    "navigation": {
+      "home": "Principal",
+      "chat": "Chat",
+      "global": "TOP",
+      "friends": "Dispozitie",
+      "help": "Ajutor",
+      "settings": "Setare"
+    },
+    "welcome": {
+      "message": "Renunțarea la fumat este o obișnuință grea, dar am creat o aplicație care vă poate ajuta să o învingeți. Obțineți un plan personalizat, suport comunitar și notificări motivaționale. Urmăriți obiectivele și realizările zilnice și primiți sfaturi despre un stil de viață sănătos. Încercați astăzi și renunțarea la fumat va fi mai ușoară!",
+      "button": "ÎNCEPE",
+      "profile": "Analiza fumatului",
+      "nav": {
+        "start": "Începe",
+        "skip": "Omite",
+        "next": "Următorul"
+      },
+      "send": "Haide să încercăm"
+    },
+    "home": {
+      "header": {
+        "title": "Salut, {{userName}}",
+        "noName": "Salut, prietene!",
+        "guest": "prietene",
+        "description": "Ultima dată am fumat {{days}}.",
+        "descriptionMsg": "O modalitate ușoară de renunța fumatu.",
+        "nav": {
+          "title": "Motivația",
+          "first": "Cunoştinţe",
+          "saving": "Economie",
+          "next": "Carduri",
+          "hip": "Hipnoza",
+          "tracker": "Pedometru"
+        }
+      },
+      "charts": {
+        "title": "Monitorizarea",
+        "success": "Nu a fumat",
+        "wrong": "Am dorit",
+        "danger": "Am fumat",
+        "empty": "Statistica nui"
+      },
+      "dashboard": {
+        "0": {
+          "name": "Bani",
+          "value": "{{value}}"
+        },
+        "1": {
+          "name": "Timp",
+          "value": "{{value}} oare."
+        },
+        "2": {
+          "name": "Nu am fumat",
+          "value": "{{value}} PCS."
+        },
+        "3": {
+          "name": "Longevitate",
+          "value": "{{value}} oare."
+        },
+        "4": {
+          "name": "Energie",
+          "value": "{{value}} %"
+        },
+        "5": {
+          "name": "Plămânii",
+          "value": "{{value}} %"
+        },
+        "title": "Starea de spirit zilnică",
+        "quite": "Renunțarea la fumat"
+      },
+      "feeling": "Antrenor",
+      "start": "Renunțarea la fumat este ușoară",
+      "buttons": {
+        "start": "ÎNCEPE",
+        "iWant": "Vreau să fumez",
+        "iSmoked": "Am fumat",
+        "iDontWant": "Nu vreau să fumez",
+        "tSmoked": "Dacă ați fumat, contorul se va reseta și va trebui să începeți din nou, parcurgând toți pașii programului. De asemenea, veți avea posibilitatea să împărtășiți motivul pentru care ați fumat cu alți membri ai comunității care se luptă și ei cu obiceiul de a fuma.",
+        "tWant": "Dacă v-a venit pofta de a fuma, puteți parcurge 5 pași care vă vor ajuta să depășiți această dorință. La pasul 3, vi se va oferi un exercițiu de respirație care vă va ajuta să vă relaxați și să eliminați stresul.",
+        "tDontWant": "Dacă ați reușit să depășiți dorința de a fuma, veți primi un mesaj motivational și veți putea să vă împărtășiți mica victorie cu alți membri ai comunității."
+      },
+      "messageAuth": {
+        "title": "Autorizare",
+        "description": "Finalizați o înregistrare simplă și obțineți de două ori mai multe funcționalități."
+      }
+    },
+    "friend": {
+      "header": {
+        "friend": {
+          "btn": "Prieteni",
+          "title": "Lista de prieteni",
+          "description": "Invitat: {{value}} oameni."
+        },
+        "people": {
+          "btn": "TOP 100",
+          "title": "Lista de onoare",
+          "description": "Top {{value}} nefumători."
+        },
+        "message": {
+          "btn": "Chat",
+          "title": "Chat",
+          "description": "Împărtășește-ți rezultatele."
+        }
+      },
+      "message": {
+        "empty": "Nu-s mesaje...",
+        "emptyLoading": "Încărcare...",
+        "send": "Trimite un mesaj",
+        "warn": "Următorul mesaj poate fi trimis către {{value}}",
+        "name": "Mesaj",
+        "alert": {
+          "title": "Atenţie",
+          "again": "Nu poți trimite un mesaj atât de des.",
+          "format": "Ați introdus un format de mesaj nevalid",
+          "name": "Nu ai pus numele",
+          "activate": "Mail tau trebuie activat",
+          "ok": "OK"
+        }
+      },
+      "group": {
+        "nActivity": "Fumător",
+        "button": "Motivați",
+        "add": "Adaugă"
+      },
+      "notification": {
+        "message": "Invitați un prieten, nu mai fumați împreună. Premiul",
+        "coin": "monede. ",
+        "button": "Invitați"
+      },
+      "notificationAuth": {
+        "message": "Utilizați funcționalitatea aplicației la maxim. ",
+        "button": "autentificare"
+      },
+      "wifi": {
+        "message": "Există probleme la descărcarea datelor de pe server. ",
+        "button": "Recuperare"
+      },
+      "share": {
+        "message": "{{value}} | Am găsit o modalitate mișto de a renunța la fumat pe Moke smoke."
+      }
+    },
+    "help": {
+      "nav": {
+        "task": "Scop",
+        "cards": "Carduri",
+        "progress": "Succes",
+        "course": "Curs"
+      },
+      "premium": "Disponibil prin abonament. Mai ieftin decât un pachet de țigări.",
+      "header": {
+        "task": {
+          "title": "Evoluții",
+          "description": "În decursul a 22 de zile, veți descoperi cum sănătatea, veniturile și mediul înconjurător se îmbunătățesc. Veți realiza că puteți trăi fără obiceiul greu și costisitor dăunător."
+        },
+        "cards": {
+          "title": "Cărți de motivație",
+          "description": "Cardurile vă vor ajuta în momentele dificile și vă vor reaminti de ce ați decis să renunțați la fumat. Ele reprezintă un instrument puternic de motivare și vă vor ajuta să rămâneți pe calea de atingere a obiectivelor dvs."
+        },
+        "progress": {
+          "title": "Progresul pe zi",
+          "description": "Fiecare zi este o nouă victorie!"
+        },
+        "course": {
+          "title": "Renunță fumatu ușor",
+          "description": "Recomandări psihologice.",
+          "scondary": "min.",
+          "text": "Oferim o abordare personalizată și instrumente pentru controlul dorinței de a fuma, pentru a vă ajuta să vă atingeți obiectivele."
+        }
+      },
+      "tasks": [
+        "Vacanță la mare",
+        "Opțiunea ta",
+        "Opțiunea ta",
+        "Opțiunea ta",
+        "Opțiunea ta",
+        "Opțiunea ta"
+      ],
+      "progress": {
+        "day": "Ziua",
+        "param_1": "Fără țigări fumate: {{value}} шт.",
+        "param_2": "Ritmul cardio: {{value}}%",
+        "param_3": "Mai puțin nicotină: {{value}} мг.",
+        "param_4": "Scopul nu de a fuma: {{value}} / 22 zile.",
+        "info": "Dacă nu ați reușit în 22 de zile, încercați din nou de la început."
+      },
+      "cards": [
+        "Nu voi mai fi sclavul acestui obicei.",
+        "Voi tusi mai putin.",
+        "Imi va scadea tensiunea arteriala.",
+        "Voi trai mai mult.",
+        "Voi avea mai mult control asupra vietii mele.",
+        "Parul meu nu va mai mirosi a fum.",
+        "Voi economisi intre 15-25 lei / zi.",
+        "Pot sa ma las pentru o zi.",
+        "Hainele nu imi vor mai mirosi a fum.",
+        "Fiecare fum inhalat imi slabeste inima.",
+        "Fiecare tigara creste riscul de a face cancer.",
+        "Voi raci mai rar.",
+        "Copiii mei nu vor mai inhala fum.",
+        "Voi arata mai bine.",
+        "Mancarea va avea un gust mai bun.",
+        "Respiratia mea va fi mai proaspata.",
+        "Calatoriile vor fi mai relaxante.",
+        "Ma voi bucura de mersul la cinematograf.",
+        "Ma voi simti bine si in locurile unde nu se fumeaza.",
+        "Nu va mai trebui sa golesc scrumierele.",
+        "Voi zambi cand vad semnul „Nu fumati”.",
+        "Vocea mea nu va mai fi imbatranita.",
+        "Pielea mea va fi mai fina.",
+        "Dintii mei vor fi mai albi.",
+        "Voi porni pe un drum noi.",
+        "Imi datorez macar atat mie.",
+        "Nu imi doresc un atac cerebral.",
+        "Voi putea canta mai tare.",
+        "Voi simti mirosurile mai bine.",
+        "Degetele si unghiile mele vor fi mai curate.",
+        "Am mai incercat de cateva ori, nu e imposibil.",
+        "Prin antrenament ajungi la rezultate excelente.",
+        "Familia ma va respecta mai mult.",
+        "Nu voi aprinde mobila.",
+        "Voi avea gingii mai sanatoase.",
+        "Trebuie sa-mi demonstrez ca pot.",
+        "Urasc sa ies noaptea tarziu pentru a-mi cumpara tigari.",
+        "Nu voi da foc casei.",
+        "Voi fi mandru ca am rupt landul dependentei de nicotina.",
+        "Nu vreau sa fac bronsita.",
+        "Nu vreau sa fac emfizem pulmonar.",
+        "Circulatia sangelui meu se va imbunatati.",
+        "Spoturile anti-fumat nu mi se vor adresa.",
+        "Vreau sa fiu un bun exemplu pentru copiii mei.",
+        "Gudronul este pentru sosele nu pentru plamanii mei.",
+        "Acesta este un inceput, nu un sfarsit.",
+        "Voi avea o parere mai buna despre mine.",
+        "Nu vreau sa ma incetineasca dioxidul de carbon.",
+        "Stiu ca cercetarile medicale legate de fumat nu sunt povesti.",
+        "Vreau sa traiesc sanatos 100 de ani.",
+        "Accept provocarea.",
+        "Fumatul nu ma face mai special… mai grozav.",
+        "Voi avea mai multa energie pentru alte lucruri.",
+        "Voi fi mai activ fara tigara.",
+        "Vreau sa merg la medic mai rar.",
+        "Facturile mele la stomatolog vor fi mai mici.",
+        "Am obosit de atata fumat.",
+        "Am obosit sa imi doresc sa ma las.",
+        "Ii voi proteja pe cei pe care ii iubesc.",
+        "Nu am nevoie de tigara pentru a ma simti stapan pe situatie.",
+        "Plimbarile mele vor fi mai lungi.",
+        "Pot urca scarile in fuga.",
+        "Nu voi mai dori tigari.",
+        "Nimeni nu are foc cand am nevoie.",
+        "Vreau sa fiu un ex-fumator.",
+        "Urasc sa stau afara sa fumez.",
+        "Sunt atatia care au facut-o, si eu pot sa o fac.",
+        "Fumatul cauzeaza boli ce pot fi fatale pentru mine.",
+        "Colegii de servici ma vor sustine.",
+        "Voi dormi mai bine.",
+        "Voi zambi mai mult.",
+        "Voi fi mai sarutabil.",
+        "Mainile mele nu vor mai fi ocupate si voi putea invata lucruri noi.",
+        "Am pe cineva cu care sa vorbesc atunci cand am nevoie.",
+        "Doctorul meu imi poate prescrie produse care sa reduca dorinta de a fuma.",
+        "In farmacii exista guma de mestecat, spray-uri si plasturi cu nicotina care sa faca mai usoara renuntarea.",
+        "Doctorul meu ma sustine si ma incurajeaza sa ma las de fumat.",
+        "Prietenul meu a murit de cancer.",
+        "Masina nu imi va mai mirosi a fum.",
+        "Nu voi mai fi dependent de nicotina.",
+        "Camerele nu vor mai fi incetosate de fum.",
+        "Casa mea nu va mai fi plina de mucuri de tigara si pachete goale.",
+        "Nu voi mai umple strazile de mucuri de tigara.",
+        "Nu voi sustine financiar industria tutunului.",
+        "Nu voi polua aerul pentru mine si ceilalti.",
+        "Nu voi inhala peste 4000 de substante chimice toxice cu fiecare fum.",
+        "Nu vreau sa-i fac rau cainelui/pisicii mele.",
+        "Perioada cea mai buna pentru renuntat este chiar acum.",
+        "Imbatranesc si devin mai intelept.",
+        "Fumatul imi provoaca intepaturi la ochi.",
+        "Merit o sanatate mai buna.",
+        "Nu vreau sa fac atac de cord.",
+        "Arterele mele vor fi mai sanatoase, elastice, curate!!",
+        "Vreau sa respir mai usor.",
+        "Nu vreau ca viata mea sa se transforme in fum.",
+        "Vreau sa ma bucur de nepotii mei.",
+        "Statisticile despre fumat sunt foarte clare.",
+        "Nu este niciodata prea tarziu sa te lasi de fumat.",
+        "Vreau mai multi bani de cheltuiala pentru lucrurile bune in viata."
+      ],
+      "course": [
+        {
+          "title": "Sinistra capcana",
+          "text": "Fumatul este cea mai subtila si mai sinistra capcana pe care au conceput-o, unindu-si fortele, omul si natura. Mai intai, ce anume ne face sa cadem in ea? Milioanele de adulti care deja fumeaza. Ei ne avertizeaza chiar ca e un obicei mizerabil, dezgustator, care pana la urma ne va distruge si ne va costa o avere, dar noi nu putem crede ca nu le place. Unul dintre aspectele cele mai triste ale fumatului este ca trebuie sa ne straduim mult ca sa devenim dependenti.{{n}}{{n}}E singura capcana din natura care nu amageste, n-are momeala. Mecanismul care inchide capcana nu este faptul ca tigarile au un gust minunat, ci faptul ca au un gust groaznic. Daca prima tigara ar avea gust bun, s-ar declansa soneriile de alarma si, fiind creaturi inteligente, am putea pricepe de ce jumatate din populatia adulta plateste bani grei ca sa se otraveasca singura. Dar pentru ca prima tigara are un gust groaznic, mintea noastra frageda se linisteste, crezand ca nu vom deveni niciodata dependenti. De vreme ce nu ne place, ne gandim, putem sa ne oprim cand vrem.          {{n}}{{n}}Apoi ne petrecem viata incercand sa ne explicam de ce facem asta, spunandu-le copiilor nostri sa nu cada in capcana fumatului si, din cand in cand, incercand sa scapam noi insine din ea. Capcana e astfel conceputa incat incercam sa ne lasam de fumat in perioadele de stres, fie ca acesta se refera la sanatate, la lipsa de bani ori la sentimentul ca celorlalti le e sila de noi. De indata ce ne lasam insa, stresul creste (teama de chinurile abstinentei ) si lucrul pe care ne bizuim ca sa atenuam stresul (vechiul nostru sprijin, tigara) nu ne mai este la indemana.{{n}}{{n}}Chiar si acei fumatori care scapa de sinistrul obicei (majoritatea fac asta o data sau de mai multe ori in cursul vietii) traiesc de obicei linistiti si fericiti pana cand, intr-o buna zi, devin din nou dependenti.{{n}}{{n}}Te asigur ca oricine se poate lasa usor de fumat, dar mai intai sa stabilim niste lucruri. Nu, nu ma refer la lucrurile acelea infricosatoare. Sunt sigur ca le stii deja. Exista suficiente informatii despre nocivitatea fumatului. Daca ar fi avut efect asupra ta, deja te-ai fi lasat. Vreau sa stanilim altceva : de ce ni se pare greu sa ne lasam? Ca sa raspundem la aceasta intrebare, trebuie sa stim adevaratul motiv pentru care inca fumam."
+        },
+        {
+          "title": "De ce continuam sa fumam",
+          "text": "Cu totii incepem sa fumam din motive prostesti – de obicei sub presiunea semenilor sau cand ne aflam in societate - , dar, cand simtim ca am devenit dependenti, de ce continuam? Nici un fumator nu stie de ce fumeaza. Daca fumatorii ar sti adevaratul motiv, n-ar mai fuma.{{n}}{{n}}Toti fumatorii stiu in strafundul sufletului lor ca sunt niste prosti. Stiu ca n-aveau nevoie sa fumeze inainte sa devina dependenti. Cei mai multi isi amintesc ce gust groaznic a avut prima tigara si cat s-au straduit ca sa devina dependenti. Partea cea mai sacaitoare este ca isi dau seama ca nefumatorii nu pierd nimic si ca se amuza pe socoteala lor. Totusi, fumatorii sunt fiinte umane rationale si inteligente. Stiu ca, in ceea ce priveste sanatatea, risca enorm si stiu ca, de-a lungul vietii, cheltuiesc o avere. Prin urmare au nevoie de o explicatie rationala ca sa-si justifice obiceiul.{{n}}{{n}}Adevaratul motiv pentru care fumatorii continua sa fumeze e o subtila combinatie de factori pe care o sa-i detaliez in urmatoarele doua capitole."
+        },
+        {
+          "title": "Adictia la nicotina 1.0",
+          "text": "Nicotina, un compus uleios, incolor, este drogul din tutun care produce adictia. Si, in comparatie cu toate celelalte droguri cunoscute de omenire, o produce cel mai rapid: e suficient sa fumezi o tigara ca sa devii dependent.{{n}}{{n}}De fiecare data cand tragi din tigara, ajunge in creier, prin intermediul plamanilor, o mica doza de nicotina care actioneaza mai rapid decat doza de heroina pe care toxicomanul si-o injecteaza in vena.{{n}}{{n}}Daca tragi dintr-o tigara de 20 de ori, primesti 20 de doze de drog la o singura tigara.{{n}}{{n}}Nicotina e un drog cu actiune rapida si de aceea nivelul ei in fluxul de sange scade vertiginos, aproape la jumatate – la 30 de minute dupa ce ai stins tigara – si la un sfert – dupa o ora de la terminarea tigarii. Asa se explica faptul ca majoritatea fumatorilor fumeaza 20 de tigari pe zi.{{n}}{{n}}De indata ce fumatorul stinge tigara, nicotina paraseste repede corpul si fumatorul incepe sa sufere chinul lipsei de drog.{{n}}{{n}}Ajunsi aici, trebuie sa spulber o iluzie foarte raspandita printre fumatori. Fumatorii cred ca suferintele lipsei de drog, atunci cand incearca sau sunt obligati sa se lase de fumat, reprezinta o trauma teribila. In realitate, aceste chinuri sunt mai ales mentale: fumatorul se simte privat de placerea sau de sprijinul sau. "
+        },
+        {
+          "title": "Adictia la nicotina 2.0",
+          "text": "Chinul lipsei de nicotina este in realitate atat de subtil, incat majoritatea fumatorilor traiesc si mor fara macar sa-si dea seama ca sunt dependenti de drog. Cand folosim termenul « dependent de nicotina », credem ca pur si simplu « avem un obicei ». Cei mai multi fumatori au oroare de droguri, si totusi exact asta sunt – dependenti de un drog. Din fericire e un drog usor de invins, cu conditia sa accepti mai intai ca esti dependent.{{n}}{{n}}Nu simti vreo suferinta fizica atunci cand esti privat de nicotina. E doar o senzatie de gol, de nerabdare, senzatia ca lipseste ceva – si de aceea multi fumatori isi inchipuie ca are de- a face cu mainile. Cu trecerea timpului, fumatorul devine nervos, nesigur, agitat, isi pierde increderea in sine si totul il irita. E ca foamea – o foame de otrava, NICOTINA.{{n}}{{n}}Dupa sapte secunde de la aprinderea unei tigari, primesti o noua doza de nicotina si dorinta se potoleste, transformandu-se in acea senzatie de relaxare si incredere in sine pe care tigara o da fumatorului.{{n}}{{n}}Tot ce stim este ca vrem o tigara, iar cand o aprindem dorinta dispare si pe moment suntem din nou multumiti si increzatori, exact cum eram inainte sa devenim dependenti. Totusi, satisfactia e doar temporara pentru ca, daca vrem sa potolim dorinta, trebuie sa introducem iar nicotina in corp. De indata ce stingi tigara, dorinta apare din nou – si astfel ciclul este reluat. Ciclul e vesnic daca nu-l intrerupi."
+        },
+        {
+          "title": "Plictiseala",
+          "text": "Daca in clipa asta fumezi, probabil ca uitasesi deja ce faci – pana cand ti-am reamintit eu. O alta idee aberanta despre fumat este ca te ajuta sa scapi de plictiseala. Plictiseala e o stare de spirit. Cand fumezi o tigara, mintea ta nu spune: « Fumez o tigara, fumez o tigara! » Asta se intampla doar cand ai fost lipsit multa vreme de tigara, cand te straduiesti sa fumezi mai putin sau cand aprinzi primele cateva tigari dupa ce ai incercat, fara succes, sa te lasi.{{n}}{{n}}Adevarul este ca tigarile mai curand sporesc, indirect, plictiseala, caci te fac sa te simti fara vlaga, si in loc sa fie activi, fumatorii au tendinta sa leneveasca, plictisiti, calmandu-si chinul lipsit de nicotina.{{n}}{{n}}Ca fost fumator tigara de la tigara, te pot asigura ca nu exista in viata o activitate mai plictisitoare decat sa aprinzi niste tigari mizerabile una dupa alta, zi de zi, an de an."
+        },
+        {
+          "title": "Concentrarea",
+          "text": "Tigarile nu te ajuta sa te concentrezi. Asta e inca o iluzie adaugata celorlalte. Cand te straduiesti sa te concentrezi, incerci in mod automat sa nu fii distras de nimic – de pilda, de faptul ca ti-e frig sau cald. Fumatorul este de la bun inceput dezavantajat: micul monstru isi vrea doza. Prin urmare, atunci cand vrea sa se concentreze, nu trebuie nici macar sa se gandeasca la fumat. Aprinde tigara automat, potolindu-si partial dorinta, si continua sa faca ce are de facut, uitand instantaneu ca fumeaza.{{n}}{{n}}Tigarile nu te ajuta sa te concentrezi. Dimpotriva, prejudiciaza concentrarea, pentru ca, dupa o vreme, chinul lipsei de nicotina nu mai este complet inlaturat nici macar cat timp fumezi. Atunci fumatorul isi mareste doza, iar problema se amplifica.{{n}}{{n}}Cand esti convins ca fumatul ajuta cu adevarat la concentrare, grijile pe care ti le faci in legatura cu asta te vor determina, in mod sigur, sa nu te poti concentra. Indoielile, nu suferinta fizica a lipsei de nicotina, sunt cauza problemei. Nu uita asta niciodata: cei care sufera de lipsotinei sunt fumatorii, nu nefumatorii. Am trecut dintr-o data de la o suta de tigari pe zi la zero fara sa-mi pierd sub nici o forma puterea de concentrare."
+        },
+        {
+          "title": "La ce renunt",
+          "text": "La absolut nimic! Ne e greu sa renuntam la fumat dintr-un singur motiv: teama. Teama ca suntem privati de o placere sau de un sprijin. Teama ca anumite situatii placute nu vor mai fi niciodata la fel. Teama ca nu von fi in stare sa facem fata situatiilor stresante.{{n}}{{n}}Tigara nu sporeste savoarea unei mese. O distruge. Iti distruge simtul gustului si al mirosului. Observa, intr-un restaurant, cum fumeaza fumatorii intre feluri. Nu masa le face placere, nu pot astepta sa se termine, caci ea se pune in calea tigarii. Multi dintre ei isi aprind tigara desi stiu ca ii deranjeaza pe nefumatori. Nu e vorba de impolitete, pur si simplu, se simt groaznic fara tigara. Sunt intre ciocan si nicovala. Ori se abtin si se simt mizerabil fiindca nu fumeaza, ori fumeaza si se simt mizerabil fiindca ii agreseaza pe ceilalti, ii cuprinde vinovatia si se autodispretuiesc pentru ceea ce fac.{{n}}{{n}}Tigarile nu te ajuta cand esti in societate – dimpotriva.Nu e nici o bucurie sa te straduiesti sa tii paharul intr-o mana si tigara in cealalta, sa te ocupi de scrumiera si sa faci disparute chistoacele, sa nu sufli fumul in nasul persoanei cu care stai de vorba, sa te intrebi daca ceilalti iti simt mirosul gurii sau iti observa dintii patati."
+        },
+        {
+          "title": "Avantajele de a fi fumator",
+          "text": "..."
+        },
+        {
+          "title": "Metoda vointei",
+          "text": "In societatea noastra s-a ajuns la concluzia ca e foarte greu sa te lasi de fumat. Pana si cartile care te invata cum sa te lasi incep de obicei prin a-ti spune cat este de dificil. In realitate, este ridicol de usor. Da inteleg ca te indoiesti, dar hai sa ne gandim putin.{{n}}{{n}}Daca telul tau este sa alergi o mila in mai putin de patru minute, treaba asta e dificila. Poti avea nevoie de ani intregi de antrenament dur si e posibil sa nu reusesti nici atunci. (Multe din reusitele noastre sunt de ordin mental. Nu e ciudat cat a fost de dificil pana cand Bannister a atins recordul, pentru ca astazi sa fie ceva banal?){{n}}{{n}}Ca sa termini cu fumatul, tot ce ai de facut este sa nu mai fumezi. Nimeni nu te obliga sa fumezi (in afara de tine insuti) si, spre deosebire de mancare si bautura, n-ai nevoie de fumat ca sa supravietuiesti. Deci, daca vrei sa nu mai fumezi, de ce sa fie greu? De fapt nu e. Fumatorii sunt cei care complica lucrurile, recurgand la Metoda vointei. Eu definesc Metoda vointei drept acea metoda care-l obliga pe fumator sa simta ca, intr-un fel, se sacrifica.{{n}}{{n}}De obicei dureaza pana realizam ca suntem dependenti, deoarece ne amagim ca fumam fiindca ne place tigara, nu fiindca trebuie s-o fumam. Si pentru ca nu ne place (niciodata nu ne place), ne amagim ca ne putem lasa oricand vrem.{{n}}{{n}}Asa ca, in loc sa porneasca entuziasmat – « ce minune, am hotarat sa nu mai fumez! » - porneste cu un sentiment prost, de sfarsit de lume, de parca trebuie sa urce Everestul, si cu credinta ferma ca o data ce micul monstru si-a infipt ghearele in tine esti captiv pe viata. Multi fumatori pornesc asta cerandu-si scuze prietenilor si rudelor: « Uite, eu o sa incerc sa ma las de fumat si o sa fiu probabil nervos in saptamanile urmatoare. Incearca sa ma suporti. » Nenumarate tentative sunt sortite esecului mai inainte sa inceapa."
+        },
+        {
+          "title": "Fereste-te de reducere",
+          "text": "Nimic nu e mai trist decat un fumator care se straduieste sa reduca tigarile. Se amageste ca, pe masura ce va fuma mai putin, va dori mai putin sa fumeze. Dar adevarul este exact pe dos. Cu cat fumeaza mai putin, cu atat va suferi mai mult timp chinul abstinentei, cu cat ii va placea mai mult tigara, cu atat tigara va avea un gust mai rau. Dar asta nu-l va opri sa fumeze. Gustul n-a jucat niciodata vreun rol. Daca fumatorii ar fuma pentru ca le place gustul, nimeni n-ar fuma niciodata mai mult de o tigara. Ti se pare greu de crezut? Hai sa vedem. Care e tigara cu cel mai rau gust? Da, prima tigaara de dimineata, aceea care iarna ne face sa tusim si sa expectoram. Si care e tigara cea mai valoroasa pentru majoritatea fumatorilor? Da, prima tigara de dimineata! Si acum, crezi cu adevarat ca o fumezi pentru ca-ti place gustul si mirosul ei sau crezi ca exista o explicatie mai rationala – alinarea suferintei produse de cele opt-noua ore de abstinenta?"
+        },
+        {
+          "title": "Doar o tigara",
+          "text": "Cu doar o tigara am inceput atunci, demult, sa fumam.{{n}}E de ajuns doar o tigara, intr-o situatie dificila sau la o ocazie speciala, ca sa ne dea peste cap tentativa de a ne lasa de fumat.{{n}}{{n}}Uneori, doar ca sa isi confirme ca nu mai are nevoie de tigari, si acea unica tigara face acest lucru. Are gust oribil si il convinge pe fumator ca nu va mai redeveni niciodata dependent, dar deja este.{{n}}{{n}}Deseori ideea acelei singure tigari este cea care impiedica un fumator sa se lase de fumat. Acea unica tigara de dimineata sau de dupa-masa.{{n}}{{n}}Sa iti intre bine in minte ca nu exista asemenea lucru ca si o unica tigara. Este o reactie in lant care va tine toata viata daca nu il vei rupe tu.{{n}}{{n}}Este un mit despre o unica tigara, speciala, care ii tine pe fumatori in jurul tigarii atunci cand se lasa de fumat. Sa iti intre in obicei sa nu vezi niciodata o unica tigara sau un unic pachet de tigari – este o fantezie. De cate ori te gandesti asupra fumatului, trebuie sa vezi intreaga viata murdara de a cheltui o mica avere doar pentru privilegiul de a te distruge psihic si fizic, o viata de sclavie, o viata cu respiratie proasta.{{n}}{{n}}Pentru a face sa fie simplu sa te lasi de fumat, sunt cateva fundamente pe care trebuie sa ti le pui in ordine in minte. Ne-am intalnit deja cu trei dintre ele pana acum:{{n}}1. Nu trebuie sa renunti. Sunt doar lucruri pozitive de castigat.{{n}}2. Nu te uita niciodata la acea unica tigara. Nu exista. Exista doar o viata plina de mizerie si boala.{{n}}3. Nu este nimic diferit in jurul tau. Orice fumator poate usor sa se opreasca."
+        },
+        {
+          "title": "Ultima țigară 1.0",
+          "text": "Ai hotarat cand – si acum esti pregatit sa fumezi ultima tigara. Dar inainte verifica cele doua puncte esentiale:{{n}}{{n}}1. Esti sigur de succes ?{{n}}Simti ca a venit sfarsitul lumii si esti cuprins de melancolie sau simti acea exaltare dinaintea realizarii unui lucru minunat ?{{n}}{{n}}Reaminteste-ti ca nu tu ai hotarat sa cazi in capcana fumatului. Insa capcana e astfel conceputa incat sa te inrobeasca pe viata. Ca sa scapi, trebuie sa iei o decizie pozitiva : ai sa fumezi ultima ta tigara.{{n}}{{n}}Poate ca te ingrijoreaza faptul ca ai mai facut aceasta promisiune si alta data sau ca va trebui sa treci prin suferinte groaznice. Nu te teme, cel mai rau lucru care ti se poate intampla este sa esuezi, asa ca n-ai absolut nimic de pierdut si enorm de castigat.{{n}}{{n}}Dar nici sa nu te gandesti macar la esec ! Adevarul cel minunat este ca a te lasa de tigara nu e doar ridicol de usor, ci si placut. De asta data vei folosi METODA USOARA ! Tot ce ai de facut este sa urmezi cele cinci instructiuni de mai jos :"
+        },
+        {
+          "title": "Ultima țigară 1.1",
+          "text": "1. Formuleaza promisiunea solemna acum – si fii sincer cu tine insuti.{{n}}2. Fumeaza cu maxima atentie ultima tigara, inhaleaza adanc mizeria, in plamani si intreaba-te in ce consta placerea.{{n}}3. Cand o stingi, n-o face cu sentimentul : nu mai trebuie sa fumez niciodata alta tigara – sau : n-am voie sa mai fumez alta – ci spunandu-ti : Doamne ! M-am eliberat ! Nu mai sunt sclavul nicotinei ! Nu mai trebuie sa-mi bag vreodata in gura porcariile astea !{{n}}{{n}}4. Fii constient ca, vreme de cateva zile, in viscerele tale va exista un mic sabotor. S-ar putea sa cunosti doar senzatia de « vreau o tigara ». M-am referit de multe ori la « micul monstru » cu sensul de usoara dorinta fizica de nicotina. Riguros vorbind, nu este asa – si e important sa stii de ce. Pentru ca e nevoie cam de trei saptamani ca micul monstru sa moara, fostii fumatori isi inchipuie ca micul monstru va avea pofta de tigari si dupa ce ultima a fost stinsa, si ca urmare vor trebui sa faca apel la vointa pentru a rezista tentatiei in decursul celor trei saptamani. Nu e adevarat. Corpul nu doreste nicotina. Numai creierul o doreste. Daca ai senzatia aceea de « vreau o tigara » in urmatoarele cateva zile, creierul tau pur si simplu va avea de ales. O varianta este sa interpreteze senzatia drept ceea ce este – senzatia de gol si de nesiguranta, declansata de prima tigara si perpetuata de toate celelalte – si sa te faca sa-ti spui: « Bravo mie, sunt nefumator ! »{{n}}{{n}}Cealalta varianta este sa te imbie sa tanjesti dupa o tigara si sa induri asta tot restul vietii. Stai un pic si gandeste-te. N-ar fi o prostie monumentala ? Sa-ti spui : « Nu mai vreau sa fumez niciodata » si sa-ti petreci restul vietii gandind : « Mi-ar placea o tigara » Este exact ce fac fumatorii care folosesc Metoda vointei. Nu-i de mirare ca se simt nefericiti. Isi petrec viata tanjind cu disperare la ceva ce au vrut cu disperare sa nu mai aiba. Nu-i de mirare ca atat de putini reusesc si ca acei putini nu se simt niciodata complet eliberati.{{n}}{{n}}5. E greu sa te lasi de fumat doar daca te indoiesti si taraganezi. Asa ca nu-ti pune niciodata la indoiala decizia : stii ca e decizia corecta. Daca incepi sa te indoiesti de ea, esti infrant de la inceput. Vei fi nefericit cand ai sa tanjesti dupa o tigara, dar n-ai s-o poti avea. Vei fi inca si mai nefericit daca o vei avea. De fapt ce incerci sa obtii cand te lasi de tigara ? Sa nu mai fumezi niciodata ? Nu ! Multi fosti fumatori asta fac, dar isi petrec restul vietii simtindu-se privati de ceva. Care este adevarata deosebire intre fumatori si nefumatori ? Nefumatorii nu au nevoia sau dorinta sa fumeze, nu tanjesc dupa tigari si nu fac apel la vointa ca sa nu fumeze. Iata ce incerci sa obtii – si esti intru totul capabil s-o faci. Nu trebuie sa astepti sa-ti treaca pofta de tigara ori sa devii nefumator."
+        },
+        {
+          "title": "Ultima țigară 1.2",
+          "text": "Asta se intampla chiar in momentul cand atingi acea ultima tigara, caci ai taiat aprovizionarea cu nicotina : AI DEVENIT DEJA UN FERICIT NEFUMATOR !{{n}}{{n}}Si vei ramane un fericit nefumator daca:{{n}}1. Nu-ti pui niciodata la indoiala decizia.{{n}}2. Nu astepti sa devii nefumator. Daca faci asta, vei astepta doar sa nu se intample nimic, ceea ce va duce la un soi de fobie.{{n}}3. Nu incerci sa nu te gandesti la fumat si nu astepti sa vina « momentul revelatiei ». Inambele cazuri vei declansa un soi de fobie.{{n}}4. Nu folosesti substitute pentru fumat.{{n}}5. Ii vezi pe ceilalti fumatori asa cum sunt in realitate si ti-e mila de ei in loc sa-i invidiezi.{{n}}6. Fie ca ai zile bune sau zile rele, nu-ti schimbi viata doar pentru ca te-ai lasat de fumat. Altminteri vei face un sacrificiu veritabil – si nu e cazul. N-ai renuntat la viata. N-ai renuntat la nimic. Dimpotriva, te-ai vindecat de o boala cumplita si ai scapat dintr-o inchisoare perfida. Pe masura ce trece timpul si sanatatea ta – fizica si mentala – devine mai buna, momentele de buna-dispozitie vor fi mai intense, iar cele de proasta- dispozitie mai atenuate decat in vremea cand erai fumator.{{n}}7. Ori de cate ori te gandesti la tigara – imediat dupa ce te-ai lasat sau de-a lungul intregii vieti – iti spui : BRAVO MIE! SUNT NEFUMATOR!"
+        }
+      ]
+    },
+    "settings": {
+      "header": {
+        "title": "Setări",
+        "description": "Tot ce ai nevoie într-un singur loc."
+      },
+      "profile": {
+        "edit": "Editare"
+      },
+      "client": {
+        "name": "Nume",
+        "cigarette": "Țigări pe zi",
+        "cigaretteCount": "Țigări într-un pachet",
+        "price": "Prețul pe pachet de țigări",
+        "howOffen": "Intervalul dintre țigări"
+      },
+      "auth": {
+        "info": "Autorizare",
+        "button": "Continuă cu {{param}}",
+        "buttonEmail": "Utilizare Email",
+        "response": {
+          "msg1": "Sincronizarea datelor",
+          "msg2": "Salvarea achizițiilor",
+          "msg3": "Comunicarea cu lume",
+          "msg4": "Tabloul de prieteni și onoruri"
+        },
+        "or": "SAU",
+        "client": "Autorizare / Înregistrare",
+        "login": "Autorizare",
+        "registration": "Înregistrare",
+        "logout": "Deconectați-vă din cont",
+        "change": "Schimbă Parola",
+        "accept": "Confirmați E-Mailul",
+        "clear": "Resetare realizare",
+        "titleProfile": "Profil",
+        "titleSett": "Control"
+      },
+      "info": {
+        "subscription": "Abonare",
+        "coin": "Monede",
+        "review": "Lasă o recenzie",
+        "author": "Despre dezvoltator",
+        "confidentiality": "Politica de confidențialitate",
+        "remove": "Sterge-ti contul",
+        "lang": "Alege limba",
+        "sysLang": "Limba sistemului",
+        "currency": "Selectarea valutei",
+        "sysCurrency": "Moneda sistemului",
+        "theme": "Selectarea designului",
+        "themeLang": "Automat",
+        "themeLight": "Ușoară",
+        "themeDark": "Întuneric"
+      },
+      "switch": {
+        "notification": "Notificare",
+        "vibrator": "Vibrații"
+      }
+    },
+    "sheet": {
+      "login": {
+        "input": {
+          "mail": "E-mail",
+          "password": "Parolă"
+        },
+        "link": {
+          "fetch": "Intrare",
+          "have": "Nu ai un cont?",
+          "ihave": "Ai un cont?",
+          "forgot": "Ai uitat parola ?"
+        },
+        "showMessage": {
+          "emailWrong": "Ați introdus o adresă de e-mail sau o parolă incorectă.",
+          "emailEmpty": "Trebuie să introduceți o adresă de e-mail.",
+          "passwordEmpty": "Trebuie să introduceți parola adresei de e-mail.",
+          "success": "Felicitări! v-ați conectat cu succes la contul dvs."
+        }
+      },
+      "registration": {
+        "input": {
+          "name": "Nume",
+          "email": "E-mail",
+          "password": "Parola",
+          "newPassword": "Parolă Nouă",
+          "repeatPassword": "Repetă parola"
+        },
+        "link": {
+          "reg": "Înregistrare",
+          "change": "Trimite"
+        },
+        "showMessage": {
+          "emailExist": "Acest e-mail este deja înregistrat",
+          "nameEmpty": "Numele este obligator",
+          "emailEmpty": "Introdu adresa ta de e-mail.",
+          "passwordEmpty": "Parola este necesară.",
+          "newPasswordEmpty": "Noua parolă este necesară.",
+          "repeatPasswordEmpty": "Parola și Repetați parola nu sunt aceleași.",
+          "success": "V-ați înregistrat cu succes, un cod de confirmare a fost trimis pe e-mailul dvs."
+        }
+      },
+      "change": {
+        "showMessage": {
+          "success": "Ați schimbat cu succes parola contului.",
+          "error": "Ați introdus o parolă incorectă."
+        }
+      },
+      "issue": {
+        "title": "Confirmați e-mailu",
+        "subTitle": "Verifica-ti email-ul",
+        "input": {
+          "token": "Codul de confirmare"
+        },
+        "link": {
+          "submit": "Сonfirmă email-ul",
+          "reload": "Retrimite codul"
+        },
+        "showMessage": {
+          "requestLimit": "Nu puteți cere un cod de verificare atât de des",
+          "tokenWrongFormat": "Format de cod de confirmare nevalid.",
+          "tokenWrong": "Ați introdus un cod de verificare nevalid.",
+          "successAccept": "Felicitări! V-ați verificat cu succes adresa de e-mail.",
+          "successSend": "Codul de confirmare a fost trimis cu succes la adresa dvs. de e-mail."
+        }
+      },
+      "forgot": {
+        "title": "Restabilirea accesului",
+        "input": {
+          "email": "E-mail",
+          "token": "Codul de confirmare",
+          "password": "Parolă nouă",
+          "repeatPassword": "Repetă parola"
+        },
+        "link": {
+          "submit": "Trimite",
+          "change": "Schimbaţi parola"
+        },
+        "showMessage": {
+          "emailWrong": "Adresă de E-mail incorecta.",
+          "tokenEmpty": "Format nevalid de cod de recuperare a parolei.",
+          "tokenWrong": "Ați introdus un cod incorect de recuperare a parolei, vă rugăm să vă verificați din nou e-mailul.",
+          "tokenSucces": "Un cod de confirmare a fost trimis pe e-mailul dvs., utilizați codul pentru a vă schimba parola.",
+          "requestLimit": "Nu puteți cere un cod de resetare a parolei atât de des",
+          "changeSuccess": "Parola a fost schimbată cu succes, acum vă puteți autentifica folosind noua parolă"
+        }
+      },
+      "help.task": {
+        "title": "Motivator de obiectiv",
+        "input.name": "Nume",
+        "input.value": "Suma dorită"
+      },
+      "setting": {
+        "title": "Completare",
+        "button": "Mă las de fumat",
+        "error": "Toate campurile sunt necesare..."
+      },
+      "friend": {
+        "coin": "Monede",
+        "friend": "Prieteni",
+        "rating": "Evaluare",
+        "title": "Motivator",
+        "description": "Motivați-vă prietenul cu un mesaj și obțineți monede + rating.",
+        "input": "Mesaj:",
+        "message": "Te-ai oprit deja de fumat? Să împărtășim rezultatul. Aștept....",
+        "button": "Motivă"
+      },
+      "premium": {
+        "title": "Acces premium",
+        "information": [
+          "Accesați colecția completă de carduri motivaționale în fiecare zi.",
+          "Măriți-vă rating-ul și acumulați mai mulți bani pentru a obține avantaje suplimentare în aplicație.",
+          "Rămâneți informat cu privire la toate evenimentele zilnice cu informații detaliate.",
+          "Folosiți toate cunoștințele pentru a renunța la fumat mai rapid și mai ușor.",
+          "Bucurați-vă de aplicație fără reclame, ceea ce vă permite să o utilizați confortabil.",
+          "Deblocați toate obiectivele și creați mai multe pentru a vă atinge obiectivele de planificare financiară.",
+          "Bucurați-vă de accesul complet la hipnozele noastre, chiar și atunci când sunteți offline.",
+          "Obțineți acces complet la funcțiile pedometrului nostru.",
+          "Ieșiți în evidență printre ceilalți participanți la chat, folosind o pictogramă unică."
+        ],
+        "free": "Gratuit - 3 zile, apoi {{price}} {{currencySymbol}}/lună",
+        "in": "{{price}} {{currencySymbol}} pe lună ",
+        "info": "Poate fi anulat în orice moment",
+        "subscription": "Subscriu-te",
+        "rebuild": "întoarcere Abonamentu-l",
+        "privacy": "Terms & Conditions",
+        "notLoad": "A apărut o problemă la încărcarea articolelor!",
+        "refresh": "Reîncercați descărcarea"
+      },
+      "purchase": {
+        "coin": "Monede",
+        "rating": "Evaluare",
+        "subscription": {
+          "title": "Abonament",
+          "stock": "Da",
+          "nope": "Nu"
+        },
+        "earn": "Obțineți 5 monede (reclamă)",
+        "have": {
+          "title": "Cumpărare",
+          "description": "Aveți acces premium, nu este necesară achiziția.",
+          "button": "Bun"
+        },
+        "items": {
+          "rating": {
+            "name": "Evaluare",
+            "value": "{{value}} puncte",
+            "description": "Evaluarea te face să ieși în evidență față de prietenii tăi și, de asemenea, vei obține un loc mai înalt în clasament.",
+            "button": "Schimb pentru{{value}} monede.",
+            "alert": {
+              "title": "Evaluare",
+              "description": "Chiar vrei sa faci schimb {{rating}} puncte de rating pentru {{value}} monede ?",
+              "cancel": "Nu",
+              "accept": "Da"
+            },
+            "showMessage": {
+              "message": "Ați schimbat cu succes {{value}} monede, pe {{rating}} puncte de rating."
+            }
+          },
+          "cards": {
+            "name": "Carduri",
+            "value": "Pachet complet",
+            "description": "Cardurile te motiveaza sa nu fumezi, recomandam sa citesti cardurile din cand in cand.",
+            "button": "Deblocați pentru {{value}} monede.",
+            "alert": {
+              "title": "Carduri",
+              "description": "Chiar vrei sa faci schimb {{value}} monede, pentru un pachet complet de carduri ?",
+              "cancel": "Nu",
+              "accept": "Da"
+            },
+            "showMessage": {
+              "message": "Ați primit cu succes un pachet complet de carduri ."
+            }
+          },
+          "learn": {
+            "name": "Programul cursului",
+            "value": "Versiunea completa",
+            "description": "Acest program este foarte important. Îți spune cum să te prezinți în diferite situații.",
+            "button": "Deblocați pentru {{value}} monede.",
+            "alert": {
+              "title": "Programul cursului",
+              "description": "Chiar vrei sa faci schimb {{value}} monede, pentru programul complet al cursului ?",
+              "cancel": "Nu",
+              "accept": "Da"
+            },
+            "showMessage": {
+              "message": "Ați primit cu succes programul complet al cursului."
+            }
+          },
+          "clean": {
+            "name": "Statistici",
+            "value": "Siguranță",
+            "description": "Resetați realizările, fără a pierde monede și rating. Dacă te hotărăști să o iei de la capăt.",
+            "button": "Resetare pentru {{value}} monede.",
+            "alert": {
+              "title": "Statistici",
+              "description": "Sigur doriți să resetați realizările, fără să ștergeți monede și să vă clasați pentru {{value}} monede?",
+              "cancel": "Nu",
+              "accept": "Da"
+            },
+            "showMessage": {
+              "message": "Ați resetat cu succes realizările fără a pierde monede sau rating."
+            }
+          },
+          "task": {
+            "alert": {
+              "title": "Celulă nouă",
+              "description": "Sigur doriți să schimbați {{value}} monede cu încă o celulă?",
+              "cancel": "Nu",
+              "accept": "Da"
+            }
+          }
+        }
+      }
+    },
+    "detached": {
+      "scan": {
+        "text": "Prietenii adaug",
+        "textCamera": "Îndreptați camera către codul QR",
+        "camera": "Adaugă prietenu-l",
+        "code": "Cod QR"
+      },
+      "friend": {
+        "title": "Cod QR",
+        "This is your id": "Nu te poți adăuga ca prieten.",
+        "Invalid id": "Nu am putut găsi un prieten",
+        "Friend not found": "Nu am putut găsi un prieten",
+        "Email not activated your frinds": "E-mailul nu este activat pentru prietenul dvs.",
+        "Friends already": "Sunteți deja prieteni",
+        "response": "Nu s-a putut conecta la server, vă rugăm să încercați din nou mai târziu."
+      },
+      "ghost": {
+        "title": "Sabotor de nicotină",
+        "description": "Fumăm pentru a hrăni mica făptură. Durează aproximativ trei săptămâni pentru ca micuța creatură să moară. Organismul nu are poftă de nicotină. Doar creierul o vrea. De fiecare dată când învingi ispita, îi mai dai o lovitură fatală sabotorului.",
+        "btn1": "Dă o lovitură sabotorului",
+        "btn2": "Spune-i la revedere sabotorului",
+        "btn3": "Faceți o batjocoră de sabotor"
+      },
+      "nosmoke": {
+        "title": "Ura, NU AFUM!",
+        "description": "Pentru fiecare victorie mică. Veți primi monede și un rating, monedele pot fi folosite în interiorul aplicației."
+      },
+      "motivate": {
+        "title": "Esti un prieten adevarat!"
+      },
+      "smoke": {
+        "title": "Renunțarea la fumat este ușor",
+        "description": "Nu te lăsa copleșit dacă ai cedat și ai fumat din nou. Asta nu este un eșec, ci doar un moment de slăbiciune pe drumul spre succes. Amintește-ți de toate motivele pentru care ai vrut să renunți la fumat și continua să mergi mai departe. Fiecare zi, fiecare moment din viața ta este o oportunitate de a-ți îmbunătăți sănătatea și calitatea vieții. Nu renunța, poți face asta!",
+        "btn1": "Resetare realizare (recomandat)",
+        "btn2": "Am fumat, nu voi mai fumat :("
+      },
+      "dashboard.bank": {
+        "title": "Câți bani ai economisit",
+        "type1": " / pe zi",
+        "type2": " / pe săptămână",
+        "type3": " / pe lună",
+        "type4": " / pa an"
+      },
+      "dashboard.more.time": {
+        "title": "Timp economisit",
+        "descrpition": "De fapt, fumatul fură o parte destul de mare din zi. În medie, o țigară durează aproximativ cinci minute, fumezi 100 de minute pe zi!"
+      },
+      "dashboard.ciggy": {
+        "title": "Țigări ne fumate",
+        "type1": " / pe zi",
+        "type2": " / pe săptămână",
+        "type3": " / pe lună",
+        "type4": " / pa an"
+      },
+      "dashboard.health": {
+        "title": "Longevitate",
+        "descrpition": "Renunțarea la fumat te va ajuta să arăți și să te simți mai bine, îmbunătățind calitatea vieții și a sănătății tale."
+      },
+      "dashboard.energy": {
+        "title": "Plus pentru energie",
+        "description": "Fără să fumezi, vei avea mai multă energie și putere pentru a face tot ceea ce îți dorești în viață."
+      },
+      "dashboard.lungs": {
+        "title": "Recuperare pulmonară",
+        "descrpition": "Cu cât corpul se mișcă mai mult, cu atât respirația este mai intensă, cu atât mai repede sunt îndepărtați compușii străini acumulați și murdăria."
+      },
+      "help.task.buy": {
+        "title": "Celulă nouă",
+        "coin": "{{value}} monede",
+        "button": "Scimb"
+      }
+    },
+    "alert": {
+      "clear": {
+        "title": "Atenţie",
+        "description": "Chiar vrei să-ți resetați toate realizările?",
+        "cancel": "Nu",
+        "accept": "Da"
+      },
+      "remove": {
+        "title": "Atenţie",
+        "description": "Se va șterge toate informațiile personale. După aceea, nu veți mai putea accesa acest cont niciodată.",
+        "cancel": "Anulare",
+        "accept": "Șterge"
+      },
+      "friendAdd": {
+        "title": "Atenţie",
+        "description": "Nu puteți adăuga mai mulți prieteni, este necesar accesul premium.",
+        "button": "Bine"
+      },
+      "logout": {
+        "title": "Atenţie",
+        "description": "Realizările dvs. de pe dispozitiv vor fi resetate. Când vă conectați din nou, datele vor fi returnate.",
+        "cancel": "Anulare",
+        "accept": "Ieși",
+        "message": "V-ați deconectat cu succes de la contul dvs."
+      },
+      "permission": {
+        "camera": {
+          "title": "Confidențialitate",
+          "description": "Trebuie să acordați acces la cameră pentru a scana codul QR. Deschideți setările aplicației?",
+          "cancel": "Nu",
+          "accept": "Da"
+        },
+        "notification": {
+          "title": "Confidențialitate",
+          "description": "Trebuie să acordați acces la notificările push. Deschideți setările aplicației?",
+          "cancel": "Nu",
+          "accept": "Da"
+        }
+      },
+      "purchase": {
+        "premium": {
+          "title": "Abonament",
+          "button": "Bun",
+          "description": {
+            "isset": "Accesul dvs. premium este deja activat.",
+            "succes": "Ați restabilit cu succes accesul premium.",
+            "empry": "Nu aveți un abonament activ.",
+            "error": "A apărut o eroare. Vă rugăm să încercați din nou mai târziu."
+          }
+        },
+        "coin": {
+          "deficiency": {
+            "title": "Cumpărare",
+            "description": "Nu sunt suficiente monede pentru a finaliza schimbul!",
+            "accept": "închide"
+          },
+          "success": {
+            "title": "Cumpărare",
+            "description": "Schimbul a avut succes!",
+            "accept": "închide"
+          },
+          "unauthorized": {
+            "title": "Cumpărare",
+            "description": "Există probleme de conectare, vă rugăm să încercați din nou mai târziu!",
+            "accept": "închide"
+          },
+          "error": {
+            "title": "Cumpărare",
+            "description": "A apărut o eroare la cumpărare, vă rugăm să încercați din nou mai târziu!",
+            "accept": "închide"
+          },
+          "present": {
+            "title": "Cumpărare",
+            "description": "Dețineți deja acest serviciu!",
+            "accept": "închide"
+          }
+        }
+      }
+    },
+    "message": {
+      "error": {
+        "Network Error": {
+          "title": "A avut loc o eroare",
+          "message": "Probleme la conectarea la server, vă rugăm să încercați din nou mai târziu..."
+        },
+        "network": {
+          "title": "A avut loc o eroare",
+          "message": "Probleme la conectarea la server, vă rugăm să încercați din nou mai târziu..."
+        }
+      }
+    },
+    "notification": {
+      "smoke": {
+        "title": "{{value}} - Motivator",
+        "body": "Vă rugăm să evaluați starea dvs. actuală, acest lucru va ajuta să renunțați la fumat mai repede."
+      }
+    }
+  }
+}

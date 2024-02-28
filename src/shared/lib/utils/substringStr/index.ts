@@ -1,0 +1,1 @@
+export { substringStr } from './substringStr';

@@ -1,0 +1,1 @@
+export { AuthByApple } from './AuthByApple';

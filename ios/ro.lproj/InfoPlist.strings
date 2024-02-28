@@ -1,0 +1,5 @@
+NSCameraUsageDescription = "Trebuie să accesați camera pentru a scana un QR-CODE.";
+NSPhotoLibraryUsageDescription = "Pentru a actualiza fotografia, este necesar accesul la biblioteca foto. Noi asigurăm securitatea și confidențialitatea datelor dvs. și nu le dezvăluim către terțe părți.";
+NSMotionUsageDescription = "Pentru a urmări numărul de pași și pentru a crește motivația de a renunța la fumat, aplicația Moke Smoke solicită accesul la senzorul de mișcare de pe dispozitivul dvs.";
+NSHealthShareUsageDescription = "Pentru a urmări numărul de pași și pentru a crește motivația de a renunța la fumat.";
+NSHealthUpdateUsageDescription = "Pentru a urmări numărul de pași și pentru a crește motivația de a renunța la fumat.";

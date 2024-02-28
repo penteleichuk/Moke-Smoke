@@ -1,0 +1,26 @@
+declare module '@env' {
+  export const APP_NAME: string;
+  export const API_KEY: string;
+  export const API_BASE_URL: string;
+  export const BACKEND_URL: string;
+  export const APPLE_APP_ID: string;
+  export const GOOGLE_PACKAGE_NAME: string;
+  export const WEB_CLIENT_ID: string;
+  export const IOS_CLIENT_ID: string;
+  export const INVITE_URL: string;
+  export const TERMS_URL: string;
+  export const AUDIO_URL: string;
+  export const AUTHOR_SITE: string;
+  export const AUTHOR_URI_AVATAR: string;
+  export const AUTHOR_LINKEDIN: string;
+  export const TELEGRAM_URL: string;
+  export const ADAPTY_PUBLIC_KEY: string;
+  export const ADAPTY_PLACEMENT_ID: string;
+  export const IOS_PROMO_URL: string;
+  export const ANDROID_PROMO_URL: string;
+  export const PURCHASE_COIN_PRICE: number;
+  export const PURCHASE_COIN_VALUE: number;
+  export const PURCHASE_CARDS_PRICE: number;
+  export const PURCHASE_CARDS_LIMIT: number;
+  export const PURCHASE_CLEAN_PRICE: number;
+}

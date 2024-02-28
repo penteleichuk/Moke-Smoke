@@ -1,0 +1,5 @@
+NSCameraUsageDescription = "Devi accedere alla tua fotocamera per scansionare un QR-CODE.";
+NSPhotoLibraryUsageDescription = "Per aggiornare la foto, è necessario l'accesso alla tua libreria fotografica. Garantiamo la sicurezza e la riservatezza dei tuoi dati e non li trasferiamo a terze parti.";
+NSMotionUsageDescription = "Per tenere traccia del numero di passi e aumentare la motivazione a smettere di fumare, l'app Moke Smoke richiede l'accesso al sensore di movimento sul tuo dispositivo.";
+NSHealthShareUsageDescription = "Per tenere traccia del numero di passi e aumentare la motivazione a smettere di fumare.";
+NSHealthUpdateUsageDescription = "Per tenere traccia del numero di passi e aumentare la motivazione a smettere di fumare.";

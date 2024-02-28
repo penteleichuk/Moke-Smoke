@@ -1,0 +1,979 @@
+{
+  "translation": {
+    "system": {
+      "more": "more",
+      "accept": "Apply"
+    },
+    "validation": {
+      "email": "Invalid email format",
+      "required": "Field is required.",
+      "min": "Field must be min {{min}} characters.",
+      "max": "Field must be max {{max}} characters."
+    },
+    "term": {
+      "link1": "Terms and Conditions",
+      "link2": "Privacy Policy",
+      "text": "By continuing, you agree to the Terms and Conditions of use of Moke smoke and confirm that you have read the Privacy Policy of Moke smoke."
+    },
+    "tracker": {
+      "description": "Every day you should walk for at least 50 minutes straight at a moderate pace. This will increase the level of happiness hormones, which will replace cigarettes for you. This will significantly simplify the process of quitting.",
+      "error": "An error occurred while loading the data, possibly you did not grant access to your data. You need to go to your device settings and grant access.",
+      "nav": {
+        "1": "yesterday",
+        "2": "today"
+      },
+      "need": "{{min}} minutes.",
+      "header": {
+        "1": "Steps",
+        "2": "KM",
+        "3": "Minutes"
+      }
+    },
+    "audio": {
+      "title": "Self-hypnosis",
+      "header": "The audio data is intended to be used as background sound during routine tasks, before sleep, in the morning, or in situations where the desire to smoke arises.",
+      "footer": "The copyright of the audio tracks used in this application belongs to the creators of the application. Any unauthorized use, reproduction, or distribution of these tracks is a violation of copyright and may result in legal consequences. All rights reserved.",
+      "removeLink": "Remove saved tracks",
+      "dialog": {
+        "title": "Audio tracks",
+        "description": "Are you sure you want to delete all meditation tracks?",
+        "btn1": "No",
+        "btn2": "Yes"
+      },
+      "lists": [
+        {
+          "track": "Triggers",
+          "Album": "Don't smoke",
+          "tags": ["Overcoming", "Triggers", "Habits"],
+          "title": "Overcoming Triggers",
+          "description": "Eliminate triggers to quit smoking."
+        },
+        {
+          "track": "Cravings",
+          "Album": "Don't smoke",
+          "tags": ["Control", "Mindset", "Willpower", "Stress relief"],
+          "title": "Control of Mindset",
+          "description": "Manage cravings to quit smoking."
+        },
+        {
+          "track": "Peace",
+          "Album": "Don't smoke",
+          "tags": ["Peace", "Relaxation", "Mindfulness"],
+          "title": "Inner Peace",
+          "description": "Find inner peace to quit smoking."
+        },
+        {
+          "track": "Meditation",
+          "Album": "Don't smoke",
+          "tags": ["Meditation", "Mindfulness", "Relaxation"],
+          "title": "Meditation to Quit Smoking",
+          "description": "Meditate to quit smoking and find inner peace."
+        },
+        {
+          "track": "Passion",
+          "Album": "Don't smoke",
+          "tags": ["Meditation", "Desires", "Peace", "Mindset"],
+          "title": "Discovering Passions",
+          "description": "Discover a passion for a healthy lifestyle."
+        }
+      ]
+    },
+    "feed": {
+      "title": "My feed",
+      "empty": "No records",
+      "comment": "Comments",
+      "info": [
+        "1. The user activity feed is a place where people who want to quit smoking can share their thoughts and inspire other users after completing the \"Trainer\" program. You can post your messages in one of three categories: \"smoked,\" \"craved a cigarette,\" and \"didn't smoke.\"",
+        "2. Additionally, other users can leave comments and reactions on your posts, creating a community of people who support you in quitting smoking. You can share your thoughts and feelings and receive motivation and support from other users.",
+        "3. This is an incredibly cool system that can help you quit smoking. The more you share your feelings, the more chances you have for success. But that's not all. Over time, as you consistently share your thoughts, you can gain access to a chatbot with a neural network. This neural network can analyze your posts and provide you with individual recommendations based on the achievements of other users.",
+        "Ultimately, this system not only creates a community that supports you in quitting smoking, but also collects data to create individual recommendations for quitting smoking."
+      ],
+      "script": {
+        "danger": [
+          "I had a moment of weakness and smoked a cigarette today. But that's okay, I know that quitting is a process and I'm still on my way to a smoke-free life.",
+          "Quitting smoking has been a challenge, but I know that it's worth it. Today, I stumbled, but tomorrow is a new day to keep going.",
+          "I smoked a cigarette today, and I know it was a mistake. But I won't let one slip-up define my journey to quitting. I'll keep going.",
+          "Sometimes, when I'm feeling stressed, I reach for a cigarette. But I'm learning new ways to cope, and I'm committed to quitting for good.",
+          "I slipped up and smoked, but I'm not going to beat myself up about it. I'll use this as a learning experience and keep moving forward."
+        ],
+        "wrong": [
+          "Sometimes I miss smoking, but I remind myself of all the reasons why I quit. My health and well-being are worth more than a temporary craving.",
+          "The road to quitting smoking is filled with ups and downs. I may miss it now, but I know that the longer I stay smoke-free, the easier it will get.",
+          "I miss the social aspect of smoking sometimes, but I remind myself that my health is more important than fitting in with the crowd.",
+          "I used to love smoking, but I don't miss feeling out of breath or smelling like smoke. Being smoke-free feels so much better.",
+          "Sometimes I miss the taste of cigarettes, but I remind myself of all the reasons why I quit. I'm proud of myself for staying strong."
+        ],
+        "success": [
+          "I woke up today feeling grateful for another smoke-free day. Quitting is not easy, but the benefits are worth it.",
+          "One of the best things about not smoking is being able to breathe easier. I'm grateful for every day that I can take a deep breath without coughing.",
+          "I'm celebrating one month of being smoke-free today. It's not always easy, but it's worth it.",
+          "I never thought I'd be able to quit smoking, but I'm so proud of myself for doing it. I feel healthier and happier than ever.",
+          "I'm feeling great today knowing that I didn't give in to temptation and smoke. Being smoke-free is the best decision I've ever made."
+        ]
+      },
+      "screen": {
+        "title": "Activity Feed",
+        "description": "Write your post or choose one from the list below to share your experience in the Activity Feed. The more often you share your experiences and thoughts, the greater the chances of success. Additionally, you can access a chatbot with a neural network that can assist you based on the analysis of your posts and achievements.",
+        "description2": "You can write your posts and share your experience in the Activity Feed. The more often you share your experience and thoughts, the more chances you have for success."
+      },
+      "tooltip": {
+        "remove": "Remove post",
+        "report": "Report post"
+      },
+      "message": {
+        "title": "Complaint",
+        "success": "After reviewing your complaint, moderators will send a response to your email address, informing you of the moderation results.",
+        "isset": "You have already submitted one complaint. Your complaint is under review."
+      }
+    },
+    "author": {
+      "title": "Vasya Penteleichuk",
+      "text": "I am involved in mobile and Front-end app development (using some backend development with Express.js and NestJS), I have had the opportunity to work on freelancing platforms, outsourcing and product companies, and also participated in several startups."
+    },
+    "verify": {
+      "title": "Verify Your Email",
+      "info": "Please enter the 5 digital code sent to {{email}}",
+      "re": "Resend code"
+    },
+    "forgot": {
+      "send": "Enter your email below to receive your password reset instruction.",
+      "change": "Your new password must be different from previously used password."
+    },
+    "review": {
+      "description": "We value your opinion! Please leave your feedback about our application and help us improve it. Thank you for your support!"
+    },
+    "notifications": {
+      "description": "We recommend enabling notifications to receive recommendations from our trainer and stay up to date with the latest exercises.",
+      "btn": "Enable Notification"
+    },
+    "calendar": {
+      "1": "Mo",
+      "2": "Tu",
+      "3": "We",
+      "4": "Th",
+      "5": "Fr",
+      "6": "Sa",
+      "7": "Su",
+      "title": "I haven't smoked {{value}}"
+    },
+    "times": {
+      "d": "d",
+      "h": "h",
+      "m": "m",
+      "s": "s"
+    },
+    "breathe": {
+      "1": {
+        "title": "Rule №1",
+        "description": "The rule of the first cigarette",
+        "info": "When you get up in the morning, try to delay the time of smoking the first cigarette for as long as possible, at least for half an hour, an hour, until lunch or evening. In this way, you will learn to control yourself. If you don't smoke the first one, you won't smoke the second one either. However, you should not be distracted - if you missed the first one, don't start with the second one. If you happen to smoke a cigarette, apply the same rule to the next one. In this way, you will significantly reduce the number of cigarettes smoked during the day. Your \"nicotine monster\" of the inner world will start to go hungry and suffer, and then you can apply the second rule."
+      },
+      "2": {
+        "title": "Rule №2",
+        "description": "Glass of water",
+        "info": "Before smoking a cigarette, it is necessary to drink a glass of water. Just drink a glass of still water. Do this before every desire to smoke. Yes, you will have to go to the bathroom more often, but believe me, it is not as harmful to your health as the cigarette itself."
+      },
+      "3": {
+        "title": "Rule №3",
+        "description": "Training the brain to resist the urge to smoke.",
+        "round": {
+          "start": "Start off",
+          "inhale": "Inhale",
+          "exhale": "Hold",
+          "hold": "Exhale"
+        },
+        "hold": "Hold"
+      },
+      "4": {
+        "title": "Rule №4",
+        "description": "Hormones of happiness",
+        "info": "We guarantee you 100% result if you follow these three rules, plus one more. Every day you must walk for at least 50 minutes or swim for 30 minutes without breaks at an average pace. This will increase the levels of happiness hormones that will replace your cigarettes. This will significantly simplify the quitting process."
+      },
+      "5": {
+        "title": "Rule №5",
+        "description": "Mindfulness",
+        "info": "When you start thinking about smoking, immediately tell yourself \"STOP! I don't want to smoke. STOP! I won't think about it anymore.\""
+      }
+    },
+    "chat": {
+      "title": "Chat",
+      "people": "Online"
+    },
+    "global": {
+      "title": "LEADERBOARD"
+    },
+    "friends": {
+      "qr": "Scan the QR code to add a friend to your friend list.",
+      "add": "With the help of a QR code, your friend can add you to their friend list."
+    },
+    "navigation": {
+      "home": "Home",
+      "chat": "Chat",
+      "global": "TOP",
+      "friends": "Mood",
+      "help": "Help",
+      "settings": "Settings"
+    },
+    "welcome": {
+      "message": "Quitting smoking is a tough habit to kick, but we've created an app that can help you do it. Get a personalized plan, community support, and motivational reminders. Track daily goals and achievements and receive advice for a healthy lifestyle. Try it today and quitting smoking will be easier!",
+      "button": "Start",
+      "profile": "Smoking analysis",
+      "nav": {
+        "start": "Start",
+        "skip": "Skip",
+        "next": "Next"
+      },
+      "send": "Let's Try"
+    },
+    "home": {
+      "header": {
+        "title": "Hello, {{userName}}",
+        "noName": "Hello, Guest!",
+        "guest": "Guest",
+        "description": "Last time smoked {{days}} ago.",
+        "descriptionMsg": "Easy way to stop smoking.",
+        "nav": {
+          "title": "Motivation",
+          "first": "Withdrawal",
+          "saving": "Purpose",
+          "next": "Cards",
+          "hip": "Self hypnosis",
+          "tracker": "Pedometer"
+        }
+      },
+      "charts": {
+        "title": "Monitoring",
+        "success": "Didn't smoke",
+        "wrong": "Wish",
+        "danger": "Smoked",
+        "empty": "Statistics are currently missing"
+      },
+      "dashboard": {
+        "0": {
+          "name": "Cash",
+          "value": "{{value}}"
+        },
+        "1": {
+          "name": "Time",
+          "value": "{{value}} h."
+        },
+        "2": {
+          "name": "Not smoked",
+          "value": "{{value}} pcs."
+        },
+        "3": {
+          "name": "Longevity in",
+          "value": "{{value}} h."
+        },
+        "4": {
+          "name": "Power",
+          "value": "{{value}} %"
+        },
+        "5": {
+          "name": "Lungs",
+          "value": "{{value}} %"
+        },
+        "title": "Daily mood",
+        "quite": "Quit smoking"
+      },
+      "feeling": "Trainer",
+      "start": "It's easy to quit smoking",
+      "buttons": {
+        "start": "I won't smoke anymore",
+        "iWant": "I want to smoke",
+        "iSmoked": "I lit a cigarette",
+        "iDontWant": "I don't want to smoke",
+        "tSmoked": "If you have smoked, the counter will reset and you will have to start over, going through all the steps of the program. Additionally, you will have the option to share the reason why you smoked with other community members who are also fighting the habit.",
+        "tWant": "If you have the urge to smoke, you can follow 5 steps that will help you overcome this craving. At step 3, you will be offered a breathing exercise that will help you relax and eliminate stress.",
+        "tDontWant": "If you have successfully overcome the urge to smoke, you will receive a motivational message and be able to share your small victory with other community members."
+      },
+      "messageAuth": {
+        "title": "Sign in",
+        "description": "Complete an easy registration and get twice more benefits."
+      }
+    },
+    "friend": {
+      "header": {
+        "friend": {
+          "btn": "Friends",
+          "title": "Friends list",
+          "description": "Invited: {{value}} ppl."
+        },
+        "people": {
+          "btn": "TOP 100",
+          "title": "Hall of fame",
+          "description": "TOP {{value}} nonsmokers."
+        },
+        "message": {
+          "btn": "Chat",
+          "title": "Chat",
+          "description": "Share your results."
+        }
+      },
+      "message": {
+        "empty": "No messages...",
+        "emptyLoading": "Loading...",
+        "send": "Send a message",
+        "warn": "The following message can be sent to {{value}}",
+        "name": "Message",
+        "alert": {
+          "title": "Attention",
+          "again": "You can't send a message that often.",
+          "format": "You entered an invalid message format",
+          "name": "You don't have a name",
+          "activate": "Mail needs to be activated",
+          "ok": "OK"
+        }
+      },
+      "group": {
+        "nActivity": "Smoker",
+        "button": "Motivate",
+        "add": "Add"
+      },
+      "notification": {
+        "message": "Invite your friend, stop smoking together. Your reward",
+        "coin": "coins. ",
+        "button": "Invite"
+      },
+      "notificationAuth": {
+        "message": "Make the most of the app's functionality. ",
+        "button": "Sign in"
+      },
+      "wifi": {
+        "message": "An error occurred while loading data from the server. ",
+        "button": "Refresh"
+      },
+      "share": {
+        "message": "{{value}} | I've discovered an easy way to stop smoking on Moke smoke."
+      }
+    },
+    "help": {
+      "nav": {
+        "task": "Goals",
+        "cards": "Tips",
+        "progress": "Progress",
+        "course": "Kit"
+      },
+      "premium": "Available by subscription. Cheaper than a pack of cigarettes.",
+      "header": {
+        "task": {
+          "title": "Saving goals",
+          "description": "Make a list of items that you can buy with saved money."
+        },
+        "cards": {
+          "btn": "",
+          "title": "Motivation cards",
+          "description": "The cards will assist you in difficult moments and remind you why you decided to quit smoking. They are a powerful motivational tool and will help you stay on track to achieve your goal."
+        },
+        "progress": {
+          "title": "Doings",
+          "description": "Over the course of 22 days, you will discover how your health, income and surroundings improve. You will realize that you can live without the heavy and expensive harmful habit."
+        },
+        "course": {
+          "title": "It's easy to stop smoking",
+          "description": "Psycological recommendations.",
+          "scondary": "min.",
+          "text": "We provide a personalized approach and tools for controlling the desire to smoke, to help you achieve your goals."
+        }
+      },
+      "tasks": [
+        "Rest at the sea",
+        "Your choice",
+        "Your choice",
+        "Your choice",
+        "Your choice",
+        "Your choice"
+      ],
+      "progress": {
+        "day": "Day",
+        "param_1": "Cigarettes not smoked: {{value}}.",
+        "param_2": "Heart rate: {{value}}%",
+        "param_3": "Less nicotine: {{value}} mg.",
+        "param_4": "Goal: not to smoke for {{value}} / 22 day.",
+        "info": "If you didn't succeed in 22 day, try once again from the beginning."
+      },
+      "cards": [
+        "Everything stinks! From your skin, to your whole house, your clothes, and your fingers and breath.",
+        "Tobacco causes teeth to yellow and creates excess dental plaque.",
+        "Smoking tobacco and the use of smokeless tobacco cause bad breath.",
+        "Tobacco makes your skin wrinkly, making you look older faster. Smoking prematurely ages the skin by wearing away proteins that give the skin elasticity, depleting it of vitamin A and restricting blood flow.",
+        "These wrinkles are more apparent around the lips and eyes and tobacco also makes skin leathery and dry.",
+        "Tobacco smoking increases the risk of developing psoriasis, a noncontagious inflammatory skin condition that leaves itchy, oozing red patches all over the body.",
+        "Over 1 million people die every year from exposure to second-hand smoke.",
+        "Non-smokers exposed to second-hand smoke are at risk of developing lung cancer.",
+        "Cigarettes remain an important cause of accidental fires and resulting deaths.",
+        "E-cigarettes also expose non-smokers and bystanders to nicotine and other harmful chemicals.",
+        "Being exposed to second-hand smoke may increase the risk of progression from tuberculosis infection to active disease.",
+        "Being exposed to second-hand smoke is associated with type 2 diabetes.",
+        "Smokers’ children suffer reduced lung function, which continues to affect them in the form of chronic respiratory disorders in adulthood.",
+        "Exposure of children to e-cigarette liquid continues to pose serious risks. There is a risk of the devices leaking, or of children swallowing the liquid.",
+        "E-cigarettes have been known to cause serious injuries, including burns, through fires and explosions.",
+        "School-aged children exposed to the harmful effects of second-hand smoke are also at risk for asthma through inflammation of the airways to the lungs.",
+        "Children under 2 years of age who are exposed to second-hand smoke in the home could get middle-ear disease possibly leading to hearing loss and deafness.",
+        "Quitting smoking decreases the risk of many diseases related to second-hand smoke in children, such as respiratory diseases (e.g., asthma) and ear infections.",
+        "You want to be a good example for your kids, friends, and loved ones.",
+        "Tobacco use can affect social interactions and relationships negatively.",
+        "Quitting means there are no restrictions on where you can go — you can mingle socially, without feeling isolated or having to go outside to smoke.",
+        "Quitting can make you more productive — you won’t have to stop what you are doing to have a smoke all the time.",
+        "One study found that smokers burn through an average of $1.4 million in personal costs, includes spending on cigarettes, medical costs and lower wages brought on by smoking and exposure to secondhand smoke.",
+        "Tobacco use affects the health and productivity of workers making them prone to missed days at work.",
+        "Tobacco use contributes to poverty by diverting household spending from basic needs such as food and shelter to tobacco.",
+        "Tobacco use burdens the global economy with an estimated US$ 1.4 trillion in healthcare costs for treating the diseases caused by tobacco and lost human capital from tobacco-attributable sickness and death.",
+        "Every year, over 8 million people die from tobacco.",
+        "Tobacco kills half of its users. Use of tobacco in any form robs you of your health and causes debilitating diseases.",
+        "Smoking shisha is just as harmful as other forms of tobacco use.",
+        "Chewing tobacco can cause mouth cancer, tooth loss, brown teeth, white patches and gum disease.",
+        "The nicotine in smokeless tobacco is more easily absorbed than by smoking cigarettes enhancing its addictiveness.",
+        "Tobacco growers are exposed to ill health by nicotine that is absorbed through the skin, as well as exposure to heavy pesticides and exposure to tobacco dust.",
+        "In some countries, children are employed in tobacco farming, which impacts not only their health, but also their ability to attend school.",
+        "The vast majority employed in the overall tobacco sector earn very little, while the big tobacco companies reap enormous profits.",
+        "Heated tobacco products (HTPs) expose users to toxic emissions many of which can cause cancer.",
+        "Heated tobacco products are themselves tobacco products, therefore, switching from conventional tobacco products to HTPs does not equal quitting.",
+        "There is insufficient evidence to support the claim that heated tobacco products (HTPs) are less harmful relative to conventional cigarettes.",
+        "Children and adolescents who use e-cigarettes at least double their chance of smoking cigarettes later in life.",
+        "E-cigarette use increases your risk of heart disease and lung disorders.",
+        "Nicotine in e-cigarettes is a highly addictive drug that can damage children’s developing brains.",
+        "Tobacco use is responsible for 25% of all cancer deaths globally.",
+        "Smokers are up to 22 times more likely to develop lung cancer in their lifetime than non-smokers. Tobacco smoking is the primary cause of lung cancer, causing over two thirds of lung cancer deaths globally.",
+        "Smoking can exacerbate asthma in adults, restricting their activity, contributing to disability and increasing the risk of severe asthma attacks requiring emergency care.",
+        "Just a few cigarettes a day, occasional smoking, or exposure to second-hand smoke increase the risk of heart disease.",
+        "Tobacco smokers have up to twice the risk of stroke and a fourfold increased risk of heart disease.",
+        "Tobacco smoke damages the arteries of the heart, causing the build-up of plaque and development of blood clots, thereby restricting blood flow and eventually leading to heart attacks and strokes.",
+        "Use of nicotine and tobacco products increases the risk of cardiovascular disease.",
+        "Smoking and smokeless tobacco use cause oral cancer, cancers of the lips, throat (pharynx and larynx) and oesophagus.",
+        "Surgical removal of the cancerous larynx can lead to the need for tracheostomy, the creation of a hole in the neck and windpipe that allows the patient to breathe.",
+        "Some studies have also demonstrated a link between tobacco smoking and an increased risk of breast cancer, particularly among heavy smokers and women who start smoking before their first pregnancy.",
+        "Smoking is also known to increase the risk of cervical cancer in women infected with human papillomavirus.",
+        "Smoking causes many eye diseases which, if left untreated, can lead to permanent vision loss.",
+        "Smokers are more likely than non-smokers to develop age-related macular degeneration, a condition that results in irreversible vision loss.",
+        "Smokers also have a higher risk of cataracts, a clouding of the eye’s lens that blocks light. Cataracts cause vision impairment, and surgery is the only option to restore vision.",
+        "Some evidence suggests that smoking also causes glaucoma, a condition that increases pressure in the eye and can damage eyesight.",
+        "Adult smokers are more likely to suffer hearing loss.",
+        "Lifelong tobacco smokers lose at least 10 years of life on average.",
+        "With every puff of a cigarette, toxins and carcinogens are delivered to the body, at least 70 of the chemicals are known to cause cancer.",
+        "The risk of developing diabetes is higher in smokers",
+        "Smoking is a risk factor for dementia, a group of disorders that result in mental decline.",
+        "Alzheimer’s disease is the most common form of dementia, and an estimated 14% of Alzheimer’s cases globally can be attributed to smoking.",
+        "Women who smoke are more likely to experience painful menstruation and more severe menopausal symptoms.",
+        "Tobacco smoke reduces the delivery of oxygen to the body’s tissues.",
+        "Tobacco use restricts blood flow which, if left untreated, can lead to gangrene (death of body tissue) and amputation of affected areas.",
+        "Tobacco smokers are at significantly higher risk than non-smokers for post-surgical complications.",
+        "Tobacco smokers are harder to wean off mechanical ventilation. This often lengthens their intensive care unit (ICU) and overall hospital stay, potentially exposing them to other infection.",
+        "Smokers are more likely to lose bone density, fracture more easily and experience serious complications, such as delayed healing or failure to heal.",
+        "Components of tobacco smoke weaken the immune system, putting smokers at risk of pulmonary infections.",
+        "Smoking also puts immune-compromised individuals, such as those living with cystic fibrosis, multiple sclerosis or cancer, at a higher risk of disease-related comorbidities and premature death.",
+        "Tobacco use and exposure to tobacco smoke during pregnancy increase the risk for fetal death.",
+        "Women who smoke or are exposed to second-hand smoke during pregnancy are at an increased risk of miscarriage.",
+        "Smokers are at higher risk of ectopic pregnancy, a potentially fatal complication for the mother in which the fertilized egg attaches outside the uterus.",
+        "Smoking cessation and protection from exposure to second-hand smoke are especially important for women of reproductive age planning to become pregnant and during pregnancy.",
+        "E-cigarettes pose significant risks to pregnant women who use them, as they can damage the growing fetus.",
+        "Infants born to women who smoke, use smokeless tobacco, or are exposed to second-hand smoke during pregnancy have a higher risk of preterm birth and low birthweight.",
+        "Governments and local authorities pay to clean up tobacco waste, not the tobacco companies themselves. Quit tobacco to protect the environment.",
+        "Cigarette butts are among the most commonly discarded piece of waste globally and are the most frequent item of litter picked up on beaches and water edges worldwide.",
+        "Tobacco smoke can measurably contribute to air pollution levels in a city.",
+        "A single tobacco smoker could contribute over 24,000 metric tons of methane or 5 million metric tons of carbon dioxide to the planet per year.",
+        "E-cigarettes and heated tobacco products may contain batteries that require special disposal as well as chemicals, packaging and other non-biodegradable materials.",
+        "Tobacco production emissions are estimated to equate 3 million transatlantic flights.",
+        "Worldwide, approximately 200 000 hectares are for tobacco agriculture and curing each year."
+      ],
+      "course": [
+        {
+          "title": "The Sinister Trap",
+          "text": "Smoking is the most subtle, sinister trap that man and nature have combined to devise. What gets us into it in the first place? The thousands of adults who are already doing it. They even warn us that it's a filthy, disgusting habit that will eventually destroy us and cost us a fortune, but we cannot believe that they are not enjoying it. One of the many pathetic aspects of smoking is how hard we have to work in order to become hooked. {{n}}{{n}}It is the only drug in nature that prevents you from achieving your aim. Boys usually start because they want to appear tough - it is the Humphrey Bogart/C lint Eastwood image. The last thing you feel with the first cigarette is tough. You dare not inhale, and if you have too many, you start to feel dizzy, then sick. All you want to do is get away from the other boys and throw the filthy things away.{{n}}{{n}}We then spend the rest of our lives trying to explain to ourselves why we do it, telling our children not to get caught and, at odd times, trying to escape ourselves. The trap is so designed that we try to stop only when we have stress in our lives, whether it be health, shortage of money or just plain being made to feel like a leper. As soon as we stop, we have more stress (the fearful withdrawal pangs of nicotine) and the thing that we rely on to relieve stress (our old prop, the cigarette) we now must do without.{{n}}{{n}}Even those smokers who kick the habit (most do, one or more times during their lives) can lead perfectly happy lives yet suddenly become hooked again. The whole business of smoking is like wandering into a giant maze. As soon as we enter the maze our minds become misted and clouded, and we spend the rest of our lives trying to escape. Many of us eventually do, only to find that we get trapped again at a later date.{{n}}{{n}}Let me emphasize that anybody can find it easy to stop smoking, but first we need to establish the facts. No, I do not mean the scare facts. I know you are already aware of them. There is already enough information on the evils of smoking. If that was going to stop you, you would already have stopped. I mean, why do we find it difficult to stop? In order to answer this question we need to know the real reason why we are still smoking."
+        },
+        {
+          "title": "Why don't we quit smoking?",
+          "text": "We all start smoking for stupid reasons, usually social pressures or social occasions, but, once we feel we are becoming hooked, why do we carry on smoking? No regular smoker knows why he or she smokes. If smokers knew the true reason, they would stop doing it.{{n}}{{n}}All smokers know in their heart of hearts that they are mugs. They know that they had no need to smoke before they became hooked. Most of them can remember that their first cigarette tasted awful and that they had to work hard in order to become hooked. The most annoying part is that they sense that non-smokers are not missing anything and that they are laughing at them (it is difficult not to on Budget Day).{{n}}{{n}}However, smokers are intelligent, rational human beings. They know that they are taking enormous health risks and that they spend a fortune on cigarettes in their lifetime. Therefore it is necessary for them to have a rational explanation to justify their habit.{{n}}{{n}}The actual reason why smokers continue to smoke is a subtle combination of the factors that I will elaborate in the next two chapters."
+        },
+        {
+          "title": "Nicotine Addiction 1.0",
+          "text": "Nicotine, a colorless, oily compound, is the drug contained in tobacco that addicts the smoker. It is the fastest addictive drug known to mankind, and it can take just one cigarette to become hooked.{{n}}{{n}}Every puff on a cigarette delivers, via the lungs to the brain, a small dose of nicotine that acts more rapidly than the dose of heroin the addict injects into his veins.{{n}}{{n}}If there are twenty puffs for you in a cigarette, you receive twenty doses of the drug with just one cigarette.{{n}}{{n}}Nicotine is a quick-acting drug, and levels in the bloodstream fall quickly to about half within thirty minutes of smoking a cigarette and to a quarter within an hour of finishing a cigarette. This explains why most smokers average about twenty per day.{{n}}{{n}}As soon as the smoker extinguishes the cigarette, the nicotine rapidly starts to leave the body and the smoker begins to suffer withdrawal pangs.{{n}}{{n}}I must at this point dispel a common illusion that smokers have about withdrawal pangs. Smokers think that withdrawal pangs are the terrible trauma they suffer when they try or are forced to stop smoking. These are, in fact, mainly mental; the smoker is feeling deprived of his pleasure or prop."
+        },
+        {
+          "title": "Nicotine Addiction 2.0",
+          "text": "The actual pangs of withdrawal from nicotine are so subtle that most smokers have lived and died without even realizing they are drug addicts. When we use the term 'nicotine addict' we think we just 'got into the habit'. Most smokers have a horror of drugs, yet that's exactly what they are - drug addicts. Fortunately it is an easy drug to kick, but you need first to accept that you are addicted.{{n}}{{n}}There is no physical pain in the withdrawal from nicotine. It is merely an empty, restless feeling, the feeling of something missing, which is why many smokers think it is something to do with their hands. If it is prolonged, the smoker becomes nervous, insecure, agitated, lacking in confidence and irritable. It is like hunger - for a poison, NICOTINE,{{n}}{{n}}Within seven seconds of lighting a cigarette fresh nicotine is supplied and the craving ends, resulting in the feeling of relaxation and confidence that the cigarette gives to the smoker.{{n}}{{n}}All we know is that we want a cigarette, and when we light it the craving goes, and for the moment we are content and confident again just as we were before we became addicted. However, the satisfaction is only temporary because, in order to relieve the craving, you have to put more nicotine into the body. As soon as you extinguish that cigarette the craving starts again, and so the chain goes on. It is a chain for life - UNLESS YOU BREAK IT."
+        },
+        {
+          "title": "Boredom",
+          "text": "If you are already smoking at this moment, you will probably have already forgotten about it until I reminded you. Another fallacy about smoking is that cigarettes relieve boredom. Boredom is a frame of mind. When you smoke a cigarette your mind isn't saying, 'I'm smoking a cigarette. I'm smoking a cigarette.' The only time that happens is when you have been deprived for a long time or are trying to cut down, or during those first few cigarettes after a failed attempt to stop.{{n}}{{n}}The truth is that cigarettes tend to increase boredom indirectly because they make you feel lethargic, and instead of undertaking some energetic activity smokers tend to lounge around, bored, relieving their withdrawal pangs.{{n}}{{n}}As an ex-chain-smoker I can assure you that there are no more boring activities in life than lighting up one filthy cigarette after another, day in day out, year in year out."
+        },
+        {
+          "title": "Concentration",
+          "text": "Cigarettes do not help concentration. That is just another illusion. When you are trying to concentrate, you automatically try to avoid distractions like feeling cold or hot. The smoker is already suffering: that little monster wants his fix. So when he wants to concentrate he doesn't even have to think about it. He automatically lights up, partially ending the craving, gets on with the matter in hand and has already forgotten that he is smoking.{{n}}{{n}}Cigarettes do not help concentration. They help to ruin it because after a while, even while smoking a cigarette, the smoker's withdrawal pangs cease to be completely relieved. The smoker then increases his intake, and the problem then increases.{{n}}{{n}}If you believe that smoking is a genuine aid to concentration, then worrying about it will guarantee that you won't be able to concentrate. It's the doubting, not the physical withdrawal pangs, that causes the problem. Always remember: it is smokers who suffer withdrawal pangs and not non-smokers. When I extinguished my last cigarette I went overnight from a hundred a day to zero without any apparent loss of concentration."
+        },
+        {
+          "title": "What am I Giving Up?",
+          "text": "ABSOLUTELY NOTHING! The thing that makes it difficult for us to give up is fear. The fear that we are being deprived of our pleasure or prop. The fear that certain pleasant situations will never be quite the same again. The fear of being unable to cope with stressful situations.{{n}}{{n}}Cigarettes do not improve meals. They ruin them. They destroy your sense of taste and smell. Observe smokers in a restaurant, smoking between courses. It is not the meal that they are enjoying; they cannot wait for the meal to be over, as it is interfering with the cigarettes. Many of them do it in spite of the fact that they know it causes offence to non-smokers. It is not that smokers are generally inconsiderate people; it is just that they are miserable without the cigarette. They are between the devil and the deep blue sea. They either have to abstain and be miserable because they cannot smoke, or smoke and be miserable because they are offending other people, feel guilty and despise themselves for it.{{n}}{{n}}Cigarettes do not help social occasions; they destroy them. Having to hold a drink in one hand and a cigarette in the other, trying to dispose of the ash and the continual chain of dogends, trying not to breathe smoke and fumes into the face of the person you are conversing with, wondering whether they can smell your breath or see the stains on your teeth."
+        },
+        {
+          "title": "The Advantages of Being a Smoker",
+          "text": "..."
+        },
+        {
+          "title": "The Willpower Method of Stopping",
+          "text": "It is an accepted fact in our society that it is very difficult to stop smoking. Even books advising you how to do so usually start off by telling you how difficult it is. The truth is that it is ridiculously easy.{{n}}{{n}}If your aim is to run a mile in under four minutes, that's difficult. You may have to undergo years of hard training, and even then you may be physically incapable of doing it. (Much of our achievement lies in the mind. Isn't it strange how difficult it was until Bannister actually did it but nowadays it is commonplace?){{n}}{{n}}However, in order to stop smoking all you have to do is not smoke any more. No one forces you to smoke (apart from yourself) and, unlike food or drink, you don't need it to survive. So if you want to stop doing it, why should it be difficult? In fact, it isn't. It is smokers who make it difficult by using the Willpower Method. I define the Willpower Method as any method that forces the smoker to feel he is making some sort of sacrifice.{{n}}{{n}}It usually takes us a long time to realize that we are hooked because we suffer from the illusion that smokers smoke because they enjoy a cigarette, not because they have to have a cigarette. While we are not enjoying them (which we never do), we suffer from the illusion that we can stop whenever we want to.{{n}}{{n}}So, instead of starting with the feeling 'Great! Have you heard the news? I haven't got to smoke any more,' he starts with a feeling of doom and gloom, as if he were trying to climb Everest, and he firmly believes that once the little monster has got his hooks into you, you are hooked for life. Many smokers even start the attempt by apologizing to their friends and relatives: 'Look. I am trying to give up smoking. I will probably be irritable during the next few weeks. Try to bear with me,' Most attempts are doomed before they start."
+        },
+        {
+          "title": "Beware of Cutting Down",
+          "text": "There is nothing more pathetic than the smoker who is trying to cut down. He suffers from the delusion that the less he smokes, the less he will want to smoke. In fact, the reverse is true. The less he smokes, the longer he suffers the withdrawal pangs; the more he enjoys the cigarette, the more distasteful they become. But that won't stop him smoking. Taste never, ever came into it. If smokers smoked because they enjoyed the taste, nobody would ever smoke more than one cigarette. You find that difficult to believe? OK, let's talk it out. Which is the worst-tasting cigarette? That's right, the first in the morning, the one that in winter sets us coughing and spluttering. Which is one of the most precious cigarettes for most smokers? That's right, the first cigarette in the morning! Now do you really believe you are smoking it to enjoy the taste and smell, or do you think a more rational explanation is that you are relieving nine hours' withdrawal pangs?"
+        },
+        {
+          "title": "Just One Cigarette",
+          "text": "It is just one cigarette that gets us started in the first place.{{n}}It is just one cigarette to tide us over a difficult patch or on a special occasion that defeats most of our attempts to stop.{{n}}{{n}}It is just one cigarette that, when smokers have succeeded in breaking the addiction, sends them back into the trap. Sometimes it is just to confirm that they do not need them any more, and that one cigarette does just that. It tastes horrible and convinces the smoker he will never become hooked again, but he already is.{{n}}{{n}}It is the thought of that one special cigarette that often prevents smokers from stopping. The first one in the morning or the one after a meal.{{n}}{{n}}Get it firmly in your mind there is no such thing as just one cigarette. It is a chain reaction that will last the rest of your life unless you break it.{{n}}{{n}}It is the myth about the odd, special cigarette that keeps smokers moping about it when they stop. Get into the habit of never seeing the odd cigarette or packet - it is a fantasy. Whenever you think about smoking, see a whole filthy lifetime of spending a small fortune just for the privilege of destroying yourself mentally and physically, a lifetime of slavery, a lifetime of bad breath.{{n}}{{n}}In order to make it easy to stop smoking there are certain fundamentals to get clear in your mind. We have already dealt with three of them up to now:{{n}}1. There is nothing to give up. There are only marvelous positive gains to achieve.{{n}}2. Never see the odd cigarette. It doesn't exist. There is only a lifetime of filth and disease,{{n}}3. There is nothing different about you. Any smoker can find it easy to stop."
+        },
+        {
+          "title": "The Final Cigarette 1.0",
+          "text": "Having decided on your timing, you are now ready to smoke that last cigarette. Before you do so, check on the two essentials:{{n}}{{n}}1. Do you fuel certain of success?{{n}}2. Have you a feeling of doom and gloom or a sense of excitement that you are about to achieve something marvelous?{{n}}{{n}}Remember that you never decided to fall into the smoking trap. But that trap is designed to enslave you for life. In order to escape you need to make the positive decision that you are about to smoke your final cigarette.{{n}}{{n}}Perhaps you are worried that you have made this vow several times in the past but are still smoking, or that you will have to go through some awful trauma. Have no fear, the worse thing that can possibly happen is that you fail, and so you have absolutely nothing to lose and so much to gain.{{n}}{{n}}But stop even thinking about failure. The beautiful truth is that it is not only ridiculously easy to quit but you can actually enjoy the process. This time you are going to use EASYWAY! All you need to do is to follow the simple instructions that I'm about to give you:"
+        },
+        {
+          "title": "The Final Cigarette 1.1",
+          "text": "1. Make the solemn vow now and mean it.{{n}}2. Smoke that final cigarette consciously, inhale the filth deeply into your lungs and ask yourself where the pleasure is.{{n}}3. When you extinguish it. do so not with a feeling of: I must never smoke another, or I'm not allowed to smoke another, but with the feeling of: Isn't it great! I'm free! I'm no longer the slave of nicotine! I don't ever have to put these filthy things in my mouth again.{{n}}{{n}}4. Be aware that for a few days, there will be a little nicotine saboteur inside your stomach. You might only know the feeling 'I want a cigarette.' At times I refer to that little nicotine monster as the slight physical craving for nicotine. Strictly this is incorrect, and it is important that you understand why. Because it takes about three weeks for that little monster to die, ex-smokers believe that the little monster will continue to crave cigarettes after the final cigarette has been extinguished, and that they must therefore use willpower to resist the temptation during this period. This is not so. The body doesn't crave nicotine. Only the brain craves nicotine. If you do get that feeling of 'I want a cigarette' over the next few days, your brain has a simple choice. It can either interpret that feeling for what it actually is - an empty insecure feeling started by the first cigarette and perpetuated by every subsequent one, and say to yourself: YIPPEE I'M A NON-SMOKER!{{n}}{{n}}Or you can start craving for a cigarette and suffer it for the rest of your life. Just think for a moment. Wouldn't that be an incredibly stupid thing to do? To say 'I never want to smoke again', then spend the rest of your life saying 'I'd love a cigarette.' That's what smokers who use the Willpower Method do. No wonder they feel so miserable. They spend the rest of their lives desperately moping for something that they desperately hope they will never have. No wonder so few of them succeed and the few that do never feel completely free.{{n}}{{n}}5. It is only the doubting and the waiting that make it difficult to quit. So never doubt your decision, you know it's the correct decision. If you begin to doubt it, you will put yourself into a no-win situation. You will be miserable if you crave a cigarette but can't have one. You will be even more miserable if you do have one. No matter what system you are using, what is it that you are trying to achieve when you quit, smoking? Never to smoke again? No! Many ex-smokers do that but go through the rest of their lives feeling deprived. What is the real difference between smokers and non- smokers? Non-smokers have no need or desire to smoke, they do not crave cigarettes and do not need to exercise willpower in order not to smoke. That's what you are trying to achieve, and it is completely within your power to achieve it. You don't have to wait to stop craving cigarettes or to become a non-smoker."
+        },
+        {
+          "title": "The Final Cigarette 1.2",
+          "text": "You do it the moment you extinguish that final cigarette, you have cut off the supply of nicotine: YOU ARE ALREADY A HAPPY NON-SMOKER!!!{{n}}{{n}}And you will remain a happy non-smoker provided:{{n}}1. You never doubt your decision.{{n}}2. НYou don't wait to become a non-smoker. If you do, you will merely be waiting for nothing to happen, which will create a phobia.{{n}}3. You don't try not to think about smoking or wait for the 'moment of revelation' to come. Either way you will merely create a phobia.{{n}}4. You don't use substitutes.{{n}}5. You sec all other smokers as they really are and pity them rather than envy them.{{n}}Whether they be good days or bad days, you don't change your life just because you've quit smoking. If you do you will be making a genuine sacrifice and there is no need to. Remember, you haven't given up living. You haven't given up anything. On the contrary, you've cured yourself from an awful disease and escaped from an insidious prison. As the days go by and your health, both physical and mental improves, the highs will appear higher and the lows less low than when you were a smoker.{{n}}7. Whenever you think about smoking either during the next few days or the rest of your life, you think: YIPPEE. I'M A NON-SMOKER!!!"
+        }
+      ]
+    },
+    "settings": {
+      "header": {
+        "title": "Settings",
+        "description": "All the necessary in one place."
+      },
+      "profile": {
+        "edit": "Edit"
+      },
+      "client": {
+        "name": "Name and Surname",
+        "cigarette": "Cigarettes per day",
+        "cigaretteCount": "Cigarettes in a pack",
+        "price": "Price for a pack of cigarettes",
+        "howOffen": "Interval between cigarettes"
+      },
+      "auth": {
+        "info": "Sign In",
+        "button": "Continue with {{param}}",
+        "buttonEmail": "Use Email",
+        "response": {
+          "msg1": "Data synchronization",
+          "msg2": "Saving purchases for coins",
+          "msg3": "Communication with people",
+          "msg4": "Friends and honors board"
+        },
+        "or": "OR",
+        "client": "Sign in / Sign up",
+        "login": "Sign in",
+        "registration": "Sign up",
+        "logout": "Log out",
+        "change": "Change password",
+        "accept": "Confirm your email",
+        "clear": "Reset statistics",
+        "titleProfile": "Profile",
+        "titleSett": "Control"
+      },
+      "info": {
+        "subscription": "Subscription",
+        "coin": "Coins",
+        "review": "Leave a feedback",
+        "author": "About the developer",
+        "confidentiality": "Privacy policy",
+        "remove": "Delete your account",
+        "lang": "Select language",
+        "sysLang": "System language",
+        "currency": "Select сurrency",
+        "sysCurrency": "System сurrency",
+        "theme": "Appearance",
+        "themeLang": "Automatic",
+        "themeLight": "Light",
+        "themeDark": "Dark"
+      },
+      "switch": {
+        "notification": "Notification",
+        "vibrator": "Vibration"
+      }
+    },
+    "sheet": {
+      "login": {
+        "input": {
+          "mail": "Email",
+          "password": "Password"
+        },
+        "link": {
+          "fetch": "Log in",
+          "have": "Don't have an account?",
+          "ihave": "Do you have an account?",
+          "forgot": "Forgot your password?"
+        },
+        "showMessage": {
+          "emailWrong": "Wrong email or password.",
+          "emailEmpty": "Type your email.",
+          "passwordEmpty": "Type your password.",
+          "success": "Congratulations! You have successfully logged into your account."
+        }
+      },
+      "registration": {
+        "input": {
+          "name": "Name",
+          "email": "Email",
+          "password": "Password",
+          "newPassword": "New Password",
+          "repeatPassword": "Repeat password"
+        },
+        "link": {
+          "reg": "Register",
+          "change": "Send"
+        },
+        "showMessage": {
+          "emailExist": "This email is already registered",
+          "nameEmpty": "Name is required",
+          "emailEmpty": "Type your email.",
+          "passwordEmpty": "Password is required.",
+          "newPasswordEmpty": "New password is required.",
+          "repeatPasswordEmpty": "Password and Confirm password fields don't match.",
+          "success": "You have successfully registered, the confirmation code has been sent to your email."
+        }
+      },
+      "change": {
+        "showMessage": {
+          "success": "You have successfully changed your account password.",
+          "error": "You have entered the wrong password."
+        }
+      },
+      "issue": {
+        "title": "Confirm email",
+        "subTitle": "Check your email",
+        "input": {
+          "token": "Confirmation code"
+        },
+        "link": {
+          "submit": "Confirm",
+          "reload": "Re-send the code"
+        },
+        "showMessage": {
+          "requestLimit": "You can't request the code that often",
+          "tokenWrongFormat": "Wrong confirmation code format.",
+          "tokenWrong": "Wrong confirmation code.",
+          "successAccept": "Congratulations! You have successfully confirmed your email.",
+          "successSend": "Confirmation code was successfully sent to your email."
+        }
+      },
+      "forgot": {
+        "title": "Restore access",
+        "input": {
+          "email": "Email",
+          "token": "Confirmation code",
+          "password": "New password",
+          "repeatPassword": "Repeat password"
+        },
+        "link": {
+          "submit": "Submit",
+          "change": "Change password"
+        },
+        "showMessage": {
+          "emailWrong": "Wrong email.",
+          "tokenEmpty": "Wrong password reset code format.",
+          "tokenWrong": "Wrong password reset code, please check your email once again.",
+          "tokenSucces": "The confirmation code has been sent to your emal, please use the code to change the password.",
+          "requestLimit": "You can't request the password reset code that often",
+          "changeSuccess": "Your password has been changed successfully, now you can sign in using your new password"
+        }
+      },
+      "help.task": {
+        "title": "Goal motivator",
+        "input.name": "Name",
+        "input.value": "Desired amount"
+      },
+      "setting": {
+        "title": "Questionnaire",
+        "button": "I'm quitting smoking",
+        "error": "All the fields are required..."
+      },
+      "friend": {
+        "coin": "Coins",
+        "friend": "Friends",
+        "rating": "Rating",
+        "title": "Motivators",
+        "description": "Motivate your friend with a messsage and you will get coins + rating.",
+        "input": "Message:",
+        "message": "Already quit smoking? Share your result. I'm waiting...",
+        "button": "Motivate"
+      },
+      "premium": {
+        "title": "Premium access",
+        "information": [
+          "Access the full collection of motivational cards every day.",
+          "Increase your rating and accumulate more coins to get even more benefits in the app.",
+          "Stay informed of all daily events with detailed information.",
+          "Use all your knowledge to quit smoking faster and easier.",
+          "Enjoy the app without advertisements, allowing you to use it comfortably.",
+          "Unlock all your goals and create more to reach your financial planning targets.",
+          "Enjoy full access to our self-hypnosis, even when you're offline.",
+          "Get full access to the features of our pedometer.",
+          "Stand out among other chat participants with a unique icon."
+        ],
+        "free": "Free - 3 days, then {{price}} {{currencySymbol}}/month",
+        "in": "{{price}} {{currencySymbol}} per month",
+        "info": "Can be cancelled at any time",
+        "subscription": "Subscribe",
+        "rebuild": "Restore",
+        "privacy": "Terms & Conditions",
+        "notLoad": "Error when loading items!",
+        "refresh": "Reload"
+      },
+      "purchase": {
+        "coin": "Coins",
+        "rating": "Rating",
+        "subscription": {
+          "title": "Subscription",
+          "stock": "Activated",
+          "nope": "No"
+        },
+        "earn": "Get 5 coins (Ads)",
+        "have": {
+          "title": "Purchase",
+          "description": "If you have the premium access, you don't need to purchase.",
+          "button": "Ok"
+        },
+        "items": {
+          "rating": {
+            "name": "Rating",
+            "value": "{{value}} points",
+            "description": "The rating distinguishes you from your friends. Besides this, you get a higher place in the Hall of Fame.",
+            "button": "Exchange for {{value}} coins.",
+            "alert": {
+              "title": "Rating",
+              "description": "Do you really want to exchange {{value}} coins to {{rating}} rating points?",
+              "cancel": "No",
+              "accept": "Yes"
+            },
+            "showMessage": {
+              "message": "You have successfully exchanged {{value}} coins to {{rating}} rating points."
+            }
+          },
+          "cards": {
+            "name": "Cards",
+            "value": "Complete pack",
+            "description": "The cards motivate you not to smoke, we advice you to read them from time to time.",
+            "button": "Enable for {{value}} coins.",
+            "alert": {
+              "title": "Cards",
+              "description": "Do you really want to exchange {{value}} coins to a complete pack of cards?",
+              "cancel": "No",
+              "accept": "Yes"
+            },
+            "showMessage": {
+              "message": "You've got the full pack of cards."
+            }
+          },
+          "learn": {
+            "name": "Course plan",
+            "value": "Full version",
+            "description": "The course plan is very important. It helps you to find solutions in different situations.",
+            "button": "Enable for {{value}} coins.",
+            "alert": {
+              "title": "Course plan",
+              "description": "Do you really want to exchange {{value}} coins to the full course plan?",
+              "cancel": "No",
+              "accept": "Yes"
+            },
+            "showMessage": {
+              "message": "You've got the full course plan."
+            }
+          },
+          "clean": {
+            "name": "Stats",
+            "value": "Safe reset",
+            "description": "Reset achievements without loosing the coins and the rating if you want to start from the beginning.",
+            "button": "Reset for {{value}} coins.",
+            "alert": {
+              "title": "Stats",
+              "description": "Do you really want to reset achivements without loosing all the coins and the rating for {{value}} coins?",
+              "cancel": "No",
+              "accept": "Yes"
+            },
+            "showMessage": {
+              "message": "You have successfully reset the achievements without loosing the coins and the rating."
+            }
+          },
+          "task": {
+            "alert": {
+              "title": "Add goal",
+              "description": "Do you really want to exchange {{value}} coins for one more goal?",
+              "cancel": "No",
+              "accept": "Yes"
+            }
+          }
+        }
+      }
+    },
+    "detached": {
+      "scan": {
+        "text": "Find a friend",
+        "textCamera": "Point your camera at the QR code",
+        "camera": "Add a friend",
+        "code": "QR-code"
+      },
+      "friend": {
+        "title": "QR-code",
+        "This is your id": "You can't add yourself to your friend list.",
+        "Invalid id": "Friend not found",
+        "Friend not found": "Friend not found",
+        "Email not activated your frinds": "Your friend's email was not activated.",
+        "Friends already": "Friends already",
+        "response": "Could not connect to server. Please try again later."
+      },
+      "ghost": {
+        "title": "Nicotine diversionist",
+        "description": "We smoke to feed our little beast. It takes about three weeks for the little beast to die. Your body doesn't starve for nicotine. It's just your brain that strave for it. Every time when you resist temptation, you inflict another fatal blow to the diversionist.",
+        "btn1": "Give a kick to the diversionist",
+        "btn2": "Say goodbye to the diversionist",
+        "btn3": "Make fun of the diversionist"
+      },
+      "nosmoke": {
+        "title": "HURRAY, I don't smoke!",
+        "description": "You will get coins and rating for every small victory. You may use the coins within the app."
+      },
+      "motivate": {
+        "title": "You are a real friend!"
+      },
+      "smoke": {
+        "title": "It's easy to quit smoking",
+        "description": "Don't be discouraged if you've given in and smoked again. This is not a failure, but only a moment of weakness on the path to success. Remember all the reasons why you wanted to quit smoking and keep moving forward. Every day, every moment of your life is an opportunity to improve your health and quality of life. Don't give up, you can do this!",
+        "btn1": "Reset the achievement(Adviced)",
+        "btn2": "I smoked. I won't smoke again."
+      },
+      "dashboard.bank": {
+        "title": "Money saved",
+        "type1": " / day",
+        "type2": " / week",
+        "type3": " / month",
+        "type4": " / year"
+      },
+      "dashboard.more.time": {
+        "title": "Time saved",
+        "descrpition": "In fact, smoking steals quite a bit of your day. In average, it takes about 5 minutes for one cigarette. You waste about 100 minutes per day for smoking!"
+      },
+      "dashboard.ciggy": {
+        "title": "Cigarettes not smoked",
+        "type1": " / day",
+        "type2": " / week",
+        "type3": " / month",
+        "type4": " / year"
+      },
+      "dashboard.health": {
+        "title": "Added to your longevity",
+        "descrpition": "Quitting smoking will help you look and feel better, improving the quality of your life and health."
+      },
+      "dashboard.energy": {
+        "title": "Added to your energy",
+        "description": "Without smoking, you'll have more energy and strength to do everything you want in life."
+      },
+      "dashboard.lungs": {
+        "title": "Lungs recovery",
+        "descrpition": "The more your body moves, the more intense your breathe is - the faster some harmful accumulated compounds and dirt are removed."
+      },
+      "help.task.buy": {
+        "title": "New goal",
+        "coin": "{{value}} coins",
+        "button": "Exchange"
+      }
+    },
+    "alert": {
+      "clear": {
+        "title": "Caution!",
+        "description": "Do you really want to reset all your achievements?",
+        "cancel": "No",
+        "accept": "Yes"
+      },
+      "remove": {
+        "title": "Caution!",
+        "description": "Deletion erases all personal information associated with the account. After that, you will never be able to access this account again.",
+        "cancel": "Cancel",
+        "accept": "Delete"
+      },
+      "friendAdd": {
+        "title": "Suggestion",
+        "description": "You can't add more friends. Premium access required.",
+        "button": "Ok"
+      },
+      "logout": {
+        "title": "Warning",
+        "description": "Your achievements will be reset. Data will be returned upon re-entry",
+        "cancel": "Cancel",
+        "accept": "Log out",
+        "message": "You have successfully logged out of your account."
+      },
+      "permission": {
+        "camera": {
+          "title": "Privacy",
+          "description": "You need to provide the access to your camera to scan the QR-code. Would you like to see the settings?",
+          "cancel": "No",
+          "accept": "Yes"
+        },
+        "notification": {
+          "title": "Privacy",
+          "description": "You need to provide the access to the push-notifications. Would you like to see the settings?",
+          "cancel": "No",
+          "accept": "Yes"
+        }
+      },
+      "purchase": {
+        "premium": {
+          "title": "Subscription",
+          "button": "Ok",
+          "description": {
+            "isset": "Your premium account is already active.",
+            "succes": "You have successfully restored your premium access.",
+            "empry": "You have no active subscription.",
+            "error": "Error, please try later."
+          }
+        },
+        "coin": {
+          "deficiency": {
+            "title": "Exchange",
+            "description": "Insufficient coins to make the exchange!",
+            "accept": "Close"
+          },
+          "success": {
+            "title": "Exchange",
+            "description": "Exchange completed successfully!",
+            "accept": "Close"
+          },
+          "unauthorized": {
+            "title": "Exchange",
+            "description": "Connection error, please try later!",
+            "accept": "Close"
+          },
+          "error": {
+            "title": "Exchange",
+            "description": "Exchange error, please try later!",
+            "accept": "Close"
+          },
+          "present": {
+            "title": "Exchange",
+            "description": "You already have this feature!",
+            "accept": "Close"
+          }
+        }
+      }
+    },
+    "message": {
+      "error": {
+        "Network Error": {
+          "title": "Error",
+          "message": "Could not connect to server. Please try again later..."
+        },
+        "network": {
+          "title": "Error",
+          "message": "Could not connect to server. Please try again later..."
+        }
+      }
+    },
+    "notification": {
+      "smoke": {
+        "title": "{{value}} - Motivator",
+        "body": "Please, estimate your current state. It will help to quit smoking more rapidly."
+      }
+    }
+  }
+}

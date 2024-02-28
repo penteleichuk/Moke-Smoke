@@ -1,0 +1,984 @@
+{
+  "translation": {
+    "system": {
+      "more": "tutti",
+      "accept": "Applicare"
+    },
+    "validation": {
+      "email": "Formato email non valido",
+      "required": "Il campo è obbligatiorio.",
+      "min": "Il campo deve contenere almeno {{min}} caratteri.",
+      "max": "Il campo deve contenere un massimo di {{max}} caratteri."
+    },
+    "term": {
+      "link1": "Termini e le Condizioni",
+      "link2": "l'Informativa sulla privacy",
+      "text": "Proseguendo, accetti i Termini e le Condizioni d'uso di Moke smoke e confermi di aver letto l'Informativa sulla privacy di Moke smoke."
+    },
+    "tracker": {
+      "description": "Ogni giorno devi camminare almeno 50 minuti di fila a un ritmo medio. Questo aumenterà il livello degli ormoni della felicità, che sostituiranno le sigarette. Questo renderà il processo di disintossicazione molto più semplice.",
+      "error": "Si è verificato un errore durante il caricamento dei dati, probabilmente non hai concesso l'accesso ai tuoi dati. È necessario accedere alle impostazioni del dispositivo e concedere l'autorizzazione.",
+      "nav": {
+        "1": "ieri",
+        "2": "oggi"
+      },
+      "need": "{{min}} minuti.",
+      "header": {
+        "1": "Passi",
+        "2": "KM",
+        "3": "Minuti"
+      }
+    },
+    "audio": {
+      "title": "Autoipnosi",
+      "header": "I dati della traccia audio sono destinati all'uso come sottofondo durante le attività quotidiane, prima di dormire, al mattino o quando si ha voglia di fumare.",
+      "footer": "I diritti d'autore delle tracce audio utilizzate in questa applicazione appartengono ai creatori dell'app. Qualsiasi uso, riproduzione o distribuzione non autorizzata di queste tracce costituisce una violazione dei diritti d'autore e può comportare conseguenze legali. Tutti i diritti riservati.",
+      "removeLink": "Rimuovi le tracce salvate",
+      "dialog": {
+        "title": "Tracce audio",
+        "description": "Vuoi davvero eliminare tutte le tracce di meditazione?",
+        "btn1": "No",
+        "btn2": "Sì"
+      },
+      "lists": [
+        {
+          "track": "Triggers",
+          "Album": "Non fumare",
+          "tags": ["Superamento", "Trigger", "Abitudini"],
+          "title": "Superare i trigger",
+          "description": "Eliminare i trigger per smettere di fumare."
+        },
+        {
+          "track": "Cravings",
+          "Album": "Non fumare",
+          "tags": [
+            "Controllo",
+            "Impostazioni",
+            "Forza di volontà",
+            "Gestione dello stress"
+          ],
+          "title": "Controllo delle impostazioni",
+          "description": "Controllare i desideri per smettere di fumare."
+        },
+        {
+          "track": "Peace",
+          "Album": "Non fumare",
+          "tags": ["Pace", "Rilassamento", "Mindfulness"],
+          "title": "Pace interiore",
+          "description": "Trova la pace interiore per smettere di fumare."
+        },
+        {
+          "track": "Meditation",
+          "Album": "Non fumare",
+          "tags": ["Meditazione", "Mindfulness", "Rilassamento"],
+          "title": "Meditazione per smettere di fumare",
+          "description": "Medita per smettere di fumare e trovare la pace interiore."
+        },
+        {
+          "track": "Passion",
+          "Album": "Non fumare",
+          "tags": ["Meditazione", "Desideri", "Pace", "Impostazioni"],
+          "title": "Scoperta della passione",
+          "description": "Scopri la passione per uno stile di vita sano."
+        }
+      ]
+    },
+    "feed": {
+      "title": "La mia bacheca",
+      "empty": "Nessuna registrazione",
+      "comment": "Commenti",
+      "info": [
+        "1. La bacheca degli utenti attivi è il posto dove le persone che vogliono smettere di fumare possono condividere i propri pensieri e ispirare gli altri utenti dopo aver completato l'\"Allenatore\". Qui puoi pubblicare i tuoi messaggi in una delle tre categorie: \"ho fumato\", \"avevo voglia di fumare\" e \"non ho fumato\".",
+        "2. Inoltre, gli altri utenti possono lasciare commenti ed emozioni alle tue pubblicazioni, creando una comunità di persone che ti supportano nel smettere di fumare. Puoi condividere i tuoi pensieri e sentimenti e ricevere motivazione e supporto dagli altri utenti.",
+        "3. Questo è un sistema incredibilmente utile che può aiutarti a smettere di fumare. Più condividi i tuoi pensieri, maggiori saranno le possibilità di successo. Ma non è tutto qui. Con il tempo, quando condividerai costantemente i tuoi pensieri, potrai accedere a una chatbot con una rete neurale. Questa rete neurale sarà in grado di analizzare le tue pubblicazioni e fornirti raccomandazioni individuali basate sui successi degli altri utenti.",
+        "Alla fine, questo sistema non solo crea una comunità che ti supporta nel smettere di fumare, ma raccoglie anche dati per creare raccomandazioni individuali per smettere di fumare."
+      ],
+      "script": {
+        "danger": [
+          "Non voglio più fumare. Ogni volta che ci penso, mi ricordo che il fumo mi fa male. Un altro giorno di lotta!",
+          "Fumare è un'abitudine sbagliata e lo so. Ma a volte mi sento così tentato di fumare. Devo ricordarmi che non vale la pena distruggere la mia salute per questo!",
+          "Ho fumato oggi e ho capito che ho ancora molto lavoro da fare su questa abitudine. Ma so che non rinuncerò e continuerò a combattere contro il fumo!",
+          "Oggi ho avuto una ricaduta e ho fumato una sigaretta, ma non mi arrenderò. Riprenderò il controllo della mia vita e continuerò a combattere contro il fumo!",
+          "Ho capito che fumare mi sta danneggiando la salute e la vita. Ho deciso di prendere in mano la mia vita e smettere di fumare, oggi e per sempre!"
+        ],
+        "wrong": [
+          "Ho sentito la mancanza di fumare oggi, ma non ho ceduto. Sono fiero di me stesso per essere riuscito a vincere questa forte voglia!",
+          "Il pensiero di una sigaretta mi perseguita, ma so di dover combattere contro questa abitudine. Farò vedere a questa abitudine chi comanda qui!",
+          "Ho così tanta voglia di una sigaretta, che mi sento come se non potessi farcela. Ma mi ricorderò che questa è solo una voglia e che non devo combattere da solo!",
+          "Oggi ho avuto una forte voglia di fumare, ma ho resistito. Sono felice di essere stato più forte della mia dipendenza e di aver preso la decisione giusta!",
+          "Nonostante la forte voglia di fumare, ho deciso di non farlo e di continuare sulla strada della salute e della felicità. La vita è troppo preziosa per sprecarla con il fumo!"
+        ],
+        "success": [
+          "Non ho fumato oggi e mi sento fantastico. Un altro giorno di felicità e salute per me!",
+          "Non fumo da molto tempo e mi sento più forte e più sano che mai. L'abitudine di fumare è un ricordo lontano per me!",
+          "Sono fiero di aver smesso di fumare. Senza di esso, mi sento più libero e più felice. Continuerò a combattere contro questa abitudine per sempre!",
+          "Essere libero dal fumo è stato il miglior regalo che abbia mai fatto a me stesso. Continuerò a celebrare ogni giorno senza fumo come un successo personale e un passo avanti verso una vita più sana!",
+          "Sono così felice di aver finalmente detto addio al fumo. Ora posso godermi la vita senza dovermi preoccupare del danno che il fumo può causare al mio corpo e alla mia mente."
+        ]
+      },
+      "screen": {
+        "title": "Attività della bacheca",
+        "description": "Scrivi il tuo post o scegli uno dalla lista qui sotto per condividere la tua esperienza nella bacheca delle attività. Più spesso condividi le tue esperienze e pensieri, maggiori saranno le possibilità di successo. Inoltre, puoi accedere a un chatbot con una rete neurale che ti aiuterà in base all'analisi dei tuoi post e risultati.",
+        "description2": "Puoi scrivere i tuoi post e condividere la tua esperienza nella Cronologia delle attività. Più spesso condividi la tua esperienza e i tuoi pensieri, più possibilità hai di avere successo."
+      },
+      "tooltip": {
+        "remove": "Rimuovere la registrazione",
+        "report": "Segnala la registrazione"
+      },
+      "message": {
+        "title": "Reclamo",
+        "success": "Dopo aver verificato il tuo reclamo, i moderatori invieranno una risposta al tuo indirizzo email, dove comunicheranno i risultati della moderazione.",
+        "isset": "Hai già inviato un reclamo. Il tuo reclamo è in fase di esame."
+      }
+    },
+    "author": {
+      "title": "Vasya Penteleichuk",
+      "text": "Mi occupo di sviluppo di applicazioni mobili e Front-end (utilizzo un po' di sviluppo backend con Express.js e NestJS), ho avuto l'opportunità di lavorare su piattaforme freelance, in outsourcing e in aziende produttrici, ho anche partecipato a diversi start-up."
+    },
+    "verify": {
+      "title": "Conferma via email",
+      "info": "Si prega di inserire il codice a 5 cifre inviato a {{email}}",
+      "re": "Codice di rispedizione"
+    },
+    "forgot": {
+      "send": "Inserisci la tua email qui sotto per ricevere le istruzioni per il ripristino della password.",
+      "change": "La tua nuova password deve essere diversa da quelle utilizzate in precedenza."
+    },
+    "review": {
+      "description": "Apprezziamo il tuo parere! Ti preghiamo di lasciare un feedback sulla nostra applicazione e aiutarci a migliorarla. Grazie per il tuo sostegno!"
+    },
+    "notifications": {
+      "description": "Ti consigliamo di attivare le notifiche per ricevere consigli dal nostro personal trainer e rimanere sempre aggiornato sugli ultimi esercizi.",
+      "btn": "Attiva notifiche"
+    },
+    "calendar": {
+      "1": "lun",
+      "2": "mar",
+      "3": "mer",
+      "4": "gio",
+      "5": "ven",
+      "6": "sab",
+      "7": "dom",
+      "title": "Non ho fumato {{value}}"
+    },
+    "times": {
+      "d": "g",
+      "h": "o",
+      "m": "m",
+      "s": "s"
+    },
+    "chat": {
+      "title": "Circolo chiuso",
+      "people": "Partecipanti"
+    },
+    "global": {
+      "title": "CLASSIFICA"
+    },
+    "friends": {
+      "qr": "Scansiona il codice QR per aggiungere un amico alla tua lista di amici.",
+      "add": "Con l'aiuto del codice QR, il tuo amico può aggiungerti alla sua lista di amici."
+    },
+    "breathe": {
+      "1": {
+        "title": "Regola №1",
+        "description": "La regola della prima sigaretta",
+        "info": "Quando ti alzi al mattino, cerca di posticipare il momento di fumare la prima sigaretta il più a lungo possibile, almeno per mezz'ora, un'ora, fino a pranzo o sera. In questo modo imparerai a controllarti. Se non fumi la prima, non fumerai nemmeno la seconda. Tuttavia, non bisogna distrarsi - se hai saltato la prima, non cominciare con la seconda. Se succede che fumi una sigaretta, applica la stessa regola alla successiva. In questo modo ridurrai significativamente il numero di sigarette fumate durante il giorno. Il tuo \"mostro del nicotina\" del mondo interiore inizierà a soffrire di fame e allora potrai applicare la seconda regola."
+      },
+      "2": {
+        "title": "Regola №2",
+        "description": "Bicchiere d'acqua",
+        "info": "Prima di fumare una sigaretta, è necessario bere un bicchiere d'acqua. Basta bere un bicchiere di acqua non gassata. Fai questo prima di ogni desiderio di fumare. Sì, dovrai andare più spesso in bagno, ma credimi, non è così dannoso per la salute come la sigaretta stessa."
+      },
+      "3": {
+        "title": "Regola №3",
+        "description": "Addestriamo il cervello a combattere contro il desiderio di fumare.",
+        "round": {
+          "start": "Inizio",
+          "inhale": "Inspirazione",
+          "exhale": "Espirazione",
+          "hold": "Выдох"
+        },
+        "hold": "Presa"
+      },
+      "4": {
+        "title": "Regola №4",
+        "description": "Ormoni della felicità",
+        "info": "Ti garantiamo il 100% di risultato se seguirai queste tre regole, più una in più. Ogni giorno devi camminare a piedi almeno 50 minuti o nuotare 30 minuti senza pause a un ritmo medio. Questo aumenterà i livelli di ormoni di felicità che ti sostituiranno le sigarette. Questo semplificherà significativamente il processo di smettere."
+      },
+      "5": {
+        "title": "Regola №5",
+        "description": "Consapevolezza",
+        "info": "Quando inizi a pensare di fumare, digli subito \"STOP! Non voglio fumare. STOP! Non ci penserò più.\""
+      }
+    },
+    "navigation": {
+      "home": "Home",
+      "chat": "Chat",
+      "global": "TOP",
+      "friends": "Umore",
+      "help": "Aiuto",
+      "settings": "Impostazioni"
+    },
+    "welcome": {
+      "message": "Smettere di fumare è un'abitudine difficile da abbandonare, ma abbiamo creato un'applicazione che può aiutarti a farlo. Ottieni un piano personalizzato, supporto della comunità e promemoria motivazionali. Segui obiettivi e realizzazioni giornaliere e ricevi consigli per uno stile di vita sano. Prova oggi e smettere di fumare sarà più facile!",
+      "button": "Inizia",
+      "profile": "Analisi del fumo",
+      "nav": {
+        "start": "Inizia",
+        "skip": "Salta",
+        "next": "Avanti"
+      },
+      "send": "Proviamo"
+    },
+    "home": {
+      "header": {
+        "title": "Ciao, {{userName}}",
+        "noName": "Ciao, Utente!",
+        "guest": "Utente",
+        "description": "L'ultima volta fumato {{days}} fa.",
+        "descriptionMsg": "Una soluzione facile per smettere di fumare.",
+        "nav": {
+          "title": "Motivazione",
+          "first": "Conoscenza",
+          "saving": "Economia",
+          "next": "Carte",
+          "hip": "Ipnosi",
+          "tracker": "Contapassi"
+        }
+      },
+      "charts": {
+        "title": "Monitoraggio",
+        "success": "Non fumavo",
+        "wrong": "Ricercato",
+        "danger": "Fumato",
+        "empty": "Nessuna statistica"
+      },
+      "dashboard": {
+        "0": {
+          "name": "Denaro",
+          "value": "{{value}}"
+        },
+        "1": {
+          "name": "Tempo",
+          "value": "{{value}} ore."
+        },
+        "2": {
+          "name": "Non fumati",
+          "value": "{{value}} pz."
+        },
+        "3": {
+          "name": "Alla longevità",
+          "value": "{{value}} ore."
+        },
+        "4": {
+          "name": "Energia",
+          "value": "{{value}} %"
+        },
+        "5": {
+          "name": "Polmoni",
+          "value": "{{value}} %"
+        },
+        "title": "Umore quotidiano",
+        "quite": "Smesso di fumare"
+      },
+      "feeling": "Allenatore",
+      "start": "Smettere di fumare è facile",
+      "buttons": {
+        "start": "Non fumerò più",
+        "iWant": "Ho voglia di fumare",
+        "iSmoked": "Ho fumato",
+        "iDontWant": "Non ho voglia di fumare",
+        "tSmoked": "Se hai fumato, il contatore si azzera e dovrai ricominciare da capo, passando attraverso tutti i passaggi del programma. Inoltre, avrai la possibilità di condividere il motivo per cui hai fumato con altri membri della comunità che lottano anche contro l'abitudine al fumo.",
+        "tWant": "Se hai voglia di fumare, puoi seguire 5 passaggi che ti aiuteranno a superare questa voglia. Al terzo passaggio ti verrà offerto un esercizio di respirazione che ti aiuterà a rilassarti e ad eliminare lo stress.",
+        "tDontWant": "Se sei riuscito a superare la voglia di fumare, riceverai un messaggio motivazionale e potrai condividere la tua piccola vittoria con gli altri membri della comunità."
+      },
+      "messageAuth": {
+        "title": "Autorizzazione",
+        "description": "Completa una semplice registrazione e ottieni il doppio delle opportunità."
+      }
+    },
+    "friend": {
+      "header": {
+        "friend": {
+          "btn": "Amici",
+          "title": "Lista di amici",
+          "description": "Invitati: {{value}}."
+        },
+        "people": {
+          "btn": "TOP 100",
+          "title": "Albo d'oro",
+          "description": "TOP {{value}} non-fumatori."
+        },
+        "message": {
+          "btn": "Chat",
+          "title": "Chat",
+          "description": "Condividi i tuoi risultati."
+        }
+      },
+      "message": {
+        "empty": "Nessun messaggio...",
+        "emptyLoading": "Caricamento in corso...",
+        "send": "Mandare un messaggio",
+        "warn": "È possibile inviare il seguente messaggio a {{value}}",
+        "name": "Messaggio",
+        "alert": {
+          "title": "Attenzione",
+          "again": "Non puoi inviare un messaggio così spesso.",
+          "format": "Hai inserito un formato messaggio non valido",
+          "name": "Non hai un nome",
+          "activate": "La posta deve essere attivata",
+          "ok": "OK"
+        }
+      },
+      "group": {
+        "nActivity": "Fumatore",
+        "button": "Motivare",
+        "add": "Aggiungere"
+      },
+      "notification": {
+        "message": "Invita un'amico, smettete di fumare insieme. Premio",
+        "coin": "monete.",
+        "button": "Invita"
+      },
+      "notificationAuth": {
+        "message": "Ottieni il massimo dalle funzionalità dell'app.",
+        "button": "Accedi"
+      },
+      "wifi": {
+        "message": "Errore durante il caricamento dei dati dal server.",
+        "button": "Aggiorna"
+      },
+      "share": {
+        "message": "{{value}} | Su Moke smoke ho trovato una buona soluzione per smettere di fumare."
+      }
+    },
+    "help": {
+      "nav": {
+        "task": "Obiettivi",
+        "cards": "Carte",
+        "progress": "Progress",
+        "course": "Kit"
+      },
+      "premium": "Disponibile in abbonamento. Costa meno di un pacchetto di sigarette.",
+      "header": {
+        "task": {
+          "title": "Obiettivi di risparmio",
+          "description": "Fai un elenco di oggetti che puoi acquistare con i soldi risparmiati."
+        },
+        "cards": {
+          "title": "Carte motivazionali",
+          "description": "Le schede ti aiuteranno nei momenti difficili e ti ricorderanno perché hai deciso di smettere di fumare. Sono uno strumento potente di motivazione e ti aiuteranno a rimanere sulla strada per raggiungere i tuoi obiettivi."
+        },
+        "progress": {
+          "title": "Sviluppi",
+          "description": "In 22 giorni, scoprirai come la tua salute, i tuoi guadagni e l'ambiente intorno a te migliorano. Ti renderai conto che puoi vivere senza una cattiva abitudine pesante e costosa."
+        },
+        "course": {
+          "title": "Smettere di fumare è facile",
+          "description": "Suggerimenti psicologici.",
+          "scondary": "min.",
+          "text": "Offriamo un approccio personalizzato e strumenti per il controllo del desiderio di fumare, per aiutarti a raggiungere i tuoi obiettivi."
+        }
+      },
+      "tasks": [
+        "Vacanze al mare",
+        "La tua scelta",
+        "La tua scelta",
+        "La tua scelta",
+        "La tua scelta",
+        "La tua scelta"
+      ],
+      "progress": {
+        "day": "Giorno",
+        "param_1": "Sigarette non fumate: {{value}} pz.",
+        "param_2": "Ritmo cardiaco: {{value}}%",
+        "param_3": "Meno nicotina: {{value}} mg.",
+        "param_4": "Scopo: non fumare per {{value}} / 22 giorno.",
+        "info": "Se non ci riesci in 22 giorni, riprova daccapo."
+      },
+      "cards": [
+        "Quando fumi, tutto puzza! dalla tua pelle alla casa tutta, i tuoi vestiti, le tue dita e il tuo respiro.",
+        "Il tabacco fa ingiallire i denti e fa produrre un eccesso di placca dentale.",
+        "Il fumo di tabacco e l’uso di tabacco senza fumo provocano l’alitosi (alito cattivo).",
+        "Il tabacco rende la pelle rugosa, facendoti sembrare più vecchio anticipatamente. Il fumo invecchia prematuramente la pelle consumando le proteine ​​che conferiscono elasticità alla pelle, impoverendola di vitamina A e riducendo il flusso sanguigno.",
+        "Le rughe sono più evidenti intorno alle labbra e agli occhi. Il tabacco rende la pelle anche coriacea e secca.",
+        "Oltre 1 milione di persone muoiono ogni anno a causa dell’esposizione al fumo passivo. ",
+        "I non fumatori esposti al fumo passivo sono a rischio di sviluppare il cancro ai polmoni.",
+        "Le sigarette rimangono un’importante causa di incendi accidentali e conseguenti decessi.",
+        "Le sigarette elettroniche espongono anche i non fumatori e gli astanti alla nicotina e ad altri prodotti chimici nocivi.",
+        "L’esposizione al fumo passivo può aumentare il rischio di progressione dall’infezione da tubercolosi a malattia attiva.",
+        "L’esposizione al fumo passivo è associata al diabete di tipo 2.",
+        "I bambini fumatori soffrono di una ridotta funzionalità polmonare, che continua a influenzarli sotto forma di disturbi respiratori cronici nell’età adulta. ",
+        "L’esposizione dei bambini al liquido delle sigarette elettroniche continua a comportare gravi rischi. Esiste il rischio che i dispositivi perdano o che i bambini ingeriscano il liquido.",
+        "È noto che le sigarette elettroniche causano lesioni gravi, comprese ustioni, a causa di incendi ed esplosioni.",
+        "I bambini in età scolare esposti agli effetti nocivi del fumo passivo sono anche a rischio di asma a causa dell’infiammazione delle vie aeree ai polmoni.",
+        "I bambini di età inferiore a 2 anni che sono esposti al fumo passivo in casa potrebbero contrarre una malattia dell’orecchio medio che potrebbe portare a perdita dell’udito e sordità.",
+        "Smettere di fumare riduce il rischio di molte malattie legate al fumo passivo nei bambini, come malattie respiratorie (ad es. Asma) e infezioni dell’orecchio.",
+        "Tu vuoi essere un buon esempio per i tuoi figli, gli amici e le persone care.",
+        "L’uso del tabacco può influenzare negativamente le interazioni e le relazioni sociali.",
+        "Smettere significa che non ci sono restrizioni su dove puoi andare: puoi socializzare, senza sentirti isolato o dover uscire da un locale chiuso per fumare.",
+        "Smettere di fumare può renderti più produttivo – non dovrai interrompere ciò che stai facendo per fumare tutto il tempo.",
+        "Uno studio ha rilevato che, considerando quelli per le sigarette e per le cure mediche, la perdita di entrate per e gli stipendi più bassi causati dal fumo e dall’esposizione al fumo passivo, l’insieme dei costi per fumatore ammontava a 1,4 milioni di dollari.",
+        "Il consumo di tabacco influisce sulla salute e sulla produttività dei lavoratori, rendendo più probabile la perdita di giorni di lavoro.",
+        "L’uso del tabacco contribuisce alla povertà dirottando sul tabacco la spesa delle famiglie dai bisogni di base come cibo e abitazione.",
+        "L’uso del tabacco grava sull’economia globale con una stima di 1,4 trilioni di dollari in costi sanitari per il trattamento delle malattie causate dal tabacco e del capitale umano perso a causa di malattie e decessi attribuibili al tabacco.",
+        "I fumatori hanno maggiori probabilità di andare incontro a infertilità. Smettere di fumare aumenta la probabilità di rimanere incinta, e riduce il rischio di avere parti prematuri, bambini con basso peso alla nascita e aborti spontanei.",
+        "Il fumo può causare disfunzione erettile. Limita il flusso di sangue al pene creando un’incapacità di raggiungere l’erezione. La disfunzione erettile è più comune nei fumatori ed è molto probabile che persista o diventi permanente a meno che l’uomo non smetta di fumare presto nella vita.",
+        "Il fumo riduce anche il numero di spermatozoi e la loro motilità negli uomini.",
+        "Ogni anno, oltre 8 milioni di persone muoiono a causa del tabacco.",
+        "Il tabacco uccide la metà dei suoi consumatori. L’uso del tabacco in qualsiasi forma ti deruba della tua salute e causa malattie debilitanti.",
+        "Fumare narghilè è dannoso quanto altre forme di consumo di tabacco.",
+        "Il tabacco da masticare può causare cancro alla bocca, perdita dei denti, denti marroni, macchie bianche e malattie gengivali.",
+        "La nicotina nel tabacco non da fumo viene assorbita più facilmente rispetto al fumo di sigarette, aumentando la capacità di stabilire la dipendenza.",
+        "I coltivatori di tabacco sono esposti a problemi di salute a causa della nicotina assorbita attraverso la pelle, ma anche dell’esposizione a pesticidi tossici e alla polvere di tabacco",
+        "In alcuni paesi, nella coltivazione del tabacco, sono impiegati anche i bambini che vedono danneggiata la loro salute e ridotta la possibilità di frequentare la scuola.",
+        "La stragrande maggioranza degli occupati nel settore del tabacco guadagna pochissimo, mentre le grandi compagnie raccolgono enormi profitti.",
+        "I prodotti del tabacco riscaldato (Heated Tobacco Products HTP) espongono chi li usa a sostanze tossiche, molte delle quali possono provocare il cancro.",
+        "I prodotti del tabacco riscaldato sono anche essi prodotti del tabacco: passare dai prodotti del tabacco convenzionali agli HTP non equivale a smettere.",
+        "Non vi sono prove sufficienti per sostenere che i prodotti del tabacco riscaldato (HTP) sono meno dannosi rispetto alle sigarette convenzionali.",
+        "I bambini e gli adolescenti che usano sigarette elettroniche raddoppiano le loro possibilità di diventare fumatori sigarette più tardi nella vita. ",
+        "L’uso di sigarette elettroniche aumenta il rischio di malattie cardiache e polmonari.",
+        "La nicotina che si assorbe con le sigarette elettroniche è una droga che crea forte dipendenza e può danneggiare il cervello in via di sviluppo dei ragazzi.",
+        "​​Il consumo di tabacco è responsabile del 25% di tutti i decessi per cancro a livello globale.",
+        "Il fumo può aggravare l’asma negli adulti, limitando la loro attività, contribuendo alla disabilità e aumentando il rischio di attacchi di asma gravi che richiedono cure di emergenza.",
+        "Il fumo di tabacco raddoppia il rischio di trasformare la tubercolosi in stato latente in una forma attiva e può peggiorare la progressione naturale della malattia. Circa un quarto della popolazione mondiale soffre di tubercolosi latente.",
+        "Bastano solo poche sigarette al giorno, il fumo occasionale o l’esposizione al fumo passivo per far aumentare il rischio di malattie cardiache. ",
+        "I fumatori di tabacco hanno un rischio doppio di ictus cerebrale e quadruplo di malattie cardiache.",
+        "L’uso della nicotina e dei prodotti del tabacco aumenta il rischio di malattie cardiovascolari.",
+        "Il fumo e il consumo di tabacco senza fumo causano il cancro della bocca, tumori delle labbra, della gola (faringe e laringe) e dell’esofago.",
+        "La rimozione chirurgica della laringe cancerosa può portare alla necessità di una tracheotomia, la creazione di un foro nel collo e nella trachea che consente al paziente di respirare.",
+        "Alcuni studi hanno anche dimostrato un legame tra il fumo di tabacco e un aumento del rischio di cancro al seno, in particolare tra le forti fumatrici e le donne che iniziano a fumare prima della loro prima gravidanza.",
+        "È noto che il fumo aumenta il rischio di cancro cervicale nelle donne infettate dal papillomavirus umano.",
+        "Il fumo provoca molte malattie degli occhi che, se non trattate, possono portare alla perdita permanente della vista.",
+        "I fumatori hanno maggiori probabilità dei non fumatori di sviluppare la degenerazione maculare legata all’età, una condizione che si traduce in una perdita irreversibile della vista.",
+        "I fumatori hanno anche un rischio maggiore di cataratta, un annebbiamento del cristallino che blocca la luce. La cataratta causa danni alla vista e la chirurgia è l’unica opzione per ripristinare la vista.",
+        "Alcuni dati suggeriscono che il fumo è anche causa di glaucoma, una condizione che aumenta la pressione all’interno degli occhi e può danneggiare la vista.",
+        "I fumatori adulti hanno maggiori probabilità di soffrire di ipoacusia.",
+        "Chi fuma tabacco per tutta la vita perde, in media, almeno 10 anni di vita.",
+        "Ad ogni tiro di una sigaretta, le sostanze tossiche e gli agenti cancerogeni vengono rilasciati nell’organismo. Sono almeno 70 le sostanze chimiche del fumo che provocano il cancro.",
+        "Il rischio di sviluppare il diabete è maggiore nei fumatori.",
+        "Il fumo è un fattore di rischio per la demenza, un gruppo di disturbi che provocano il declino mentale.",
+        "La malattia di Alzheimer è la forma più comune di demenza e si stima che circa il 14% dei casi di Alzheimer, a livello globale, possa essere attribuito al fumo.",
+        "Le donne che fumano hanno maggiori probabilità di avere mestruazioni dolorose e sintomi della menopausa più gravi.",
+        "La menopausa si verifica 1–4 anni prima nelle donne fumatrici perché il fumo riduce la produzione di uova nelle ovaie, con perdita della funzione riproduttiva e, di conseguenza, livelli di estrogeni più bassi.",
+        "Il fumo di tabacco riduce l’apporto di ossigeno ai tessuti del corpo.",
+        "L’uso del tabacco limita il flusso sanguigno ai vari organi e tessuti. Se la condizione non è trattata, può portare alla cancrena (morte del tessuto corporeo) e necessità di amputazione delle aree colpite.",
+        "L’uso del tabacco aumenta il rischio di malattia parodontale, una malattia infiammatoria cronica che consuma le gengive e distrugge l’osso della mascella, portando alla perdita dei denti.",
+        "I fumatori hanno maggiori probabilità di perdere densità ossea, di fratture e di sperimentare gravi complicazioni, come una guarigione ritardata o una mancata guarigione.",
+        "Il fumo di tabacco indebolisce il sistema immunitario, ponendo i fumatori a rischio di infezioni polmonari.",
+        "Il fumo espone gli individui immunocompromessi, come quelli che convivono con fibrosi cistica, sclerosi multipla o cancro, a un rischio maggiore di co-morbosità e morte prematura, correlate alla malattia.",
+        "L’uso del tabacco e l’esposizione al fumo di tabacco durante la gravidanza aumentano il rischio di morte fetale.",
+        "Le donne che fumano o che sono esposte al fumo passivo durante la gravidanza corrono un rischio maggiore di aborto spontaneo.",
+        "I fumatori corrono un rischio maggiore di gravidanze extrauterine, una complicanza potenzialmente fatale per la madre in cui l’ovulo fecondato si impianta all’esterno dell’utero.",
+        "La cessazione del fumo e la protezione dall’esposizione al fumo passivo sono particolarmente importanti per le donne in età riproduttiva che pianificano una gravidanza e durante la gravidanza.",
+        "Le sigarette elettroniche comportano rischi significativi per le donne in gravidanza che le usano, poiché possono danneggiare la crescita del feto.",
+        "I bambini nati da donne che fumano o usano tabacco non da fumo o sono esposte al fumo passivo durante la gravidanza hanno un rischio maggiore di nascere pretermine e di basso peso alla nascita.",
+        "A pagare per ripulire i rifiuti del tabacco sono i governi e le autorità locali pagano, non le compagnie del tabacco. Smetti di fumare per proteggere l’ambiente.",
+        "I mozziconi di sigaretta sono tra i rifiuti più comunemente abbandonati nell’ambiente e quelli trovati più frequentemente sulle spiagge e sulle rive di corsi d’acqua e del mare, in tutto il mondo.",
+        "Nei mozziconi di sigaretta, sono state identificate diverse sostanze pericolose, inclusi arsenico, piombo, nicotina e formaldeide. Queste sostanze vengono rilasciate dai mozziconi negli ambienti acquatici e nel suolo.",
+        "Il fumo di tabacco può contribuire in modo misurabile ai livelli di inquinamento atmosferico in una città.",
+        "Un singolo fumatore di tabacco può arrivare a immettere nell’atmosfera del pianeta oltre 24.000 tonnellate di metano o 5 milioni di tonnellate di anidride carbonica all’anno.",
+        "Le sigarette elettroniche e i prodotti del tabacco riscaldati possono contenere batterie che richiedono uno smaltimento speciale, ed anche prodotti chimici, imballaggi e altri materiali non biodegradabili.",
+        "Le emissioni dovute alla produzione di tabacco equivalgano a 3 milioni di voli transatlantici.",
+        "In tutto il mondo, ogni anno circa 200.000 ettari di terreno agricolo sono destinati alla tabacchicoltura, incluso l’essiccamento delle foglie."
+      ],
+      "course": [
+        {
+          "title": "La trappola diabolica",
+          "text": "Fumare è la trappola più diabolica che l'uomo, con l'aiuto della natura, sia riuscito a congegnare. Che cosa ci fa cascare nella trappola? Le migliaia di persone che già lo fanno. Nonostante sia considerata un'abitudine schifosa, disgustosa, che prima o poi ci distruggerà e che ci costerà una fortuna, non possiamo credere che non se ne tragga qualche piacere.{{n}}{{n}}È l'unica droga in natura che ti impedisce di ottenere quel che vuoi. I ragazzi normalmente iniziano perché vogliono sembrare dei duri (lo stereotipo dell'Humphrey Bogart, Clint Eastwood, etc.) ma è esattamente il contrario. Non osi aspirarla e, se ne fumi troppe, ti gira la testa e ti viene la nausea. Tutto quello che vuoi veramente è allontanarti dagli altri ragazzi e buttar via quella schifezza.{{n}}{{n}}Passiamo poi la vita cercando di spiegarci perché lo facciamo, a dire ai nostri figli di non cascarci e a tentare di smettere noi stessi. La trappola è strutturata in modo da indurci a smettere solo se stiamo vivendo situazioni stressanti causate, il più delle volte, da problemi di salute, o di danaro o perché gli altri ci fanno sentire emarginati come lebbrosi. Appena smettiamo di fumare la tensione aumenta (le temute crisi d'astinenza da nicotina), ma non possiamo più appoggiarci al sostegno che usavamo in situazioni simili (la nostra stampella: la sigaretta).{{n}}{{n}}Perfino fumatori che smettono di fumare (e la maggior parte lo fa una o più volte nella vita) e vivono perfettamente felici, possono improvvisamente ricascarci di nuovo. Fumare è come entrare in un labirinto gigantesco; appena entrati la nostra mente si fa annebbiata, offuscata, e passiamo il resto dell'esistenza a cercare di uscirne. Buona parte dei fumatori ci riesce, solo però per scoprire, qualche tempo dopo, di esserci ricascata{{n}}{{n}}Io ho le istruzioni per rendere facile il puzzle: ti porterò fuori dal labirinto e ti assicuro che non ci rientrerai mai più. Tutto quello però che devi fare è seguire le istruzioni e sapere che, se ne sbagli o ne salti una, osservare tutte le altre risulterà inutile. Permettimi di ripetere ancora una volta che tutti possono facilmente smettere di fumare, ma prima ci sono dei punti da chiarire, e non mi riferisco agli aspetti che spaventano; quelli li conosci già, se ne parla già a sufficienza e, se ti avessero aiutato a smettere, l'avresti già fatto. Quello che intendo dire è: perché si trova difficile smettere? Per rispondere a questa domanda dobbiamo conoscere le vere ragioni che ci fanno continuare a fumare."
+        },
+        {
+          "title": "Perché continuiamo a fumare?",
+          "text": "Tutti iniziamo a fumare per motivi sciocchi: vediamo gli altri che già lo fanno o subiamo condizionamenti in occasioni sociali. Ma, una volta capito che ne stiamo diventando schiavi, perché non smettiamo? Nessun fumatore sa perché fuma, giacché se lo sapesse smetterebbe immediatamente.{{n}}{{n}}Tutti i fumatori sanno, nel loro intimo, di essere degli stupidi, sanno che prima di iniziare non ne avevano bisogno; la maggior parte riesce anche a ricordare che le prime sigarette erano disgustose e che hanno fatto fatica a imparare. Una delle cose che li disturba di più è sentirsi commiserati da chi non fuma e avere la percezione che questi ultimi non stiano perdendo nulla.{{n}}{{n}}I fumatori sono però anche persone intelligenti e ragionevoli, sanno che corrono terribili rischi per la salute e che spendono una fortuna per fumare, per cui devono potersi dare una spiegazione razionale che giustifichi questa loro attività. II vero motivo per cui i fumatori continuano a fumare è una sottile combinazione di fattori che esaminerò nei prossimi due capitoli e cioè"
+        },
+        {
+          "title": "L'assuefazione alla nicotina 1.0",
+          "text": "L'assuefazione al fumo è causata dalla nicotina, sostanza oleosa ed incolore, che è la droga contenuta nel tabacco. Tra le droghe conosciute è quella che più velocemente provoca una dipendenza e può bastare una sigaretta a determinarne l'assuefazione.{{n}}{{n}}Ogni boccata ne fa arrivare al cervello, attraverso i polmoni, una piccola dose, che agisce più rapidamente della dose di eroina che un tossicodipendente si inietta; se ci sono quindi circa venti tiri in una sigaretta, tu ricevi venti dosi di droga.{{n}}{{n}}La nicotina è uno stupefacente ad azione molto rapida, ma il suo quantitativo nel sangue scende a metà nel giro di mezz'ora, e a un quarto dopo un'ora: questa è la ragione per cui generalmente si fumano venti sigarette al giorno.{{n}}{{n}}Appena finito di fumare il livello di nicotina nel corpo inizia dunque a scendere e il fumatore comincia a soffrire i sintomi di astinenza, A questo punto occorre una puntualizzazione.{{n}}{{n}}Стоит курильщику погасить сигарету, и никотин начинает быстро покидать тело, а у курильщика возникает никотиновое голодание, оно же ломка.{{n}}{{n}}I fumatori considerano \"crisi di astinenza\" tutti gli spiacevoli traumi di cui soffrono quando provano o sono costretti a smettere di fumare; in effetti tutte queste sensazioni sono principalmente mentali e causate dalla convinzione che si è perso o si stia per perdere qualcosa. Ne parlerò ampiamente più avanti. I veri sintomi di astinenza da nicotina sono così irrilevanti che la maggior parte dei fumatori vive e muore senza neanche rendersi conto di essere dei tossicodipendenti."
+        },
+        {
+          "title": "L'assuefazione alla nicotina 2.0",
+          "text": "I veri sintomi di astinenza da nicotina sono così irrilevanti che la maggior parte dei fumatori vive e muore senza neanche rendersi conto di essere dei tossicodipendenti. Quando si dice \"dipendente dalla nicotina\" in realtà si pensa che semplicemente \"si sia presa l'abitudine\", anche perché la maggior parte dei fumatori ha orrore delle sostanze stupefacenti. Eppure questo è proprio quel che sono: dei tossicodipendenti.{{n}}{{n}}I sintomi di astinenza da nicotina non provocano alcuna sofferenza fisica, sono semplicemente una sensazione di vuoto, irrequietezza, come se mancasse qualcosa; questa è la ragione per cui fumare viene spesso visto come \"qualcosa da fare con le mani\". Se questi sintomi persistono il fumatore diventa nervoso, irrequieto, insicuro e irritabile. E come una specie di fame, fame di un veleno, la nicotina.{{n}}{{n}}Pochi secondi dopo aver acceso una sigaretta si riceve una nuova dose di nicotina che fa cessare il desiderio, e quel che ne consegue è la sensazione di rilassamento e sicurezza che il fumatore ottiene dal fumo.{{n}}{{n}}Quando iniziamo a fumare i sintomi di astinenza e l'atto di alleviarli formano un processo così impercettibile che non ce ne accorgiamo neppure. Quando poi incominciamo a fumare regolarmente pensiamo di farlo o perché ci piace o perché \"abbiamo preso l'abitudine\", ma la verità è che siamo già stati accalappiati; non ne siamo minimamente consapevoli, ma il piccolo \"mostro della nicotina\" è già nel nostro stomaco e ogni tanto dobbiamo dargli da mangiare. Tutti i fumatori iniziano per i motivi più sciocchi: nessuno è costretto a farlo; e l'unico motivo per cui si continua - che si fumi molto o poco - è per dar da mangiare al mostriciattolo."
+        },
+        {
+          "title": "La noia",
+          "text": "Se in questo momento stai fumando, probabilmente lo stai facendo senza accorgertene, e non te ne saresti reso conto se io non te lo avessi ricordato. Un'altra delle menzogne legate al fumo è infatti quella riguardante la sigaretta come qualcosa che allevia la noia. Quest'ultima è uno stato mentale e, mentre fumiamo, la nostra mente non continua a ripeterci: \"Sto fumando, sto fumando\". Le uniche occasioni nelle quali questo accade sono: dopo un lungo periodo di astinenza, se stiamo cercando di fumare meno o con le prime sigarette fumate dopo un fallito tentativo di smettere.{{n}}{{n}}In realtà le sigarette aumentano indirettamente la noia facendoci sentire più letargici, perchè, invece di condurre una vita attiva, il fumatore diventa sempre più sedentario e, annoiato, passa il tempo fumando per alleviare i sintomi di astinenza.{{n}}{{n}}Fumare non allevia la noia. Poiché sono stato per lungo tempo un fumatore incallito, posso assicurarti che non vi è attività più noiosa di quella di accendersi una sigaretta dopo l'altra, giorno dopo giorno, anno dopo anno."
+        },
+        {
+          "title": "La concentrazione",
+          "text": "Un'altra illusione è che le sigarette aiutano la concentrazione. Non è vero. Quando occorre concentrazione automaticamente si evita ogni distrazione, ma il fumatore soffre di una continua distrazione causata dal mostro che vuole la sua dose; quindi, quando deve concentrarsi, senza neppure accorgersene, si accende una sigaretta, alleviando (ma solo in parte) i sintomi di astinenza, e continuando con quel che sta facendo. E immediatamente si scorda che sta fumando.{{n}}{{n}}Le sigarette non solo non aiutano la concentrazione ma la distruggono perché, col passare del tempo, i sintomi di astinenza, nonostante si fumi, non vengono mai completamente alleviati.{{n}}{{n}}Se ritieni che il fumo sia un vero aiuto per la concentrazione, il timore di non poterla ottenere senza la sigaretta ti impedirà certamente di concentrarti, ed è questo dubbio che crea il problema, non i sintomi di astinenza. Ricorda infatti che sono i fumatori che soffrono di crisi di astinenza non i non fumatori. Quando ho spento la mia ultima sigaretta sono passato da cento a zero nel giro di un pomeriggio senza per questo aver perso la capacità di concentrarmi."
+        },
+        {
+          "title": "A cosa rinuncio smettendo di fumare?",
+          "text": "Assolutamente a niente! Ciò che ci rende difficile smettere è la paura. La paura che ci venga tolta una gioia o un sostegno, la paura che certe situazioni non saranno mai altrettanto piacevoli o che non saremo in grado di far fronte ai problemi.{{n}}{{n}}Per esempio, le sigarette non migliorano i pasti ma li rovinano, distruggendo, tra l'altro, il gusto e l'olfatto. Osserva i fumatori in un ristorante mentre fumano tra una portata e l'altra e ti sarà chiaro che non stanno godendosi il pasto ma non vedono l'ora che termini perché interferisce con il loro fumare. Molti, anzi, lo fanno, non per maleducazione ma perché altrimenti sarebbero disperati, pur sapendo che dà fastidio a chi sta loro vicino e che non fuma. Possono solo scegliere tra non fumare sentendosi male e a disagio per se stessi, o fumare sentendosi male e a disagio perché sanno di dar fastidio agli altri, il che li fa sentire in colpa e fa sì che si disprezzino{{n}}{{n}}Il fumo non aiuta in occasioni sociali ma le complica, costringendoci a fare l'equilibrista reggendo piatto, bicchiere e sigaretta, mentre cerchiamo disperatamente un portacenere per liberarci della cenere e dei vari mozziconi, evitando di soffiare il fumo in faccia alle persone con cui parliamo, e chiedendoci se sentono il nostro alito pesante o vedono i nostri denti neri."
+        },
+        {
+          "title": "I vantaggi del fumatore",
+          "text": "..."
+        },
+        {
+          "title": "Forza di volontà",
+          "text": "Che smettere di fumare sia estremamente difficile è una convinzione diffusissima. Perfino i libri scritti per aiutarti iniziano generalmente col dirti quanto sia difficile farlo.{{n}}{{n}}Posso capire che tu voglia contestare questa affermazione, ma ti invito a prestare attenzione a quanto segue e a riflettervi. Se tu volessi correre due chilometri in meno di quattro minuti ti risulterebbe assai difficile. Dovresti passare anni ad allenarti, e potresti comunque essere fisicamente incapace di riuscirci. Per smettere di fumare, invece, tutto quello che devi fare è non farlo più. Nessuno ti costringe (tranne te stesso) e, al contrario del cibo e delle bevande, non ne hai bisogno per vivere.{{n}}{{n}}Quindi perché dovrebbe essere difficile smettere? Infatti non lo è. Sono i fumatori che lo rendono complicato usando il \"Metodo della Forza di Volontà\". Definisco in questo modo tutti i sistemi che fanno credere al fumatore di fare un sacrificio. Consideriamo quindi il \"Metodo della Forza di Volontà\". Non abbiamo mai deciso di diventare fumatori ma semplicemente proviamo le prime sigarette e, poiché sono repellenti, siamo convinti che possiamo smettere quando vogliamo. Inizialmente si fuma solo quando decidiamo di farlo, di solito in occasioni sociali e in compagnia di altri fumatori. Ma prima ancora di accorgercene, ci ritroviamo non solo a comperarle regolarmente e fumarle quando vogliamo, ma lo facciamo ogni giorno: fumare è diventato parte della nostra vita..{{n}}{{n}}Prima ancora d'iniziare il tentativo di smettere la sua mente è preda del lavaggio del cervello inculcatogli dalla società, nonché rafforzato da quello che la sua stessa dipendenza gli ha creato; a questi due si aggiunge il terzo, assai potente, che riguarda il \"com'è difficile smettere di fumare\". Ha sentito storie riguardanti fumatori che hanno smesso da mesi e ancora desiderano disperatamente una sigaretta."
+        },
+        {
+          "title": "Attenzione a fumarne meno",
+          "text": "Non c'è nulla di più patetico di un fumatore che sta cercando di fumare meno. S'illude che meno fuma meno vorrà fumare, mentre è vero l'opposto. Meno fuma, più a lungo soffre dei sintomi d'astinenza; più gode le sigarette più queste hanno un sapore disgustoso. Ma questo non lo farà smettere: il sapore non ha nulla a che fare con il fumare. Se si fumasse per il sapore nessuno andrebbe più in là di una sola sigaretta. Non credi sia vero? Va bene, parliamone. Qual è la sigaretta più schifosa? Sì, giusto, la prima della giornata, quella che d'inverno ti fa tossire e sputare. Ma qual è la sigaretta più preziosa per molti fumatori? Sì, giusto! La prima della giornata. Quindi non venirmi a dire che tu fumi per il gusto e l'odore! Non credi invece di farlo per alleviare le otto ore di \"sintomid'astinenza\"?"
+        },
+        {
+          "title": "Solo una",
+          "text": "\"Ne fumo solo una\". Questo è un mito che devi dimenticare.{{n}}{{n}}E proprio solo una che ti fa iniziare; è proprio solo una, quella che fumi in un momento difficile o in un'occasione speciale, che distrugge la maggior parte dei tentativi di smettere.{{n}}{{n}}Qualche volta l'accendiamo per avere la conferma che non ne abbiamo più bisogno, ed è l'effetto che ottiene: ha un sapore orribile e ci persuade che non cascheremo più nella trappola. E ciò - tragica ironia! - avviene proprio mentre ci stiamo già ricascando. È il pensiero della sigaretta speciale che spesso impedisce ai fumatori di smettere: la prima della giornata o quella dopo pranzo. Mettitelo bene in mente: non esiste la sigaretta singola, ma ce n'è una dopo l'altra, in una reazione, a catena che durerà tutta la vita, a meno che tu la spezzi{{n}}{{n}}È il mito della sigaretta particolare, quella speciale, che rende lamentosi i fumatori quando smettono. Tu abituati a non vedere mai \"una\" sigaretta o \"un\" pacchetto. Quando pensi al fumo consideralo invece per quel che è: un'intera e spiacevole vita passata a spendere una fortuna per il solo privilegio di distruggersi mentalmente e fisicamente, una vita di schiavitù, una vita di alito pesante.{{n}}{{n}}Smettila di ingannarti. Ce la puoi fare. Tutti possono. E ridicolmente facile, e per renderlo facile ci sono dei punti fondamentali che devi tenere a mente. {{n}}1. Smettendo di fumare non si rinuncia a niente, ma ci sono solo fantastici vantaggi da ottenere.{{n}}2. Non vedere mai una sola sigaretta: non esiste. C'è però una vita di disgusto, malattia e menzogne.{{n}}3. Tu non sei diverso dagli altri. Tutti i fumatori possono trovare facile smettere."
+        },
+        {
+          "title": "L'ultima sigaretta 1.0",
+          "text": "Hai deciso il momento giusto e sei ora pronto a fumare l'ultima sigaretta, ma prima verifica con te stesso questi due aspetti fondamentali:{{n}}{{n}}1. sei sicuro che ci riuscirai?{{n}}2. stai presagendo qualcosa di terribile o provi invece una sensazione di eccitazione al pensiero che stai per ottenere qualcosa di fantastico?{{n}}{{n}}Ricorda che non hai mai deciso di cascare nella trappola del fumo, ma che questa è congegnata in modo tale da renderti schiavo per il resto della vita. Per poterne fuggire devi prendere la ferma decisione che stai per fumare la tua ultima sigaretta.{{n}}{{n}}Magari ti preoccupa che ti sei già fatto questa promessa altre volte in passato ma ci sei ricascato, oppure che dovrai subire un terribile trauma. Non temere; la cosa peggiore che ti può capitare è che tu fallisca, quindi non hai nulla da perdere ma tutto da guadagnare. Usando il sistema EASYWAY smettere di fumare, non solo ti risulterà facilissimo, ma potrai addirittura godere dell'intero processo. Tutto quel che devi fare è seguire le semplici istruzioni che sto per darti."
+        },
+        {
+          "title": "L'ultima sigaretta 1.1",
+          "text": "1. Fa a te stesso la solenne promessa menzionata sopra.{{n}}2. Fuma l'ultima sigaretta con attenzione e aspira profondamente quella porcheria nei tuoi polmoni, chiedendoti dove stia il piacere.{{n}}3. Quando la spegni non pensare \"Non devo più fumarne un'altra\", oppure \"Non posso più fumarne un'altra\", ma fallo con la sensazione di \"Non è meraviglioso? Sono libero! Non sono più schiavo della nicotina! Non sono più costretto a ficcarmi in bocca quelle schifezze!\"{{n}}{{n}}4. Sii cosciente che per qualche giorno potresti avere dentro di te il piccolo sabotatore della nicotina. Potresti riconoscere la sensazione come \"Voglio una sigaretta\". A volte ho fatto riferimento al piccolo mostriciattolo come i sintomi leggeri di astinenza da nicotina. In verità questo non è corretto, ed è importante che tu ne capisca il perché. Poiché ci vogliono circa tre settimane affinché il mostriciattolo muoia, gli ex fumatori pensano che il mostricino continuerà a desiderare le sigarette anche dopo aver spento l'ultima e che quindi, per quel periodo, devono usare la forza di volontà per resistere alle tentazioni. Questo non è vero perché non è il corpo a bramare la nicotina ma il cervello. Se, nei prossimi giorni, ti venisse quella sensazione di \"Voglio una sigaretta\" il tuo cervello deve semplicemente scegliere. O lo interpreta per quel che veramente è, ovvero quella leggera sensazione di vuoto e insicurezza iniziata dalla prima sigarétta e perpetuata da tutte le successive, e si dice: \"Che meraviglia! Sono un non fumatore!\"{{n}}{{n}}oppure puoi iniziare a desiderare ardentemente una sigaretta e a soffrire per il resto della vita. Rifletti un momento. Non sarebbe una cosa tremendamente stupida dire: \"Non voglio fumare mai più\" e poi passare il resto della tua vita ripetendoti \"Voglio una sigaretta\"? Ma questo è quello che fanno i fumatori che usano il \"Metodo della Forza di Volontà\". E ci si chiede perché siano così tristi! Passano il resto della vita avvilendosi disperatamente nel desiderare qualcosa che nello stesso tempo sperano, con tutte le loro forze, di non avere mai più. Non c'è quindi da stupirsi che pochi riescano, e anche quei pochi non sono mai completamente liberi.{{n}}{{n}}5. Solo il dubitare e l'aspettare rendono difficile smettere di fumare, quindi tu sai che hai preso la decisione giusta, non dubitarne mai. Se inizi a farlo imboccherai un vicolo cieco perché se desideri una sigaretta ma non la puoi avere ti sentirai triste; ma ti sentirai ancora peggio se l'accendi. A prescindere dal sistema usato, cosa si cerca di ottenere quando si smette di fumare? Di non fumare mai più? No. Molti ex fumatori, infatti, l'ottengono ma passano il resto della vita con un senso di perdita. Qual è la vera differenza tra fumatori e non fumatori? Questi ultimi non hanno né bisogno né desiderio di fumare, non bramano le sigarette e non devono usare la forza di volontà per non fumare. Ed è questo stato che stai cercando di ottenere, ed è in tuo potere ottenerlo. Non devi aspettare di smettere di desiderare le sigarette o di diventare un non fumatore. Tutto questo succede già quando spegni quell'ultima sigaretta; hai chiuso il rifornimento di nicotina: sei già un felice non fumatore!!!"
+        },
+        {
+          "title": "L'ultima sigaretta 1.2",
+          "text": "E resterai un felice non fumatore purché:{{n}}{{n}}1. non dubiti mai della tua decisione.{{n}}2. non stia ad aspettare di diventare un non fumatore. Se lo farai, aspetterai che succeda qualcosa, ma nulla succederà e ti angoscerai inutilmente.{{n}}3. non cerchi di non pensare al fumo o non stia ad aspettare il \"momento della rivelazione\". In entrambi i casi ti angosceresti.{{n}}4. non usi surrogati.{{n}}5. riesca a vedere i fumatori per quel che veramente sono, e quindi meritevoli della tua commiserazione e non della tua invidia.{{n}}6. non cambi vita semplicemente perché hai smesso di fumare, indipendentemente dall'avere un periodo buono o cattivo, altrimenti faresti un vero sacrificio che non è necessario. Ricorda che non hai rinunciato a vivere, non hai rinunciato a niente; al contrario sei guarito da una terribile malattia e fuggito da un'insidiosa prigione. Col passare dei giorni la tua salute fisica e mentale migliorerà, e i momenti belli saranno ancor più belli e quelli brutti saranno meno brutti rispetto a quando eri un fumatore.{{n}}7.  se pensi al fumo, nei prossimi giorni o in qualunque momento della vita pensa: Fantastico! Sono un non fumatore!"
+        }
+      ]
+    },
+    "settings": {
+      "header": {
+        "title": "Impostazioni",
+        "description": "Tutto il necessario in un unico posto."
+      },
+      "profile": {
+        "edit": "Modificare"
+      },
+      "client": {
+        "name": "Nome",
+        "cigarette": "Sigarette per giorno",
+        "cigaretteCount": "Sigarette in un pacchetto",
+        "price": "Prezzo per un pacco di sigarette",
+        "howOffen": "Intervallo tra sigarette"
+      },
+      "auth": {
+        "info": "Autorizzazione",
+        "button": "Continua con {{param}}",
+        "buttonEmail": "Utilizzo Email",
+        "response": {
+          "msg1": "Sincronizzazione dei dati",
+          "msg2": "Risparmiare acquisti per monete",
+          "msg3": "Comunicazione con le persone",
+          "msg4": "Consiglio degli amici e degli onori"
+        },
+        "or": "O",
+        "client": "Accedi / Registrati",
+        "login": "Accedi",
+        "registration": "Registrati",
+        "logout": "Esci",
+        "change": "Cambia la password",
+        "accept": "Conferma l'email",
+        "clear": "Reimposta risultato",
+        "titleProfile": "Profilo",
+        "titleSett": "Controllo"
+      },
+      "info": {
+        "subscription": "Abbonamento",
+        "coin": "Monete",
+        "review": "Lascia un Feedback",
+        "author": "Informazioni sul developer",
+        "confidentiality": "Informativa sulla Privacy",
+        "remove": "Cancella il tuo account",
+        "lang": "Selezione della lingua",
+        "sysLang": "Lingua di sistema",
+        "currency": "Selezione valuta",
+        "sysCurrency": "Valuta di sistema",
+        "theme": "Selezione dell'argomento",
+        "themeLang": "Automaticamente",
+        "themeLight": "Leggero",
+        "themeDark": "Buio"
+      },
+      "switch": {
+        "notification": "Notifica",
+        "vibrator": "Vibrazione"
+      }
+    },
+    "sheet": {
+      "login": {
+        "input": {
+          "mail": "E-mail",
+          "password": "Password"
+        },
+        "link": {
+          "fetch": "Accedi",
+          "have": "Non hai un account?",
+          "ihave": "Hai un account?",
+          "forgot": "Hai dimenticato la password?"
+        },
+        "showMessage": {
+          "emailWrong": "Hai inserito un'email o password sbagliata.",
+          "emailEmpty": "È necessario inserire un indirizzo email.",
+          "passwordEmpty": "È necessario inserire la password.",
+          "success": "Congratulazioni! Hai effettuato correttamente l'accesso al tuo account."
+        }
+      },
+      "registration": {
+        "input": {
+          "name": "Nome",
+          "email": "Email",
+          "password": "Password",
+          "newPassword": "Nuova password",
+          "repeatPassword": "Ripeti la password"
+        },
+        "link": {
+          "reg": "Registrati"
+        },
+        "showMessage": {
+          "emailExist": "L'indirizzo email è già stato registrato",
+          "nameEmpty": "Il nome è obbligatorio",
+          "emailEmpty": "Inserisci il tuo indirizzo email.",
+          "passwordEmpty": "La password è obbligatoria.",
+          "newPasswordEmpty": "La nuova password è obbligatoria.",
+          "repeatPasswordEmpty": "I campi Password e Ripeti password non corrispondono.",
+          "success": "Registrazione avvenuta con successo. Il codice di conferma è stato inviato al tuo email."
+        }
+      },
+      "change": {
+        "showMessage": {
+          "success": "Hai cambiato con successo la password del tuo account.",
+          "error": "Hai inserito una password errata."
+        }
+      },
+      "issue": {
+        "title": "Conferma l'email",
+        "subTitle": "Controlla la tua email",
+        "input": {
+          "token": "Codice di conferma"
+        },
+        "link": {
+          "submit": "Conferma",
+          "reload": "Riinviare il codice"
+        },
+        "showMessage": {
+          "requestLimit": "Non puoi chiedere il codice di verifica così spesso.",
+          "tokenWrongFormat": "Formato del codice di conferma non valido.",
+          "tokenWrong": "Hai inserito il codice di conferma sbagliato.",
+          "successAccept": "Congratulazioni! Hai verificato con successo la tua email.",
+          "successSend": "Il codice di conferma è stato inviato con successo alla tua email."
+        }
+      },
+      "forgot": {
+        "title": "Recupero dell'accesso",
+        "input": {
+          "email": "Email",
+          "token": "Codice di conferma",
+          "password": "Nuova password",
+          "repeatPassword": "Ripeti la password"
+        },
+        "link": {
+          "submit": "Invia",
+          "change": "Cambia password"
+        },
+        "showMessage": {
+          "emailWrong": "Indirizzo email errato.",
+          "tokenEmpty": "Formato del codice di recupero password non valido",
+          "tokenWrong": "Hai inserito il codice di recupero password sbagliato, controlla di nuovo la tua email.",
+          "tokenSucces": "Il codice di conferma è stato inviato alla tua email, usa il codice per cambiare la password.",
+          "requestLimit": "Non puoi chiedere il codice di recupero password così spesso.",
+          "changeSuccess": "La password è stata cambiata con successo, ora puoi accedere usando la nuova password."
+        }
+      },
+      "help.task": {
+        "title": "Motivatore di obiettivi",
+        "input.name": "Nome",
+        "input.value": "Somma desiderata"
+      },
+      "setting": {
+        "title": "Compilazione del questionario",
+        "button": "Sto smettendo di fumare",
+        "error": "Tutti i campi sono obbligatori..."
+      },
+      "friend": {
+        "coin": "Monete",
+        "friend": "Amici",
+        "rating": "Rating",
+        "title": "Motivatore",
+        "description": "Motiva il tuo amico con un messaggio e ottieni monete + rating.",
+        "input": "Messaggio:",
+        "message": "Hai già smesso di fumare? Dai, condividi il risultato. Sto aspettando....",
+        "button": "Motivare"
+      },
+      "premium": {
+        "title": "Accesso Premium",
+        "information": [
+          "Accedi alla raccolta completa di carte motivazionali ogni giorno.",
+          "Aumenta il tuo punteggio e accumula più monete per ottenere ancora più vantaggi nell'app.",
+          "Rimani informato su tutti gli eventi quotidiani con informazioni dettagliate.",
+          "Usa tutte le tue conoscenze per smettere di fumare più velocemente e facilmente.",
+          "Goditi l'app senza pubblicità, che ti permette di utilizzarla comodamente.",
+          "Sblocca tutti i tuoi obiettivi e creane di nuovi per raggiungere i tuoi obiettivi di pianificazione finanziaria.",
+          "Goditi dell'accesso completo alle nostre autoipnosi, anche quando siete offline.",
+          "Ottenete l'accesso completo alle funzioni del nostro pedometro.",
+          "Fatevi notare dagli altri partecipanti alla chat, utilizzando un'icona unica."
+        ],
+        "free": "Gratis - 3 giorni, poi {{price}} {{currencySymbol}}/mese",
+        "in": "{{price}} {{currencySymbol}} al mese ",
+        "info": "Puoi cancellare in qualsiasi momento",
+        "subscription": "Iscriviti",
+        "rebuild": "Ripristina",
+        "privacy": "Termini & Conditions",
+        "notLoad": "Si è verificato un problema durante il caricamento degli articoli!",
+        "refresh": "Riprova il caricamento"
+      },
+      "purchase": {
+        "coin": "Monete",
+        "rating": "Rating",
+        "subscription": {
+          "title": "Abbonamento",
+          "stock": "Attivo",
+          "nope": "Inattivo"
+        },
+        "earn": "Ottieni 5 monete (Pubblicità)",
+        "have": {
+          "title": "Acquista",
+          "description": "Hai un accesso premium, non c'è bisogno di acquistare.",
+          "button": "Ok"
+        },
+        "items": {
+          "rating": {
+            "name": "Rating",
+            "value": "{{value}} punti",
+            "description": "Il rating ti distingue tra i tuoi amici. Inoltre, otterrai un posto più alto nell'albo d'oro.",
+            "button": "Cambia con {{value}} monete.",
+            "alert": {
+              "title": "Rating",
+              "description": "Sei sicuro di voler cambiare {{value}} monete con {{rating}} punti di rating?",
+              "cancel": "No",
+              "accept": "Si"
+            },
+            "showMessage": {
+              "message": "Hai scambiato con successo {{value}} monete con {{rating}} punti di rating."
+            }
+          },
+          "cards": {
+            "name": "Schede",
+            "value": "Pacchetto completo",
+            "description": "Le schede ti motivano a non fumare. Si consiglia di leggere le schede di tanto in tanto.",
+            "button": "Sblocca con {{value}} monete.",
+            "alert": {
+              "title": "Schede",
+              "description": "Sei sicuro di voler cambiare {{value}} monete con un intero pacchetto di schede?",
+              "cancel": "No",
+              "accept": "Si"
+            },
+            "showMessage": {
+              "message": "Hai ricevuto con successo un pacchetto completo di schede."
+            }
+          },
+          "learn": {
+            "name": "Programma del corso",
+            "value": "Versione completa",
+            "description": "Questo programma è molto importante. Aiuta a trovare soluzioni in diverse situazioni.",
+            "button": "Sblocca con {{value}} monete.",
+            "alert": {
+              "title": "Programma del corso",
+              "description": "Sei sicuro di voler cambiare {{value}} monete con il programma completo del corso?",
+              "cancel": "No",
+              "accept": "Si"
+            },
+            "showMessage": {
+              "message": "Hai ricevuto con successo il programma completo del corso."
+            }
+          },
+          "clean": {
+            "name": "Statistiche",
+            "value": "Azzeramento sicuro",
+            "description": "Reimpostazione dei risultati senza perdere monete e rating, se decidi di ricominciare da capo.",
+            "button": "Reimposta con {{value}} monete.",
+            "alert": {
+              "title": "Statistiche",
+              "description": "Vuoi davvero reimpostare i risultati senza perdere monete e rating con {{value}} monete?",
+              "cancel": "No",
+              "accept": "Si"
+            },
+            "showMessage": {
+              "message": "Hai reimpostato con successo i risultati senza perdere monete o rating."
+            }
+          },
+          "task": {
+            "alert": {
+              "title": "Aggiungi obiettivo",
+              "description": "Sei sicuro di voler cambiare {{value}} monete con un altro obiettivo?",
+              "cancel": "No",
+              "accept": "Si"
+            }
+          }
+        }
+      }
+    },
+    "detached": {
+      "scan": {
+        "text": "Cerca amici",
+        "textCamera": "Punta l'obiettivo sul codice QR",
+        "camera": "Aggiungi un amico",
+        "code": "Codice QR"
+      },
+      "friend": {
+        "title": "Codice QR",
+        "This is your id": "Non puoi aggiungere te stesso come amico.",
+        "Invalid id": "Amico non trovato",
+        "Friend not found": "Amico non trovato",
+        "Email not activated your frinds": "L'email del tuo amico non è attivata.",
+        "Friends already": "Siete già amici",
+        "response": "Impossibile connettersi al server, riprova più tardi."
+      },
+      "ghost": {
+        "title": "Sabotatore nicotinico",
+        "btn1": "Dai un calcio al sabotatore",
+        "description": "Fumiamo per nutrire la nostra piccola bestia. Ci vogliono circa tre settimane prima che la piccola bestia muoia. Il corpo non brama la nicotina. Solo il cervello la vuole. Ogni volta che resisti alla tentazione, infliggi un altro colpo fatale al sabotatore.",
+        "btn2": "Dire addio al sabotatore",
+        "btn3": "Prendere in giro il sabotatore"
+      },
+      "nosmoke": {
+        "title": "EVVIVA, io non fumo!",
+        "description": "Per ogni piccola vittoria riceverai monete e rating. Puoi usare le monete all'interno dell'app."
+      },
+      "motivate": {
+        "title": "Sei un vero amico!"
+      },
+      "smoke": {
+        "title": "Smettere di fumare è facile",
+        "description": "Non arrenderti se hai ceduto e hai fumato di nuovo. Questo non è un fallimento, ma solo un momento di debolezza sul cammino verso il successo. Ricordati di tutti i motivi per cui volevi smettere di fumare e continua a muovere avanti. Ogni giorno, ogni momento della tua vita è un'opportunità per migliorare la tua salute e la qualità della vita. Non arrenderti, puoi farcela!",
+        "btn1": "Azzera il risultato (Suggerito)",
+        "btn2": "Ho fumato, non fumerò più."
+      },
+      "dashboard.bank": {
+        "title": "Denaro risparmiato",
+        "type1": " / giorno",
+        "type2": " / settimana",
+        "type3": " / mese",
+        "type4": " / anno"
+      },
+      "dashboard.more.time": {
+        "title": "Denaro risparmiato",
+        "descrpition": "In effetti, il fumo ruba una parte abbastanza grande della tua giornata. In media, una sigaretta dura circa cinque minuti. In totale, passi 100 minuti al giorno a fumare!"
+      },
+      "dashboard.ciggy": {
+        "title": "Sigarette non fumate",
+        "type1": " / giorno",
+        "type2": " / settimana",
+        "type3": " / mese",
+        "type4": " / anno"
+      },
+      "dashboard.health": {
+        "title": "Un vantaggio per la longevità",
+        "descrpition": "Smettere di fumare ti aiuterà a guardare e sentirti meglio, migliorando la qualità della tua vita e della tua salute."
+      },
+      "dashboard.energy": {
+        "title": "Un vantaggio per l'energia",
+        "description": "Senza fumare, avrai più energia e forza per fare tutto ciò che vuoi nella vita."
+      },
+      "dashboard.lungs": {
+        "title": "Recupero dei polmoni",
+        "descrpition": "Più il corpo si muove, più intensa è la respirazione, più velocemente vengono rimossi i composti estranei accumulati e lo sporco."
+      },
+      "help.task.buy": {
+        "title": "Nuovo obiettivo",
+        "coin": "{{value}} monete",
+        "button": "Cambio"
+      }
+    },
+    "alert": {
+      "clear": {
+        "title": "Attenzione",
+        "description": "Vuoi davvero resettare tutti i tuoi successi?",
+        "cancel": "No",
+        "accept": "Si"
+      },
+      "remove": {
+        "title": "Attenzione",
+        "description": "L'eliminazione cancella tutte le informazioni personali associate all'account. Dopodiché, non potrai più accedere a questo account.",
+        "cancel": "Annulla",
+        "accept": "Elimina"
+      },
+      "friendAdd": {
+        "title": "Suggerimento",
+        "description": "Non puoi aggiungere altri amici, è richiesto l'accesso premium.",
+        "button": "Ok"
+      },
+      "logout": {
+        "title": "Attenzione",
+        "description": "I tuoi risultati verranno reimpostati. Al rientro, i dati verranno restituiti.",
+        "cancel": "Cancella",
+        "accept": "Esci",
+        "message": "Logout effettuato con successo."
+      },
+      "permission": {
+        "camera": {
+          "title": "Privacy",
+          "description": "È necessario concedere l'accesso alla fotocamera per eseguire la scansione del codice QR. Vuoi aprire le impostazioni dell'app?",
+          "cancel": "No",
+          "accept": "Si"
+        },
+        "notification": {
+          "title": "Privacy",
+          "description": "È necessario concedere l'accesso alle notifiche push. Vuoi aprire le impostazioni dell'app?",
+          "cancel": "No",
+          "accept": "Si"
+        }
+      },
+      "purchase": {
+        "premium": {
+          "title": "Abbonamento",
+          "button": "Ok",
+          "description": {
+            "isset": "Il tuo accesso premium è già attivato.",
+            "succes": "Hai ripristinato con successo l'accesso premium.",
+            "empry": "Non hai un abbonamento attivo.",
+            "error": "Si è verificato un errore, riprova più tardi."
+          }
+        },
+        "coin": {
+          "deficiency": {
+            "title": "Cambio",
+            "description": "Insufficienza di monete per effettuare lo scambio!",
+            "accept": "Chiudi"
+          },
+          "success": {
+            "title": "Acquisto",
+            "description": "Cambio effettuato con successo!",
+            "accept": "Chiudi"
+          },
+          "unauthorized": {
+            "title": "Acquisto",
+            "description": "Problemi di connessione, riprova più tardi!",
+            "accept": "Chiudi"
+          },
+          "error": {
+            "title": "Acquisto",
+            "description": "Si è verificato un errore durante l'acquisto, riprova più tardi!",
+            "accept": "Chiudi"
+          },
+          "present": {
+            "title": "Acquisto",
+            "description": "Hai già questo servizio!",
+            "accept": "Chiudi"
+          }
+        }
+      }
+    },
+    "message": {
+      "error": {
+        "Network Error": {
+          "title": "Errore",
+          "message": "Problemi di connessione al server, riprova più tardi..."
+        },
+        "network": {
+          "title": "Errore",
+          "message": "Problemi di connessione al server, riprova più tardi..."
+        }
+      }
+    },
+    "notification": {
+      "smoke": {
+        "title": "{{value}} - Motivatore",
+        "body": "Prego, valuta il tuo stato attuale, questo aiuterà a smettere di fumare più velocemente."
+      }
+    }
+  }
+}

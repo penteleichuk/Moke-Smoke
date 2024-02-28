@@ -1,0 +1,1 @@
+export { getLungs } from './getLungs';

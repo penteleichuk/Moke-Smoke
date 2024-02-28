@@ -1,0 +1,5 @@
+NSCameraUsageDescription = "Need to access your camera to scan a QR-CODE.";
+NSPhotoLibraryUsageDescription = "To update the photo, access to your photo library is required. We ensure the security and confidentiality of your data and do not transfer them to third parties.";
+NSMotionUsageDescription = "To track the number of steps and increase motivation to quit smoking, the Moke Smoke app requests access to the motion sensor on your device.";
+NSHealthShareUsageDescription = "To track the number of steps and increase motivation to quit smoking.";
+NSHealthUpdateUsageDescription = "To track the number of steps and increase motivation to quit smoking.";
