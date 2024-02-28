@@ -41,7 +41,7 @@
 
         <meta-data
             android:name="AdaptyPublicSdkKey"
-            android:value="public_live_CGvH3oIf.VzF8wZkl4GRsmWPmxUjW" />
+            android:value="" />
 
     </application>
 </manifest>
