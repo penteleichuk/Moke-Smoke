@@ -5,7 +5,46 @@ import { getUserIsQuitting } from 'entities/user';
 import { getIsActivation } from 'features/PassedActivation';
 import { memo } from 'react';
 import RNBootSplash from 'react-native-bootsplash';
-import * as Screen from 'screens';
+import { AudioPlayScreen } from 'screens/AudioPlayScreen';
+import { AudioScreen } from 'screens/AudioScreen';
+import { AuthScreen } from 'screens/AuthScreen';
+import { AuthorScreen } from 'screens/AuthorScreen';
+import { CardsScreen } from 'screens/CardsScreen';
+import { ChangePasswordScreen } from 'screens/ChangePasswordScreen';
+import { ChatScreen } from 'screens/ChatScreen';
+import { FeedCreateScreen } from 'screens/FeedCreateScreen';
+import { FeedDetailsScreen } from 'screens/FeedDetailsScreen';
+import { FeedHelpScreen } from 'screens/FeedHelpScreen';
+import { FeedsScreen } from 'screens/FeedsScreen';
+import { ForgotScreen } from 'screens/ForgotScreen';
+import { FriendAddScreen } from 'screens/FriendAddScreen';
+import { FriendIdScreen } from 'screens/FriendIdScreen';
+import { FriendPresentScreen } from 'screens/FriendPresentScreen';
+import { FriendQRScreen } from 'screens/FriendQRScreen';
+import { FriendScreen } from 'screens/FriendScreen';
+import { InputScreen } from 'screens/InputScreen';
+import { MarketScreen } from 'screens/MarketScreen';
+import { NavigationHelpScreen } from 'screens/NavigationHelpScreen';
+import { PickerScreen } from 'screens/PickerScreen';
+import { BreatheScreen } from 'screens/Practice/BreatheScreen';
+import { HappyScreen } from 'screens/Practice/HappyScreen';
+import { MindfulnessScreen } from 'screens/Practice/MindfulnessScreen';
+import { MorningScreen } from 'screens/Practice/MorningScreen';
+import { WaterScreen } from 'screens/Practice/WaterScreen';
+import { ProfileScreen } from 'screens/ProfileScreen';
+import { ProfileSettingScreen } from 'screens/ProfileSettingScreen';
+import { ProgressScreen } from 'screens/ProgressScreen';
+import { ReadDetailsScreen } from 'screens/ReadDetailsScreen';
+import { ReadScreen } from 'screens/ReadScreen';
+import { RegistrationScreen } from 'screens/RegistrationScreen';
+import { SubsScreen } from 'screens/SubsScreen';
+import { TaskEditScreen } from 'screens/TaskEditScreen';
+import { TaskScreen } from 'screens/TaskScreen';
+import { TrackerScreen } from 'screens/TrackerScreen';
+import { TrainerHelpScreen } from 'screens/TrainerHelpScreen';
+import { VerifyScreen } from 'screens/VerifyScreen';
+import { WelcomeInfoScreen } from 'screens/WelcomeInfoScreen';
+import { WelcomeScreen } from 'screens/WelcomeScreen';
 import { AppNavigation, NavigationStackLists } from 'shared/config/navigation';
 import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
@@ -41,7 +80,7 @@ const Navigation = () => {
           options={{
             headerTransparent: true,
           }}
-          component={Screen.WelcomeScreen}
+          component={WelcomeScreen}
         />
         <Stack.Screen
           name={AppNavigation.MAIN}
@@ -53,7 +92,7 @@ const Navigation = () => {
           options={{
             headerTransparent: true,
           }}
-          component={Screen.WelcomeInfoScreen}
+          component={WelcomeInfoScreen}
         />
         {!isAuth && (
           <>
@@ -63,7 +102,7 @@ const Navigation = () => {
                 headerTransparent: true,
               }}
               initialParams={{ show: false }}
-              component={Screen.AuthScreen}
+              component={AuthScreen}
             />
             <Stack.Screen
               name={AppNavigation.REGISTRATION}
@@ -71,7 +110,7 @@ const Navigation = () => {
                 headerTransparent: true,
               }}
               initialParams={{ show: false }}
-              component={Screen.RegistrationScreen}
+              component={RegistrationScreen}
             />
             <Stack.Screen
               name={AppNavigation.FORGOT}
@@ -79,7 +118,7 @@ const Navigation = () => {
                 headerTransparent: true,
               }}
               initialParams={{ show: false }}
-              component={Screen.ForgotScreen}
+              component={ForgotScreen}
             />
           </>
         )}
@@ -88,7 +127,7 @@ const Navigation = () => {
           options={{
             headerTransparent: true,
           }}
-          component={Screen.VerifyScreen}
+          component={VerifyScreen}
         />
         <Stack.Screen
           name={AppNavigation.COURSE}
@@ -96,7 +135,7 @@ const Navigation = () => {
             headerTransparent: true,
             headerBackTitleVisible: false,
           }}
-          component={Screen.ReadDetailsScreen}
+          component={ReadDetailsScreen}
         />
         <Stack.Screen
           name={AppNavigation.READ}
@@ -104,7 +143,7 @@ const Navigation = () => {
             headerTransparent: true,
             headerBackTitleVisible: false,
           }}
-          component={Screen.ReadScreen}
+          component={ReadScreen}
         />
         <Stack.Screen
           name={AppNavigation.CARDS}
@@ -112,63 +151,63 @@ const Navigation = () => {
             headerTransparent: true,
             headerBackTitleVisible: false,
           }}
-          component={Screen.CardsScreen}
+          component={CardsScreen}
         />
         <Stack.Screen
           name={AppNavigation.TASK}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.TaskScreen}
+          component={TaskScreen}
         />
         <Stack.Screen
           name={AppNavigation.TASK_EDIT}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.TaskEditScreen}
+          component={TaskEditScreen}
         />
         <Stack.Screen
           name={AppNavigation.PROGRESS}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.ProgressScreen}
+          component={ProgressScreen}
         />
         <Stack.Screen
           name={AppNavigation.PROFILE}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.ProfileScreen}
+          component={ProfileScreen}
         />
         <Stack.Screen
           name={AppNavigation.PROFILE_SETTING}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.ProfileSettingScreen}
+          component={ProfileSettingScreen}
         />
         <Stack.Screen
           name={AppNavigation.PICKER}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.PickerScreen}
+          component={PickerScreen}
         />
         <Stack.Screen
           name={AppNavigation.INPUT}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.InputScreen}
+          component={InputScreen}
         />
         <Stack.Screen
           name={AppNavigation.AUTHOR}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.AuthorScreen}
+          component={AuthorScreen}
         />
         <Stack.Screen
           name={AppNavigation.SUBS}
@@ -177,155 +216,152 @@ const Navigation = () => {
             headerTransparent: true,
           }}
           initialParams={{ show: false }}
-          component={Screen.SubsScreen}
+          component={SubsScreen}
         />
         <Stack.Screen
           name={AppNavigation.MARKET}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.MarketScreen}
+          component={MarketScreen}
         />
         <Stack.Screen
           name={AppNavigation.CHANGE_PASSWORD}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.ChangePasswordScreen}
+          component={ChangePasswordScreen}
         />
         <Stack.Screen
           name={AppNavigation.MORNING}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.MorningScreen}
+          component={MorningScreen}
         />
         <Stack.Screen
           name={AppNavigation.WATER}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.WaterScreen}
+          component={WaterScreen}
         />
         <Stack.Screen
           name={AppNavigation.BREATHE}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.BreatheScreen}
+          component={BreatheScreen}
         />
         <Stack.Screen
           name={AppNavigation.HAPPY}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.HappyScreen}
+          component={HappyScreen}
         />
         <Stack.Screen
           name={AppNavigation.MINDFULNESS}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.MindfulnessScreen}
+          component={MindfulnessScreen}
         />
         <Stack.Screen
           name={AppNavigation.FRIEND_ID}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.FriendIdScreen}
+          component={FriendIdScreen}
         />
         <Stack.Screen
           name={AppNavigation.CHAT}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.ChatScreen}
+          component={ChatScreen}
         />
         <Stack.Screen
           name={AppNavigation.FRIEND}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.FriendScreen}
+          component={FriendScreen}
         />
         <Stack.Screen
           name={AppNavigation.FRIEND_PRESENT}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.FriendPresentScreen}
+          component={FriendPresentScreen}
         />
         <Stack.Screen
           name={AppNavigation.FRIEND_QR}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.FriendQRScreen}
+          component={FriendQRScreen}
         />
         <Stack.Screen
           name={AppNavigation.FRIEND_ADD}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.FriendAddScreen}
+          component={FriendAddScreen}
         />
         <Stack.Screen
           name={AppNavigation.FEED}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.FeedScreen}
+          component={FeedDetailsScreen}
         />
         <Stack.Screen
           name={AppNavigation.FEED_CREATE}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.FeedCreateScreen}
+          component={FeedCreateScreen}
         />
-        <Stack.Screen
-          name={AppNavigation.FEEDS_ME}
-          component={Screen.FeedsScreen}
-        />
+        <Stack.Screen name={AppNavigation.FEEDS_ME} component={FeedsScreen} />
         <Stack.Screen
           name={AppNavigation.FEED_HELP}
-          component={Screen.FeedHelpScreen}
+          component={FeedHelpScreen}
         />
         <Stack.Screen
           name={AppNavigation.AUDIO_PLAY}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.AudioPlayScreen}
+          component={AudioPlayScreen}
         />
         <Stack.Screen
           name={AppNavigation.AUDIO}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.AudioScreen}
+          component={AudioScreen}
         />
         <Stack.Screen
           name={AppNavigation.TRACKER}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.TrackerScreen}
+          component={TrackerScreen}
         />
         <Stack.Screen
           name={AppNavigation.TRAINER_HELP}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.TrainerHelpScreen}
+          component={TrainerHelpScreen}
         />
         <Stack.Screen
           name={AppNavigation.NAVIGATION_HELP}
           options={{
             headerTransparent: true,
           }}
-          component={Screen.NavigationHelpScreen}
+          component={NavigationHelpScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>

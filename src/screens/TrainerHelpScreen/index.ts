@@ -1,0 +1,1 @@
+export { TrainerHelpScreen } from './TrainerHelpScreen';

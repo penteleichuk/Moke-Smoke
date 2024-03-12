@@ -6,7 +6,10 @@ import { AppSheet, SheetCreateContext } from 'app/providers/SheetProvider';
 import { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TouchableOpacity, View } from 'react-native';
-import * as Screen from 'screens';
+import { FeedsScreen } from 'screens/FeedsScreen';
+import { HomeScreen } from 'screens/HomeScreen';
+import { LeaderboardScreen } from 'screens/LeaderboardScreen';
+import { SettingScreen } from 'screens/SettingScreen';
 import * as Icons from 'shared/assets/icons';
 import {
   MAIN_HORIZONTAL,
@@ -95,7 +98,7 @@ export const TabNavigation = () => {
       }}>
       <Tab.Screen
         name={AppTabNavigation.MAIN}
-        component={Screen.HomeScreen}
+        component={HomeScreen}
         options={{
           title: t('navigation.home'),
           headerTransparent: true,
@@ -115,7 +118,7 @@ export const TabNavigation = () => {
       />
       <Tab.Screen
         name={AppTabNavigation.GLOBAL}
-        component={Screen.LeaderboardScreen}
+        component={LeaderboardScreen}
         options={{
           title: t('navigation.global'),
           tabBarIcon: ({ color }) => TabBarIcon({ color, Icon: Icons.Top }),
@@ -123,7 +126,7 @@ export const TabNavigation = () => {
       />
       <Tab.Screen
         name={AppTabNavigation.FEEDS}
-        component={Screen.FeedsScreen}
+        component={FeedsScreen}
         options={{
           title: t('navigation.friends'),
           tabBarIcon: ({ color }) => TabBarIcon({ color, Icon: Icons.Feeds }),
@@ -131,7 +134,7 @@ export const TabNavigation = () => {
       />
       <Tab.Screen
         name={AppTabNavigation.SETTING}
-        component={Screen.SettingScreen}
+        component={SettingScreen}
         options={{
           title: t('navigation.settings'),
           tabBarIcon: ({ color }) =>

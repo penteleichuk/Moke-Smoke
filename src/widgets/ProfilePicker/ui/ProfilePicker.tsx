@@ -1,17 +1,17 @@
-import { getUserIsQuitting } from 'entities/user'
-import { memo } from 'react'
-import { useTranslation } from 'react-i18next'
-import { View } from 'react-native'
-import * as Icons from 'shared/assets/icons'
-import { moderateScale } from 'shared/config/dimensions'
-import { AppNavigation } from 'shared/config/navigation'
-import { useAppNavigation } from 'shared/lib/hooks/useAppNavigation'
-import { useAppSelector } from 'shared/lib/hooks/useAppSelector'
-import { useTheme } from 'shared/lib/theme'
-import { CustomText, TextSize } from 'shared/ui/CustomText'
-import { PressableOpacity } from 'shared/ui/PressableOpacity'
-import { useSmoke } from './../model/lib/hooks/useSmoke/useSmoke'
-import { styles } from './ProfilePickerStyle'
+import { getUserIsQuitting } from 'entities/user';
+import { memo } from 'react';
+import { useTranslation } from 'react-i18next';
+import { View } from 'react-native';
+import * as Icons from 'shared/assets/icons';
+import { moderateScale } from 'shared/config/dimensions';
+import { AppNavigation } from 'shared/config/navigation';
+import { useAppNavigation } from 'shared/lib/hooks/useAppNavigation';
+import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
+import { useTheme } from 'shared/lib/theme';
+import { CustomText, TextSize } from 'shared/ui/CustomText';
+import { PressableOpacity } from 'shared/ui/PressableOpacity';
+import { useSmoke } from './../model/lib/hooks/useSmoke/useSmoke';
+import { styles } from './ProfilePickerStyle';
 
 export const ProfilePicker = memo(() => {
   const { t } = useTranslation();
