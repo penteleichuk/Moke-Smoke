@@ -1,6 +1,6 @@
-import moment from 'moment';
-import { useEffect, useMemo, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import moment from 'moment'
+import { useEffect, useMemo, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export const useSmoke = (toBegin: Date | null) => {
   const { t } = useTranslation();
@@ -21,8 +21,8 @@ export const useSmoke = (toBegin: Date | null) => {
     const duration = moment.duration(now.diff(toBegin));
 
     let durationString = '';
-    if (duration.days() > 0) {
-      durationString += `${duration.days()}${t('times.d')} `;
+    if (duration.asDays() > 0) {
+      durationString += `${duration.asDays().toFixed()}${t('times.d')} `;
     }
     if (duration.hours() > 0) {
       durationString += `${duration.hours().toString().padStart(2, '0')}${t(

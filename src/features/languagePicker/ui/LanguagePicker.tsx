@@ -8,8 +8,8 @@ import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { getLocalize } from 'shared/lib/utils/getLocalize';
 import { LinkPicker } from 'shared/ui/LinkPicker';
-import { languageValues } from './../model/const/value';
-import { languageLabel } from './../model/lib/languageLabel';
+import { languageValues } from '../model/const/value';
+import { languageLabel } from '../model/lib/languageLabel';
 
 export const LanguagePicker = memo(() => {
   const dispatch = useAppDispatch();
