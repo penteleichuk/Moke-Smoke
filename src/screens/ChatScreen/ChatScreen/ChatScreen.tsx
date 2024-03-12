@@ -1,7 +1,7 @@
 import { useHeaderHeight } from '@react-navigation/elements';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { getLanguage } from 'entities/i18n';
 import { MessageItem, useChatMessage } from 'entities/messages';
+import { getLanguage } from 'features/LanguagePicker';
 import { SendMessageChat } from 'features/SendMessageChat';
 import { useCallback, useRef } from 'react';
 import { useTranslation } from 'react-i18next';

@@ -1,5 +1,4 @@
 import database from '@react-native-firebase/database';
-import { getLanguage } from 'entities/i18n';
 import { getSubscriptionIsPremium } from 'entities/subscription';
 import {
   getUserEmail,
@@ -7,6 +6,7 @@ import {
   getUserName,
   getUserRating,
 } from 'entities/user';
+import { getLanguage } from 'features/LanguagePicker';
 import { useState } from 'react';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
 import { useAppSelector } from 'shared/lib/hooks/useAppSelector';

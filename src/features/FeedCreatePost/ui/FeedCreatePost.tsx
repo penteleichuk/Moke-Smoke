@@ -1,5 +1,5 @@
 import { FeedEventTypes } from 'entities/feeds';
-import { getLanguage } from 'entities/i18n';
+import { getLanguage } from 'features/LanguagePicker';
 import { memo, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TextInput, View } from 'react-native';

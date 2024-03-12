@@ -7,7 +7,7 @@ import {
   queueInitialTracksService,
   setupAudioService,
 } from 'entities/audio';
-import { getLanguage } from 'entities/i18n';
+import { getLanguage } from 'features/LanguagePicker';
 import { getPlayerStatus } from 'features/PlayerControl';
 import React, { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

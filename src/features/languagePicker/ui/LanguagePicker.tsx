@@ -1,4 +1,3 @@
-import { getLanguage, setLanguage } from 'entities/i18n';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import * as Icons from 'shared/assets/icons';
@@ -10,6 +9,8 @@ import { getLocalize } from 'shared/lib/utils/getLocalize';
 import { LinkPicker } from 'shared/ui/LinkPicker';
 import { languageValues } from './../model/const/value';
 import { languageLabel } from './../model/lib/languageLabel';
+import { getLanguage } from './../model/selectors/getLanguage';
+import { setLanguage } from './../model/slices/languageSlice';
 
 export const LanguagePicker = memo(() => {
   const dispatch = useAppDispatch();

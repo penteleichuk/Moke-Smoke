@@ -1,9 +1,9 @@
 import { useHeaderHeight } from '@react-navigation/elements';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { SongType } from 'entities/audio';
-import { getLanguage } from 'entities/i18n';
 import { getSubscriptionIsPremium } from 'entities/subscription';
 import { getUserIsPremium } from 'entities/user';
+import { getLanguage } from 'features/LanguagePicker';
 import {
   PlayerControl,
   PlayerControlStatus,

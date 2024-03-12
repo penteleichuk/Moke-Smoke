@@ -1,12 +1,12 @@
 import { combineReducers } from '@reduxjs/toolkit';
 import { authReducer } from 'entities/auth';
-import { languageReducer } from 'entities/i18n';
 import { invitedReducer } from 'entities/invited';
 import { notificationReducer } from 'entities/notification';
 import { subscriptionReducer } from 'entities/subscription';
 import { themeReducer } from 'entities/theme';
 import { userReducer } from 'entities/user';
 import { currencyReducer } from 'features/CurrencyPicker';
+import { languageReducer } from 'features/LanguagePicker';
 import { progressReducer } from 'features/OpenCardProgress';
 import { activationReducer } from 'features/PassedActivation';
 import { playerReducer } from 'features/PlayerControl';

@@ -1,5 +1,4 @@
 import { AuthProvider } from 'entities/auth';
-import { LanguageProvider } from 'entities/i18n';
 import { ThemeProvider } from 'entities/theme';
 import React from 'react';
 import FlashMessage from 'react-native-flash-message';
@@ -7,6 +6,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { AppStatusBar } from 'shared/ui/AppStatusBar';
 import { Navigation } from './navigation';
 import { InitializedProvider } from './providers/InitializedProvider';
+import { LanguageProvider } from './providers/LanguageProvider';
 import { PersistProvider } from './providers/PersistProvider';
 import { QueryProvider } from './providers/QueryProvider';
 import { SheetProvider } from './providers/SheetProvider';

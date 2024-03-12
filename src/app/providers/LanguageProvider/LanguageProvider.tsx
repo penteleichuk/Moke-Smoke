@@ -1,9 +1,9 @@
+import { getLanguage } from 'features/LanguagePicker';
 import moment from 'moment';
 import { FC, ReactNode, useEffect } from 'react';
 import Tts from 'react-native-tts';
 import i18n, { languageVoice } from 'shared/config/i18n';
 import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
-import { getLanguage } from './../model/selectors/getLanguage';
 
 interface LanguageProviderProps {
   children: ReactNode;
