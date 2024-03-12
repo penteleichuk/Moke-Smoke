@@ -1,9 +1,18 @@
 <p align="center"><a href="https://vasyl.site" target="_blank"><img src="https://github.com/penteleichuk/i-dont-smoke/blob/feature/assets/images/readme/logo.png" width="300" alt="Moke Smoke Logo"></a></p>
 <p align="center"><a href="https://play.google.com/store/apps/details?id=com.vasyl.dont.smoke" target="_blank"><img src="https://github.com/penteleichuk/i-dont-smoke/blob/feature/assets/images/readme/android.webp" width="150" alt="android"></a>  <a href="https://apps.apple.com/us/app/moke-smoke-quit-smoking-now/id6443646425" target="_blank"><img src="https://github.com/penteleichuk/i-dont-smoke/blob/feature/assets/images/readme/apple.webp" width="150" alt="apple"></a></p>
 
-## About Moke Smoke
+<p align="center">
+  <a href="https://feature-sliced.design/">
+    <img src="https://img.shields.io/badge/Feature--Sliced-Design?style=for-the-badge&labelColor=262224&color=F2F2F2&logoWidth=10&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAALFAAACxQGJ1n/vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA/SURBVHgB7dKxCgAgCIThs/d/51JoNQIdDrxvqMXlR4FmFs92KDIX/wI7JSdDN+eHtkxIycnQvMNW8hN/crsDc5QgGX9NvT0AAAAASUVORK5CYII=" alt="Feature-Sliced Design">
+  </a>
+</p>
 
-Moke Smoke not only helps you track your progress in quitting smoking, but also offers a range of unique features and opportunities to interact with other community members.
+## About
+
+An application designed to help quit smoking, featuring extensive functionality: comprehensive statistics, a friend system, adding friends via QR code, a news feed, exercises, a task list, audio motivation, cards, and much more.
+
+> [!NOTE]
+> The application is developed following the [Feature-Sliced Design (FSD)](https://feature-sliced.design/) methodology. With some deviations: the `pages` directory has been renamed to `screens`, as this naming better reflects the purpose in mobile development.
 
 ## Home
 
