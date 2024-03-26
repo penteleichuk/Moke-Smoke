@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { View } from 'react-native';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/lib/hooks/useAppNavigation';
+import { useAppNavigation } from 'shared/hooks/useAppNavigation';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';

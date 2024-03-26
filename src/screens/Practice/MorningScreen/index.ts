@@ -1,1 +1,0 @@
-export { MorningScreen } from './MorningScreen';

@@ -1,12 +1,12 @@
 import { AppSheet, SheetCreateContext } from 'app/providers/SheetProvider';
 import { toggleNotification } from 'entities/notification';
-import { usePermissionsNotifications } from 'features/ToggleNotification';
+import { usePermissionsNotifications } from 'features/setting/toggle-notification';
 import Lottie from 'lottie-react-native';
 import React, { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/hooks/useAppDispatch';
 import { useTheme } from 'shared/lib/theme';
 import { CustomButton } from 'shared/ui/CustomButton';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';

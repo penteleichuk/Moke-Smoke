@@ -3,14 +3,14 @@ import { createMigrate, persistReducer } from 'redux-persist';
 import { rootReducer } from './reducer';
 
 const rootMigrations = {
-  21: (state: any) => ({
+  22: (state: any) => ({
     ...state,
   }),
 };
 
 const persistConfig = {
   key: 'app',
-  version: 21,
+  version: 22,
   storage: AsyncStorage,
   migrate: createMigrate(rootMigrations),
   // blacklist: [],

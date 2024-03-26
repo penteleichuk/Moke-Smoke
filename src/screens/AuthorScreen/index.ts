@@ -1,1 +1,0 @@
-export { AuthorScreen } from './AuthorScreen';

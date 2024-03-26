@@ -1,3 +1,4 @@
+import crashlytics from '@react-native-firebase/crashlytics';
 import { authInitialized } from 'entities/auth';
 import { inviteInitialaized } from 'entities/invited';
 import { notificationInitialized } from 'entities/notification';
@@ -6,11 +7,16 @@ import {
   subscriptionProfile,
 } from 'entities/subscription';
 import { FC, ReactNode, useEffect } from 'react';
-import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
+import { getTrackingStatus } from 'react-native-tracking-transparency';
+import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { delay } from 'shared/lib/delay';
+import { isIos } from 'shared/lib/isIos';
 
 interface InitializedProviderProps {
   children: ReactNode;
 }
+
+const IS_IOS = isIos();
 
 export const InitializedProvider: FC<InitializedProviderProps> = ({
   children,
@@ -28,6 +34,24 @@ export const InitializedProvider: FC<InitializedProviderProps> = ({
       ]);
     };
     initialized();
+  }, []);
+
+  useEffect(() => {
+    (async () => {
+      await delay(3000);
+
+      if (IS_IOS) {
+        const trackingStatus = await getTrackingStatus();
+        if (
+          trackingStatus === 'authorized' ||
+          trackingStatus === 'unavailable'
+        ) {
+          await crashlytics().setCrashlyticsCollectionEnabled(true);
+        }
+      } else {
+        await crashlytics().setCrashlyticsCollectionEnabled(true);
+      }
+    })();
   }, []);
 
   return children;

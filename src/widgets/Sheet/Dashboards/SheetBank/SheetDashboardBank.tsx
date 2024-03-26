@@ -8,20 +8,20 @@ import {
   getUserPricePack,
   getUserSmokeEveryDay,
 } from 'entities/user';
-import { getCurrency } from 'features/CurrencyPicker';
+import { getCurrency } from 'features/currency-picker';
 import Lottie from 'lottie-react-native';
 import React, { useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
+import { useAppSelector } from 'shared/hooks/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
-import { getCigaretteSavings } from 'shared/lib/utils/getCigaretteSavings';
-import { getCurrencySymbol } from 'shared/lib/utils/getCurrencySymbol';
-import { getUnsmokedCigarettesCount } from 'shared/lib/utils/getUnsmokedCigarettesCount';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { RowGroup } from 'shared/ui/RowGroup';
 import { Sheet } from 'shared/ui/Sheet';
+import { getCigaretteSavings } from 'shared/utils/getCigaretteSavings';
+import { getCurrencySymbol } from 'shared/utils/getCurrencySymbol';
+import { getUnsmokedCigarettesCount } from 'shared/utils/statistics/getUnsmokedCigarettesCount';
 import { styles } from './SheetDashboardBankStyle';
 
 export const SheetDashboardBank = React.memo(() => {

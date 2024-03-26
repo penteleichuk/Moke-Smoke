@@ -4,7 +4,7 @@ import { userLogout } from 'entities/user';
 import {
   USER_LOCALSTORAGE_ACCESS_TOKEN,
   USER_LOCALSTORAGE_REFRESH_TOKEN,
-} from 'shared/const/localstorage';
+} from 'shared/api/const/localstorage';
 
 export const authLogout = createAsyncThunk(
   'auth/logout',

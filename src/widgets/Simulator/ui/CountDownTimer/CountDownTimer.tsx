@@ -1,15 +1,15 @@
 import { getIsAuth } from 'entities/auth';
 import { getUserIsQuitting, getUserMotivationUpdate } from 'entities/user';
-import { getHowMuchSmoking } from 'features/SetHowMuchSmoke';
+import { getHowMuchSmoking } from 'features/setting/set-how-much-smoke';
 import Lottie from 'lottie-react-native';
 import { memo, useEffect, useMemo } from 'react';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppForegroundState } from 'shared/lib/hooks/useAppForegroundState';
-import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
+import { useAppForegroundState } from 'shared/hooks/useAppForegroundState';
+import { useAppSelector } from 'shared/hooks/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
-import { getSecondsDownTimer } from 'shared/lib/utils/getSecondsDownTimer';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
+import { getSecondsDownTimer } from 'shared/utils/statistics/getSecondsDownTimer';
 import { useCountDownTimer } from './../../model/util/hooks/useCountDownTimer';
 import { styles } from './CountDownTimerStyle';
 

@@ -1,12 +1,12 @@
 import { AppSheet, SheetCreateContext } from 'app/providers/SheetProvider';
 import { getUserSmokeEveryDay } from 'entities/user';
-import { getProgressId } from 'features/OpenCardProgress';
+import { getProgressId } from 'features/open-card-progres';
 import Lottie from 'lottie-react-native';
 import React, { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
+import { useAppSelector } from 'shared/hooks/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { RowGroup } from 'shared/ui/RowGroup';

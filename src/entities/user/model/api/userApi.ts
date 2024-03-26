@@ -1,4 +1,4 @@
-import { authInstance } from 'shared/instance';
+import { authInstance } from 'shared/api';
 
 export const UserApi = {
   async info() {

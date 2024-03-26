@@ -1,6 +1,6 @@
-import { getColorScheme, getTheme } from 'entities/theme';
+import { getColorScheme, getTheme } from 'app/providers/ThemeProvider';
 import { useCallback } from 'react';
-import { useAppSelector } from './../../hooks/useAppSelector';
+import { useAppSelector } from 'shared/hooks/useAppSelector';
 import { themeMode } from './../util/themeMode/themeMode';
 
 export const useTheme = () => {

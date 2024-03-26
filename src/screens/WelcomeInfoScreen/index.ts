@@ -1,1 +1,0 @@
-export { WelcomeInfoScreen } from './WelcomeInfoScreen';

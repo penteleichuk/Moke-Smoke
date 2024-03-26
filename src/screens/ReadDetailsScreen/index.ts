@@ -1,1 +1,0 @@
-export { ReadDetailsScreen } from './ReadDetailsScreen';

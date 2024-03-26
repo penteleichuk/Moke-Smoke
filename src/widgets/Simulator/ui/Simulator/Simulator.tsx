@@ -1,12 +1,12 @@
-import { DesireToSmoke } from 'features/Smoked/DesireToSmoke';
-import { ISmoked } from 'features/Smoked/ISmoked';
-import { NoDesireToSmoke } from 'features/Smoked/NoDesireToSmoke';
+import { DesireToSmoke } from 'features/smoked/desire-to-smoke';
+import { ISmoked } from 'features/smoked/i-smoked';
+import { NoDesireToSmoke } from 'features/smoked/no-desire-to-smoke';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import { CONTENT_PADDING } from 'shared/config/dimensions';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/lib/hooks/useAppNavigation';
+import { useAppNavigation } from 'shared/hooks/useAppNavigation';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';

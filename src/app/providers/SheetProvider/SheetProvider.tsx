@@ -5,7 +5,7 @@ import {
 import React, { FC, createContext, useRef } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { FLEX } from 'shared/config/dimensions';
-import * as Bottom from 'widgets/Sheet';
+import * as Bottom from 'widgets/sheet';
 
 export type SheetContextType = Record<
   AppSheet,

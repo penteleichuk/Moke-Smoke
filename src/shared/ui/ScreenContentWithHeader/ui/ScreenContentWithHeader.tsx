@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from 'react';
 import { Animated, ColorValue, KeyboardAvoidingView, View } from 'react-native';
 import { Edge, SafeAreaView } from 'react-native-safe-area-context';
 import { RootStackParamList } from 'shared/config/navigation';
-import { isIos } from 'shared/lib/utils/isIos';
+import { isIos } from 'shared/lib/isIos';
 import { styles } from './ScreenContentWithHeaderStyle';
 
 type ScreenContentWithHeaderProps = {

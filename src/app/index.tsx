@@ -1,5 +1,5 @@
+import { ThemeProvider } from 'app/providers/ThemeProvider';
 import { AuthProvider } from 'entities/auth';
-import { ThemeProvider } from 'entities/theme';
 import React from 'react';
 import FlashMessage from 'react-native-flash-message';
 import { SafeAreaProvider } from 'react-native-safe-area-context';

@@ -1,1 +1,0 @@
-export { FriendPresentScreen } from './FriendPresentScreen';

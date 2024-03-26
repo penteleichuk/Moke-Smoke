@@ -1,6 +1,6 @@
 import i18n, { LanguageDetectorAsyncModule } from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import { getLocalize } from 'shared/lib/utils/getLocalize';
+import { getLocalize } from 'shared/utils/statistics/getLocalize';
 import { LanguageList, LanguageType } from './model/types/localize';
 
 import en from './../../assets/locales/en.json';

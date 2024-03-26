@@ -5,7 +5,7 @@ import { AppRegistry, LogBox } from 'react-native';
 import TrackPlayer from 'react-native-track-player';
 import { googleSigninConfig } from 'shared/config/google';
 import 'shared/config/i18n';
-import { onMessageReceived } from 'shared/lib/utils/messageReceived';
+import { onMessageReceived } from 'shared/utils/messageReceived';
 import App from './src/app';
 import { audioPlaybackService } from './src/entities/audio';
 

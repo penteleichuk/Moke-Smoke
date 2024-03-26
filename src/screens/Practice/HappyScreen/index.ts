@@ -1,1 +1,0 @@
-export { HappyScreen } from './HappyScreen';

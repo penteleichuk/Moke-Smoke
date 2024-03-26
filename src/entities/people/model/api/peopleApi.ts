@@ -1,4 +1,4 @@
-import { authInstance } from 'shared/instance';
+import { authInstance } from 'shared/api';
 import { PeopleType } from './../types/people';
 
 export const PeopleApi = {

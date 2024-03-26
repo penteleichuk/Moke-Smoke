@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { Edge, SafeAreaView } from 'react-native-safe-area-context';
 import { RootStackParamList } from 'shared/config/navigation';
-import { isIos } from 'shared/lib/utils/isIos';
+import { isIos } from 'shared/lib/isIos';
 import { styles } from './ScreenContentStyle';
 
 type ScreenProps = {

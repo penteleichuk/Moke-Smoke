@@ -1,4 +1,4 @@
-import { getVibrationIsEnabled } from 'features/ToggleVibration';
+import { getVibrationIsEnabled } from 'features/setting/toggle-vibration';
 import React from 'react';
 import {
   Animated,
@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import { vibrationConfig } from 'shared/config/vibration';
-import { useAppSelector } from 'shared/lib/hooks/useAppSelector';
+import { useAppSelector } from 'shared/hooks/useAppSelector';
 
 type PressableOpacityType = PressableProps & {
   children: React.ReactNode;

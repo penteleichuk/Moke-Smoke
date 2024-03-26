@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import BackgroundTimer from 'react-native-background-timer';
-import { clockify } from 'shared/lib/utils/clockify';
+import { clockify } from 'shared/utils/clockify';
 
 type useCountDownTimerProps = {
   isStart: boolean;

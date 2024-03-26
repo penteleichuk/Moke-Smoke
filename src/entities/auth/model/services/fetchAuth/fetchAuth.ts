@@ -4,7 +4,7 @@ import { userInitialized } from 'entities/user';
 import {
   USER_LOCALSTORAGE_ACCESS_TOKEN,
   USER_LOCALSTORAGE_REFRESH_TOKEN,
-} from 'shared/const/localstorage';
+} from 'shared/api/const/localstorage';
 import { AuthLoginResponse } from './../../types/auth';
 
 export const fetchAuth = createAsyncThunk(
