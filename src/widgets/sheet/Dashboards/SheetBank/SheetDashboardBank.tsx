@@ -14,14 +14,14 @@ import React, { useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { getCurrencySymbol } from 'shared/lib/intl/getCurrencySymbol';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
+import { getCigaretteSavings } from 'shared/lib/statistics/getCigaretteSavings';
+import { getUnsmokedCigarettesCount } from 'shared/lib/statistics/getUnsmokedCigarettesCount';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { RowGroup } from 'shared/ui/RowGroup';
 import { Sheet } from 'shared/ui/Sheet';
-import { getCigaretteSavings } from 'shared/utils/getCigaretteSavings';
-import { getCurrencySymbol } from 'shared/utils/getCurrencySymbol';
-import { getUnsmokedCigarettesCount } from 'shared/utils/statistics/getUnsmokedCigarettesCount';
 import { styles } from './SheetDashboardBankStyle';
 
 export const SheetDashboardBank = React.memo(() => {

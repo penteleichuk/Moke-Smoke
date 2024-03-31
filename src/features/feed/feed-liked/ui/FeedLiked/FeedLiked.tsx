@@ -12,7 +12,7 @@ import { Animated, View } from 'react-native';
 import Tooltip from 'rn-tooltip';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText } from 'shared/ui/CustomText';
 import { DisplayMessage } from 'shared/ui/DisplayMessage';

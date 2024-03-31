@@ -1,8 +1,8 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { authLogout, getIsAuth } from 'entities/auth';
 import React, { useEffect } from 'react';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 
 type AuthProviderProps = {
   children: React.ReactNode;

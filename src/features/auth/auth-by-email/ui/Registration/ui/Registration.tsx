@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { ActivityIndicator, View } from 'react-native';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { CustomButton } from 'shared/ui/CustomButton';
 import { InputText } from 'shared/ui/InputText';
 import { RowGroup } from 'shared/ui/RowGroup';

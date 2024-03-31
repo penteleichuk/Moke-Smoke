@@ -3,7 +3,7 @@ import moment from 'moment';
 import { FC, ReactNode, useEffect } from 'react';
 import Tts from 'react-native-tts';
 import i18n, { languageVoice } from 'shared/config/i18n';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 
 interface LanguageProviderProps {
   children: ReactNode;

@@ -1,1 +1,0 @@
-export { readingTime } from './readingTime';

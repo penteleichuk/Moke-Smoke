@@ -23,14 +23,14 @@ import {
 } from 'react-native';
 import * as Anims from 'shared/assets/anims';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { getCountry } from 'shared/lib/intl/getCountry';
 import { isIos } from 'shared/lib/isIos';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { InputCode } from 'shared/ui/InputCode';
 import { ScreenContent } from 'shared/ui/ScreenContent';
-import { getCountry } from 'shared/utils/getCountry';
 import { codeDto } from 'shared/validations/code';
 import { styles } from './VerifyScreenStyle';
 

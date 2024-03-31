@@ -23,9 +23,9 @@ import {
   AppTabNavigation,
   NavigationTabLists,
 } from 'shared/config/navigation';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { getReview } from './../../model/selectors/getReview/getReview';
 import { setReview } from './../../model/slices/tabNavigationSlice';

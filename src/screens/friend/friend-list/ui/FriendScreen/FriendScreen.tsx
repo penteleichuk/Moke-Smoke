@@ -7,7 +7,7 @@ import { useCallback, useEffect, useMemo } from 'react';
 import { FlatList, View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { Indicator } from 'shared/ui/Indicator';
 import { ScreenContent } from 'shared/ui/ScreenContent';

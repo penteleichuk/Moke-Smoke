@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
+import { getWeekDay } from 'shared/lib/statistics/getWeekDay';
 import { ColorPaletteType, useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
-import { getWeekDay } from 'shared/utils/statistics/getWeekDay';
 import { styles } from './DailyItemStyle';
 
 type DailyItemType = {

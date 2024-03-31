@@ -1,11 +1,11 @@
 import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import * as Icons from 'shared/assets/icons';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { getAppCurrencies } from 'shared/lib/intl/getAppCurrencies';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { LinkPicker } from 'shared/ui/LinkPicker';
-import { getAppCurrencies } from 'shared/utils/getAppCurrencies';
 import { getCurrency } from './../model/selectors/getCurrency/getCurrency';
 import { setCurrency } from './../model/slices/currencySlice';
 import { getCurrenciesLabels } from './../model/util/getCurrenciesLabels/getCurrenciesLabels';

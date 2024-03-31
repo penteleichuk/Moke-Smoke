@@ -11,14 +11,14 @@ import { View } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import * as Anims from 'shared/assets/anims';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
-import { useNotificationSmoke } from 'shared/hooks/useNotificationSmoke';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
+import { getWeekDay } from 'shared/lib/statistics/getWeekDay';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { NavigationSplash } from 'shared/ui/NavigationSplash';
 import { ScreenContent } from 'shared/ui/ScreenContent';
-import { getWeekDay } from 'shared/utils/statistics/getWeekDay';
+import { useSmokeNotifications } from './../../model/lib/notification/useSmokeNotifications';
 import { styles } from './MindfulnessScreenStyle';
 
 type MindfulnessScreenProps = NativeStackScreenProps<
@@ -35,7 +35,7 @@ export const MindfulnessScreen = ({ navigation }: MindfulnessScreenProps) => {
   const headerHeight = useHeaderHeight();
   const { t } = useTranslation();
   const { cn } = useTheme();
-  const { notification } = useNotificationSmoke();
+  const { notification } = useSmokeNotifications();
 
   const onPressNextHandler = () => {
     isNotification && notification();

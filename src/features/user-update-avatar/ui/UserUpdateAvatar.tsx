@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import { launchImageLibrary } from 'react-native-image-picker';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { useTheme } from 'shared/lib/theme';
 import { Avatar } from 'shared/ui/Avatar';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';

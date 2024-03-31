@@ -19,8 +19,8 @@ import {
   RootStackParamList,
 } from 'shared/config/navigation';
 import { rateConfig } from 'shared/config/rate';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { ColorSchemeType, useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { LinkPicker } from 'shared/ui/LinkPicker';

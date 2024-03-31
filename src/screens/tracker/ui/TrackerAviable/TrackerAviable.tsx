@@ -4,7 +4,7 @@ import { getUserIsPremium } from 'entities/user';
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText } from 'shared/ui/CustomText';
 import { Indicator } from 'shared/ui/Indicator';

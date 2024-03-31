@@ -1,4 +1,4 @@
-import { currencies } from 'shared/utils/getCurrencySymbol/model/const/currency';
+import { currencies } from 'shared/lib/intl/getCurrencySymbol/model/const/currency';
 
 export const getCurrenciesLabels = (first: string) => {
   const currencyValues = Object.values(currencies);

@@ -1,7 +1,7 @@
 import { getUserPricePack, setUserPricePack } from 'entities/user';
 import { useTranslation } from 'react-i18next';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { InputScreen } from 'shared/ui/InputScreen';
 import { cigarettePrice } from './../model/validations/cigarette-price';
 

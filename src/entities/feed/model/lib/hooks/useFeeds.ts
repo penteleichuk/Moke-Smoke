@@ -1,6 +1,6 @@
 import { useInfiniteQuery } from '@tanstack/react-query';
 import { getLanguage } from 'features/language-picker';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { FeedApi } from './../../api/FeedApi';
 import { QUERY_KEY_FEED_ALL, QUERY_KEY_FEED_ME } from './../../const/query-key';
 

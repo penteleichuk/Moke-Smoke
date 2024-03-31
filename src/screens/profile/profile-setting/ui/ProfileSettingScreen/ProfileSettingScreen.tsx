@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
 import * as Icons from 'shared/assets/icons';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { LinkRow } from 'shared/ui/LinkRow';

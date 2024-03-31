@@ -9,7 +9,7 @@ import { View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useSharedValue } from 'react-native-reanimated';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { ScreenContent } from 'shared/ui/ScreenContent';

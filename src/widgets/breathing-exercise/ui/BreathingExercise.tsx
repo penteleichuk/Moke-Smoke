@@ -6,7 +6,7 @@ import { View } from 'react-native';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import * as Anims from 'shared/assets/anims';
 import { vibrationConfig } from 'shared/config/vibration';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';

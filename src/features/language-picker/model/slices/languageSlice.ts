@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { LanguageType } from 'shared/config/i18n';
-import { getLocalize } from 'shared/utils/statistics/getLocalize';
+import { getLocalize } from 'shared/lib/intl/getLocalize';
 
 export interface LanguageState {
   localize: LanguageType;

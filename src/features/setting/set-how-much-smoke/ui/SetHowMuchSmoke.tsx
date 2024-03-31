@@ -1,7 +1,7 @@
 import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { InputPicker } from 'shared/ui/InputPicker';
 import { howMuchValues } from './../model/const/howMuch';
 import { getHowMuchSmoking } from './../model/selectors/getHowMuchSmoking';

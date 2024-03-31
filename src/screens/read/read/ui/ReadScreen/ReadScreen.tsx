@@ -8,11 +8,11 @@ import { useTranslation } from 'react-i18next';
 import { FlatList, View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { ScreenContent } from 'shared/ui/ScreenContent';
-import { readingTime } from 'shared/utils/readingTime';
+import { calculateReadingTime } from './../../model/lib/calculateReadingTime';
 import { ReadItem } from './../ReadItem/ReadItem';
 import { styles } from './ReadScreenStyle';
 
@@ -36,7 +36,7 @@ export const ReadScreen = ({ navigation }: ReadScreenProps) => {
 
   const covers = t('help.course', { returnObjects: true }) as CoverType[];
   const coverTimes = useMemo(() => {
-    const times = covers.map(el => readingTime(el.text));
+    const times = covers.map(el => calculateReadingTime(el.text));
     const timing = times.reduce((total, time) => total + time, 0);
 
     return { timing: timing.toString(), times };

@@ -20,7 +20,7 @@ import TrackPlayer, {
   useTrackPlayerEvents,
 } from 'react-native-track-player';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { ScreenContent } from 'shared/ui/ScreenContent';
 import { AudioDescription } from './../AudioDescription/AudioDescription';

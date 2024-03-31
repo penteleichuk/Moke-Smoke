@@ -1,7 +1,7 @@
 import React, { FC, useEffect } from 'react';
 import { Appearance } from 'react-native';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { getColorScheme } from './../model/selectors/getColorScheme/getColorScheme';
 import { getTheme } from './../model/selectors/getTheme/getTheme';
 import { setTheme } from './../model/slice/themeSlice';

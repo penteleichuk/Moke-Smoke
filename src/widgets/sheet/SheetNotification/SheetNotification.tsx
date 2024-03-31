@@ -6,7 +6,7 @@ import React, { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { useTheme } from 'shared/lib/theme';
 import { CustomButton } from 'shared/ui/CustomButton';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';

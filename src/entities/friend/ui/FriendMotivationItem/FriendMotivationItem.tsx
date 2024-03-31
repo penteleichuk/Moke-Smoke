@@ -1,9 +1,9 @@
 import { memo } from 'react';
 import { Image, ImageSourcePropType, View } from 'react-native';
 import { moderateScale } from 'shared/config/dimensions';
+import { abbreviateNumber } from 'shared/lib/format/abbreviateNumber';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextWeight } from 'shared/ui/CustomText';
-import { abbrNum } from 'shared/utils/abbrNum';
 import { styles } from './FriendMotivationItemStyle';
 
 interface FriendMotivationItemProps {
@@ -33,7 +33,7 @@ export const FriendMotivationItem = memo((props: FriendMotivationItemProps) => {
       <CustomText
         weight={TextWeight.MEDIUM}
         style={{ color: cn('white', 'slate.700') }}>
-        {abbrNum(value, 0)}
+        {abbreviateNumber(value, 0)}
       </CustomText>
     </View>
   );

@@ -9,13 +9,13 @@ import { View } from 'react-native';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { truncateWithEllipsis } from 'shared/lib/format/truncateWithEllipsis';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { Avatar } from 'shared/ui/Avatar';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
-import { substringStr } from 'shared/utils/substringStr';
 import { styles } from './FeedItemStyle';
 
 type FeedItemType = {
@@ -82,7 +82,7 @@ export const FeedItem = memo((props: FeedItemType) => {
               size={TextSize.S_LG}
               weight={TextWeight.MEDIUM}
               style={{ color: cn('white', 'black') }}>
-              {substringStr(author?.name, 24)}
+              {truncateWithEllipsis(author?.name, 24)}
             </CustomText>
             <View
               style={[

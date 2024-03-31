@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { getAppCurrencies } from 'shared/utils/getAppCurrencies';
+import { getAppCurrencies } from 'shared/lib/intl/getAppCurrencies';
 import { CurrencySchema } from './../types/currency';
 
 export const initialState: CurrencySchema = {

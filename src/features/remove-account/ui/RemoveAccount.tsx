@@ -3,7 +3,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Alert } from 'react-native';
 import * as Icons from 'shared/assets/icons';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { useTheme } from 'shared/lib/theme';
 import { LinkRow } from 'shared/ui/LinkRow';
 

@@ -1,7 +1,7 @@
-import { parseValidDate } from 'shared/utils/parseValidDate';
-import { dateDiffIn } from './../../dateDiffIn/dateDiffIn';
+import { dateDiffIn } from 'shared/lib/dates/dateDiffIn';
+import { parseValidDate } from 'shared/lib/dates/parseValidDate';
 
-export const getSecondsDownTimer = (date: any, range = 5) => {
+export const calculateRemainingSeconds = (date: any, range = 5) => {
   let parseDate = parseValidDate(date);
 
   parseDate.setMinutes(parseDate.getMinutes() + range);

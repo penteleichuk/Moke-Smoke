@@ -1,3 +1,3 @@
-import { arrayMinMax } from 'shared/utils/arrayMinMax';
+import { generateRangeArray } from 'shared/lib/generate/generateRangeArray';
 
-export const cigaretteCount = arrayMinMax(10, 80);
+export const cigaretteCount = generateRangeArray(10, 80);

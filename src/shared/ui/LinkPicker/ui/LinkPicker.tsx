@@ -1,7 +1,7 @@
 import React from 'react';
 import { ColorValue } from 'react-native';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
 import { LinkRow } from 'shared/ui/LinkRow';
 
 export type LinkPickerProps = {

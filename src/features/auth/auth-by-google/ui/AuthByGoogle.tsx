@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { ColorValue, Platform, View } from 'react-native';
 import * as Icons from 'shared/assets/icons';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { CustomText } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
 import { styles } from './AuthByGoogleStyle';

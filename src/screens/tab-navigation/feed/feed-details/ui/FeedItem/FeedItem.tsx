@@ -7,11 +7,11 @@ import { memo, useRef } from 'react';
 import { View } from 'react-native';
 import Tooltip from 'rn-tooltip';
 import * as Icons from 'shared/assets/icons';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { truncateWithEllipsis } from 'shared/lib/format/truncateWithEllipsis';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { Avatar } from 'shared/ui/Avatar';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
-import { substringStr } from 'shared/utils/substringStr';
 import { styles } from './FeedItemStyle';
 
 type FeedItemProps = {
@@ -83,7 +83,7 @@ export const FeedItem = memo((props: FeedItemProps) => {
                   size={TextSize.S_LG}
                   weight={TextWeight.MEDIUM}
                   style={{ color: cn('white', 'black') }}>
-                  {substringStr(author?.name, 24)}
+                  {truncateWithEllipsis(author?.name, 24)}
                 </CustomText>
               </View>
               <CustomText

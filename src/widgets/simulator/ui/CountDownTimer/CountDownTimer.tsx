@@ -5,12 +5,12 @@ import Lottie from 'lottie-react-native';
 import { memo, useEffect, useMemo } from 'react';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppForegroundState } from 'shared/hooks/useAppForegroundState';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
-import { getSecondsDownTimer } from 'shared/utils/statistics/getSecondsDownTimer';
-import { useCountDownTimer } from './../../model/util/hooks/useCountDownTimer';
+import { calculateRemainingSeconds } from './../../model/lib/calculate/calculateRemainingSeconds';
+import { useCountDownTimer } from './../../model/lib/hooks/useCountDownTimer';
+import { useForegroundState } from './../../model/lib/hooks/useForegroundState';
 import { styles } from './CountDownTimerStyle';
 
 interface CountDownTimerProps {
@@ -32,11 +32,11 @@ export const CountDownTimer = memo(
       setIsStart,
     });
 
-    const foreground = useAppForegroundState();
+    const foreground = useForegroundState();
     useEffect(() => {
       if (foreground) {
         const newTime = motivationUpdated
-          ? getSecondsDownTimer(motivationUpdated, howOffen)
+          ? calculateRemainingSeconds(motivationUpdated, howOffen)
           : null;
 
         newTime ? setSecondsLeft(newTime) : setSecondsLeft(0);
@@ -47,7 +47,7 @@ export const CountDownTimer = memo(
       if (!motivationUpdated) {
         return null;
       }
-      return getSecondsDownTimer(motivationUpdated, howOffen);
+      return calculateRemainingSeconds(motivationUpdated, howOffen);
     }, [motivationUpdated, isAuth]);
 
     useEffect(() => {

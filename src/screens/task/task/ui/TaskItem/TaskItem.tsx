@@ -4,11 +4,11 @@ import { useMemo } from 'react';
 import { Pressable, View } from 'react-native';
 import * as Progress from 'react-native-progress';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { truncateWithEllipsis } from 'shared/lib/format/truncateWithEllipsis';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
-import { substringStr } from 'shared/utils/substringStr';
 import { styles } from './TaskItemStyle';
 
 interface TaskItemProps {
@@ -30,7 +30,7 @@ export const TaskItem = (props: TaskItemProps) => {
   const navigation = useAppNavigation();
 
   const taskName = useMemo(() => {
-    return substringStr(task.name || name, 20);
+    return truncateWithEllipsis(task.name || name, 20);
   }, [task.name, name]);
 
   const taskValue = useMemo(() => {

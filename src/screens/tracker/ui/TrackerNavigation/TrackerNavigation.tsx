@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { ColorValue, View } from 'react-native';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
 import { CustomText } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
 import { styles } from './TrackerNavigationStyle';

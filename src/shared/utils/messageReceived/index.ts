@@ -1,1 +1,0 @@
-export { onMessageReceived } from './messageReceived';

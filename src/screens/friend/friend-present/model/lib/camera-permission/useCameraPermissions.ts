@@ -12,7 +12,7 @@ import { isIos } from 'shared/lib/isIos';
 
 const platformeOS = isIos();
 
-export const usePermissionsCamera = () => {
+export const useCameraPermissions = () => {
   const { t } = useTranslation();
 
   const permission = async () => {

@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
+import { truncateWithEllipsis } from 'shared/lib/format/truncateWithEllipsis';
 import { useTheme } from 'shared/lib/theme';
 import { Avatar } from 'shared/ui/Avatar';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
-import { substringStr } from 'shared/utils/substringStr';
 import { styles } from './MarketProfileStyle';
 
 interface MarketProfileProps {
@@ -37,7 +37,7 @@ export const MarketProfile = ({
         <CustomText
           size={TextSize.S_2XL}
           style={{ color: cn('white', 'black') }}>
-          {substringStr(name, 40)}
+          {truncateWithEllipsis(name, 40)}
         </CustomText>
 
         <CustomText

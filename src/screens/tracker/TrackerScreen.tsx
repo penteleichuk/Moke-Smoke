@@ -6,7 +6,7 @@ import { MAIN_HORIZONTAL } from 'shared/config/dimensions';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
 import { useTheme } from 'shared/lib/theme';
 import { ScreenContent } from 'shared/ui/ScreenContent';
-import { useAppSelector } from './../../shared/hooks/useAppSelector';
+import { useAppSelector } from './../../shared/lib/state/selector/useAppSelector';
 import { TrackerAviable } from './ui/TrackerAviable/TrackerAviable';
 import { TrackerWelcome } from './ui/TrackerWelcome/TrackerWelcome';
 

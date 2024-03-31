@@ -8,9 +8,9 @@ import {
 } from 'entities/subscription';
 import { FC, ReactNode, useEffect } from 'react';
 import { getTrackingStatus } from 'react-native-tracking-transparency';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
 import { delay } from 'shared/lib/delay';
 import { isIos } from 'shared/lib/isIos';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 
 interface InitializedProviderProps {
   children: ReactNode;

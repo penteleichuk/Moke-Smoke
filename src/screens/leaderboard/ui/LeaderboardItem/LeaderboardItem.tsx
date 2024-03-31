@@ -4,12 +4,12 @@ import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
+import { abbreviateNumber } from 'shared/lib/format/abbreviateNumber';
+import { truncateWithEllipsis } from 'shared/lib/format/truncateWithEllipsis';
 import { useTheme } from 'shared/lib/theme';
 import { Avatar } from 'shared/ui/Avatar';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { EmojiCountries } from 'shared/ui/EmojiCountries';
-import { abbrNum } from 'shared/utils/abbrNum';
-import { substringStr } from 'shared/utils/substringStr';
 import { styles } from './LeaderboardItemStyle';
 
 interface LeaderboardItemProps {
@@ -57,7 +57,7 @@ export const LeaderboardItem = React.memo((props: LeaderboardItemProps) => {
           <CustomText
             size={TextSize.S_LG}
             style={{ color: cn('white', 'black') }}>
-            {substringStr(name, 23)}
+            {truncateWithEllipsis(name, 23)}
           </CustomText>
           <View style={styles.info}>
             <EmojiCountries name={country} size={moderateScale(13)} />
@@ -78,7 +78,7 @@ export const LeaderboardItem = React.memo((props: LeaderboardItemProps) => {
             />
           </View>
           <CustomText weight={TextWeight.MEDIUM} style={{ color: cn('white') }}>
-            {abbrNum(rating || 0, 0)}
+            {abbreviateNumber(rating || 0, 0)}
           </CustomText>
         </View>
       </View>

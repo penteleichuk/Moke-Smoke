@@ -1,8 +1,8 @@
 import { getUserName, setUserName } from 'entities/user';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { InputScreen } from 'shared/ui/InputScreen';
 import { usernameValidation } from './../model/validations/set-username';
 

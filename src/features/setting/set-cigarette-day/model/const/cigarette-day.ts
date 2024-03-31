@@ -1,3 +1,3 @@
-import { arrayMinMax } from 'shared/utils/arrayMinMax';
+import { generateRangeArray } from 'shared/lib/generate/generateRangeArray';
 
-export const cigaretteDay = arrayMinMax(1, 100);
+export const cigaretteDay = generateRangeArray(1, 100);

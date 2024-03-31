@@ -7,7 +7,7 @@ import { ColorValue, StyleSheet, View } from 'react-native';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
 import { AuthApi } from './../../../entities/auth/model/api/authApi';
 

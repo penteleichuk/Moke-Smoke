@@ -7,7 +7,7 @@ import notifee, {
 import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 
-export const useNotificationSmoke = () => {
+export const useSmokeNotifications = () => {
   const { t } = useTranslation();
 
   const notification = useCallback(async () => {

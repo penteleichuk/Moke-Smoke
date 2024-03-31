@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import { PieChart } from 'react-native-chart-kit';
 import * as Anims from 'shared/assets/anims';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { Sheet } from 'shared/ui/Sheet';

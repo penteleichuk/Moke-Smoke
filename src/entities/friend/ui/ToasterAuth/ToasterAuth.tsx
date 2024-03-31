@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { styles } from './ToasterAuthStyle';

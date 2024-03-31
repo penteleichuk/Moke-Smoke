@@ -11,13 +11,13 @@ import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FlatList, View } from 'react-native';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { getCurrencySymbol } from 'shared/lib/intl/getCurrencySymbol';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
+import { getCigaretteSavings } from 'shared/lib/statistics/getCigaretteSavings';
+import { getUnsmokedCigarettesCount } from 'shared/lib/statistics/getUnsmokedCigarettesCount';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { ScreenContent } from 'shared/ui/ScreenContent';
-import { getCigaretteSavings } from 'shared/utils/getCigaretteSavings';
-import { getCurrencySymbol } from 'shared/utils/getCurrencySymbol';
-import { getUnsmokedCigarettesCount } from 'shared/utils/statistics/getUnsmokedCigarettesCount';
 import { TaskItem } from './../TaskItem/TaskItem';
 import { styles } from './TaskScreenStyle';
 

@@ -5,7 +5,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import { getIsAuth } from 'entities/auth';
 import { getUserEmail, getUserIsBanned } from 'entities/user';
 import React, { useState } from 'react';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 
 type Message = {
   id: string;

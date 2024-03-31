@@ -6,12 +6,12 @@ import { View } from 'react-native';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
+import { truncateWithEllipsis } from 'shared/lib/format/truncateWithEllipsis';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
 import { useTheme } from 'shared/lib/theme';
 import { Avatar } from 'shared/ui/Avatar';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
-import { substringStr } from 'shared/utils/substringStr';
 import { styles } from './FriendItemStyle';
 
 const NOTIFICATION_HOURS = 12;
@@ -64,7 +64,7 @@ export const FriendItem = React.memo((props: FriendSchema) => {
             <CustomText
               size={TextSize.S_LG}
               style={{ color: cn('white', 'black') }}>
-              {substringStr(name, 30)}
+              {truncateWithEllipsis(name, 30)}
             </CustomText>
 
             <CustomText

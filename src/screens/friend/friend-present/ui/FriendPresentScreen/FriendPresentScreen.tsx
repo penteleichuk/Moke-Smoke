@@ -8,12 +8,12 @@ import { Alert, Platform, ScrollView, Share, View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
 import * as Icons from 'shared/assets/icons';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
-import { usePermissionsCamera } from 'shared/hooks/usePermissionsCamera';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { LinkRow } from 'shared/ui/LinkRow';
 import { RowGroup } from 'shared/ui/RowGroup';
 import { ScreenContent } from 'shared/ui/ScreenContent';
+import { useCameraPermissions } from './../../model/lib/camera-permission/useCameraPermissions';
 import { styles } from './FriendPresentScreenStyle';
 
 type FriendPresentScreenProps = NativeStackScreenProps<
@@ -31,7 +31,7 @@ export const FriendPresentScreen = ({
 
   const { cn } = useTheme();
   const { t } = useTranslation();
-  const { permission } = usePermissionsCamera();
+  const { permission } = useCameraPermissions();
 
   const onPressQRHandler = () => {
     navigation.navigate(AppNavigation.FRIEND_QR);

@@ -2,8 +2,8 @@ import { getUserId } from 'entities/user';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
 

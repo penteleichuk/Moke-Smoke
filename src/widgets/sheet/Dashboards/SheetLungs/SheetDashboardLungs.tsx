@@ -5,12 +5,12 @@ import React, { useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View } from 'react-native';
 import * as Anims from 'shared/assets/anims';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
+import { getCigaretteSavings } from 'shared/lib/statistics/getCigaretteSavings';
+import { getLungs } from 'shared/lib/statistics/getLungs';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { Sheet } from 'shared/ui/Sheet';
-import { getCigaretteSavings } from 'shared/utils/getCigaretteSavings';
-import { getLungs } from 'shared/utils/statistics/getLungs';
 import { styles } from './SheetDashboardLungsStyle';
 
 export const SheetDashboardLungs = React.memo(() => {

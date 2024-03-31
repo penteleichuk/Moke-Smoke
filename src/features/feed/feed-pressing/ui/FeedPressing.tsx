@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ColorValue, StyleSheet, View } from 'react-native';
 import Tooltip from 'rn-tooltip';
 import { AppNavigation, AppTabNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
 import { CustomText } from 'shared/ui/CustomText';
 import { DisplayMessage } from 'shared/ui/DisplayMessage';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';

@@ -5,8 +5,8 @@ import {
 import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import * as Icons from 'shared/assets/icons';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { LinkSwitcher } from 'shared/ui/LinkSwitcher';
 import { usePermissionsNotifications } from './../model/lib/hooks/usePermissionsNotifications';

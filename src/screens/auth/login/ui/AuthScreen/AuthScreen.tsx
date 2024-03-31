@@ -5,13 +5,13 @@ import { AuthByGoogle } from 'features/auth/auth-by-google';
 import { useTranslation } from 'react-i18next';
 import { KeyboardAvoidingView, ScrollView, View } from 'react-native';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
+import { getCountry } from 'shared/lib/intl/getCountry';
 import { isIos } from 'shared/lib/isIos';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
 import { NavigationSplash } from 'shared/ui/NavigationSplash';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
 import { ScreenContent } from 'shared/ui/ScreenContent';
-import { getCountry } from 'shared/utils/getCountry';
 import { PrivacyPolice } from 'widgets/privacy-police';
 import { styles } from './AuthScreenStyle';
 

@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import { vibrationConfig } from 'shared/config/vibration';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 
 type PressableOpacityType = PressableProps & {
   children: React.ReactNode;

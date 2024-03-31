@@ -4,10 +4,10 @@ import { View } from 'react-native';
 import Tooltip from 'rn-tooltip';
 import * as Icons from 'shared/assets/icons';
 import { moderateScale } from 'shared/config/dimensions';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { abbreviateNumber } from 'shared/lib/format/abbreviateNumber';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize, TextWeight } from 'shared/ui/CustomText';
-import { abbrNum } from 'shared/utils/abbrNum';
 import { MessageTail } from './../MessageTail/MessageTail';
 import { MessageTooltip } from './../MessageTooltip/MessageTooltip';
 import { styles } from './MessageItemStyle';
@@ -78,7 +78,7 @@ export const MessageItem = React.memo((props: MessageType) => {
                 size={TextSize.S_XL}
                 weight={TextWeight.BOLD}
                 style={{ color: cn('indigo.300', 'indigo.400') }}>
-                {abbrNum(props.rating || 0, 0)}
+                {abbreviateNumber(props.rating || 0, 0)}
               </CustomText>
             </View>
           </View>

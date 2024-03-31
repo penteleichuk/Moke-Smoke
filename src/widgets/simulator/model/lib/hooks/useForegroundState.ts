@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { AppState, AppStateStatus } from 'react-native';
 
-export function useAppForegroundState() {
+export const useForegroundState = () => {
   const [foreground, setForeground] = useState<boolean>(false);
 
   useEffect(() => {
@@ -24,4 +24,4 @@ export function useAppForegroundState() {
   }, []);
 
   return foreground;
-}
+};

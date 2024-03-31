@@ -8,8 +8,8 @@ import {
 } from 'entities/user';
 import { getLanguage } from 'features/language-picker';
 import { useState } from 'react';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { setMessageDelay } from './../../../slices/chatSlice';
 
 type useSendMessageProps = {

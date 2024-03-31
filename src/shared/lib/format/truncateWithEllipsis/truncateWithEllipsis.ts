@@ -1,4 +1,4 @@
-export const substringStr = (str: string, legth: number) => {
+export const truncateWithEllipsis = (str: string, legth: number) => {
   if (!str) {
     return '';
   }

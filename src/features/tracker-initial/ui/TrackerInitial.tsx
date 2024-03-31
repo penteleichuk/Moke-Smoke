@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { ColorValue } from 'react-native';
 import { moderateScale } from 'shared/config/dimensions';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { CustomText } from 'shared/ui/CustomText';
 import { PressableOpacity } from 'shared/ui/PressableOpacity';
 import { setTrackerInitial } from './../model/slices/trackerSlice';

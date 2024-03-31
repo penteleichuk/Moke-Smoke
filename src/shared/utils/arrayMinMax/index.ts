@@ -1,1 +1,0 @@
-export { arrayMinMax } from './arrayMinMax';

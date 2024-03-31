@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { setUserEmailIsActivate } from 'entities/user';
 import { useTranslation } from 'react-i18next';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { DisplayMessage } from 'shared/ui/DisplayMessage';
 import { activationApi } from './../../../api/activationApi';
 

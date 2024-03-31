@@ -15,7 +15,7 @@ import { FlatList, View } from 'react-native';
 import TrackPlayer from 'react-native-track-player';
 import * as Images from 'shared/assets/images';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { ScreenContent } from 'shared/ui/ScreenContent';
 import { AudioFooter } from './../AudioFooter/AudioFooter';

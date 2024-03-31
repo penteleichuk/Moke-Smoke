@@ -8,7 +8,7 @@ import {
 import moment from 'moment';
 import { useMemo } from 'react';
 import { ScrollView, View } from 'react-native';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { ScreenContent } from 'shared/ui/ScreenContent';
 import { Purchase } from 'widgets/market-purchase';

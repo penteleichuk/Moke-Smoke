@@ -16,14 +16,14 @@ import * as Anims from 'shared/assets/anims';
 import * as Images from 'shared/assets/images';
 import { moderateScale } from 'shared/config/dimensions';
 import { AppNavigation, RootStackParamList } from 'shared/config/navigation';
-import { useAppDispatch } from 'shared/hooks/useAppDispatch';
+import { truncateWithEllipsis } from 'shared/lib/format/truncateWithEllipsis';
+import { useAppDispatch } from 'shared/lib/state/dispatch/useAppDispatch';
 import { useTheme } from 'shared/lib/theme';
 import { Avatar } from 'shared/ui/Avatar';
 import { CustomButton } from 'shared/ui/CustomButton';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { DisplayMessage } from 'shared/ui/DisplayMessage';
 import { ScreenContentWithImage } from 'shared/ui/ScreenContentWithImage';
-import { substringStr } from 'shared/utils/substringStr';
 import { styles } from './FriendIdScreenStyle';
 
 type FriendIdScreenProps = NativeStackScreenProps<
@@ -112,7 +112,7 @@ export const FriendIdScreen = ({ navigation, route }: FriendIdScreenProps) => {
                 <CustomText
                   size={TextSize.S_LG}
                   style={{ color: cn('white', 'black') }}>
-                  {substringStr(name, 30)}
+                  {truncateWithEllipsis(name, 30)}
                 </CustomText>
 
                 <CustomText

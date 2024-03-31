@@ -13,7 +13,7 @@ import {
   AppTabNavigation,
   RootStackParamList,
 } from 'shared/config/navigation';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { useTheme } from 'shared/lib/theme';
 import { CustomText, TextSize } from 'shared/ui/CustomText';
 import { Indicator } from 'shared/ui/Indicator';

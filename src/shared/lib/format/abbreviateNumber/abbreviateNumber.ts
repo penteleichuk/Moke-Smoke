@@ -1,4 +1,4 @@
-export const abbrNum = (number: any, decPlaces: number) => {
+export const abbreviateNumber = (number: any, decPlaces: number) => {
   // 2 decimal places => 100, 3 => 1000, etc
   decPlaces = Math.pow(10, decPlaces);
 

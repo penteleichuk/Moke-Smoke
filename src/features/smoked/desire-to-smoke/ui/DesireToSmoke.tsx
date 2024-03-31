@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { CONTENT_IN_RADIUS } from 'shared/config/dimensions';
 import { AppNavigation } from 'shared/config/navigation';
-import { useAppNavigation } from 'shared/hooks/useAppNavigation';
+import { useAppNavigation } from 'shared/lib/navigation/useAppNavigation';
 import { useTheme } from 'shared/lib/theme';
 import { CustomButton } from 'shared/ui/CustomButton';
 

@@ -1,5 +1,5 @@
 import { authInstance } from 'shared/api';
-import { getLocalize } from 'shared/utils/statistics/getLocalize';
+import { getLocalize } from 'shared/lib/intl/getLocalize';
 import { FeedEventTypes, FeedType } from './../types/feeds';
 
 export const FeedApi = {

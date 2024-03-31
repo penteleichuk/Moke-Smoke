@@ -1,10 +1,10 @@
-import { getCigaretteSavings } from 'shared/utils/getCigaretteSavings';
-import { parseValidDate } from 'shared/utils/parseValidDate';
-import { getEnergy } from 'shared/utils/statistics/getEnergy';
-import { getHelath } from 'shared/utils/statistics/getHelath';
-import { getLungs } from 'shared/utils/statistics/getLungs';
-import { getMoreTime } from 'shared/utils/statistics/getMoreTime';
-import { getUnsmokedCigarettesCount } from 'shared/utils/statistics/getUnsmokedCigarettesCount';
+import { parseValidDate } from 'shared/lib/dates/parseValidDate';
+import { getCigaretteSavings } from 'shared/lib/statistics/getCigaretteSavings';
+import { getEnergy } from 'shared/lib/statistics/getEnergy';
+import { getHelath } from 'shared/lib/statistics/getHelath';
+import { getLungs } from 'shared/lib/statistics/getLungs';
+import { getMoreTime } from 'shared/lib/statistics/getMoreTime';
+import { getUnsmokedCigarettesCount } from 'shared/lib/statistics/getUnsmokedCigarettesCount';
 
 export const getDashboardDate = (
   toBeginDate: any,

@@ -2,7 +2,7 @@ import database from '@react-native-firebase/database';
 import { useFocusEffect } from '@react-navigation/native';
 import { getLanguage } from 'features/language-picker';
 import React, { useState } from 'react';
-import { useAppSelector } from 'shared/hooks/useAppSelector';
+import { useAppSelector } from 'shared/lib/state/selector/useAppSelector';
 import { getMessageUuid } from './../../../selectors/getMessageUuid/getMessageUuid';
 
 export const useChatOnline = () => {
