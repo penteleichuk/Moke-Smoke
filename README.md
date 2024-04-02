@@ -7,6 +7,15 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/penteleichuk/Moke-Smoke">
+  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/penteleichuk/Moke-Smoke/main.yml">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/penteleichuk/Moke-Smoke">
+  <img alt="Github Created At" src="https://img.shields.io/github/created-at/penteleichuk/Moke-Smoke">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/penteleichuk/Moke-Smoke">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/penteleichuk/Moke-Smoke">
+</p>
+
 ## About
 
 An application designed to help quit smoking, featuring extensive functionality: comprehensive statistics, a friend system, adding friends via QR code, a news feed, exercises, a task list, audio motivation, cards, and much more.
